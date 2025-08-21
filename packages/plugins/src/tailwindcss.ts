@@ -73,6 +73,6 @@ function getTailwindBinPath(opts: { cwd: string }) {
   const pkgPath = require.resolve('tailwindcss/package.json', {
     paths: [opts.cwd],
   });
-  const tailwindPath = require(pkgPath).bin['tailwind'];
+  const tailwindPath = require(pkgPath).exports['.']['require'];
   return join(dirname(pkgPath), tailwindPath);
 }
