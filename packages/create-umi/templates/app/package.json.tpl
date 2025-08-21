@@ -2,14 +2,14 @@
   "private": true,
   "author": "{{{ author }}}",
   "scripts": {
-    "dev": "@4399ywkf/js dev",
-    "build": "@4399ywkf/js build",
-    "postinstall": "@4399ywkf/js setup",
-    "setup": "@4399ywkf/js setup",
+    "dev": "ywkfjs dev",
+    "build": "ywkfjs build",
+    "postinstall": "ywkfjs setup",
+    "setup": "ywkfjs setup",
     "start": "npm run dev"
   },
   "dependencies": {
-    "@4399ywkf/js": "{{{ version }}}"
+    "ywkfjs": "{{{ version }}}"
   },
   "devDependencies": {
     "@types/react": "^18.0.0",
