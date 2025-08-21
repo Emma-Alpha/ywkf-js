@@ -32,6 +32,7 @@
     "@4399ywkf/bundler-webpack": "workspace:*",
     "@4399ywkf/core": "workspace:*",
     "@4399ywkf/did-you-know": "workspace:*",
+    "@4399ywkf/js": "workspace:*",
     "@4399ywkf/mfsu": "workspace:*",
     "@4399ywkf/plugin-run": "workspace:*",
     "@4399ywkf/renderer-react": "workspace:*",

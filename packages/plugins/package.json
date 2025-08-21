@@ -52,8 +52,8 @@
     "warning": "^4.0.3"
   },
   "devDependencies": {
-    "antd": "^4.24.1",
-    "umi": "workspace:*"
+    "@4399ywkf/js": "workspace:*",
+    "antd": "^4.24.1"
   },
   "publishConfig": {
     "access": "public"

@@ -34,12 +34,12 @@
     "dev": "umi-scripts father dev"
   },
   "dependencies": {
+    "@4399ywkf/js": "workspace:*",
     "@4399ywkf/lint": "workspace:*",
     "@4399ywkf/plugins": "workspace:*",
     "antd": "^4.20.6",
     "eslint": "8.35.0",
-    "stylelint": "14.8.2",
-    "umi": "workspace:*"
+    "stylelint": "14.8.2"
   },
   "publishConfig": {
     "access": "public"

@@ -59,6 +59,7 @@
     "@4399ywkf/bundler-utils": "workspace:*",
     "@4399ywkf/bundler-vite": "workspace:*",
     "@4399ywkf/bundler-webpack": "workspace:*",
+    "@4399ywkf/js": "workspace:*",
     "@4399ywkf/lint": "workspace:*",
     "@4399ywkf/plugin-docs": "workspace:*",
     "@4399ywkf/plugins": "workspace:*",
@@ -107,7 +108,6 @@
     "turbo": "^1.7.0",
     "typescript": "^4.9.4",
     "uglify-js": "^3.17.4",
-    "umi": "workspace:*",
     "umi-scripts": "workspace:*",
     "zx": "^7.1.1"
   },

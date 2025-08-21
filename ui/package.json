@@ -25,11 +25,11 @@
   },
   "devDependencies": {
     "@4399ywkf/bundler-utils": "workspace:*",
+    "@4399ywkf/js": "workspace:*",
     "@4399ywkf/plugins": "workspace:*",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "typescript": "^4",
-    "umi": "workspace:*"
+    "typescript": "^4"
   },
   "packageManager": "pnpm@7.3.0",
   "publishConfig": {

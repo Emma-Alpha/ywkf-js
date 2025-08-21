@@ -1,4 +1,4 @@
-import { Service } from 'umi/dist/service/service';
+import { Service } from '@4399ywkf/js';
 
 export async function getDevConfig() {
   const service = new Service({
