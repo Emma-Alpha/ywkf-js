@@ -2,14 +2,14 @@
   "private": true,
   "author": "{{{ author }}}",
   "scripts": {
-    "dev": "umi dev",
-    "build": "umi build",
-    "postinstall": "umi setup",
-    "setup": "umi setup",
+    "dev": "@4399ywkf/js dev",
+    "build": "@4399ywkf/js build",
+    "postinstall": "@4399ywkf/js setup",
+    "setup": "@4399ywkf/js setup",
     "start": "npm run dev"
   },
   "dependencies": {
-    "umi": "{{{ version }}}"
+    "@4399ywkf/js": "{{{ version }}}"
   },
   "devDependencies": {
     "@types/react": "^18.0.0",
