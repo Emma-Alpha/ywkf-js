@@ -1,7 +1,7 @@
+import { IApi, RUNTIME_TYPE_FILE_NAME } from '@4399ywkf/js';
+import { lodash, Mustache, winPath } from '@4399ywkf/js/plugin-utils';
 import { existsSync, readFileSync } from 'fs';
 import { dirname, join } from 'path';
-import { IApi, RUNTIME_TYPE_FILE_NAME } from 'umi';
-import { lodash, Mustache, winPath } from 'umi/plugin-utils';
 import { resolveProjectDep } from './utils/resolveProjectDep';
 import { withTmpPath } from './utils/withTmpPath';
 

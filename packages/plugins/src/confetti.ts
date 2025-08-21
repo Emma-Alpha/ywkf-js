@@ -1,5 +1,5 @@
-import { IApi } from 'umi';
-import { crossSpawn, logger } from 'umi/plugin-utils';
+import { IApi } from '@4399ywkf/js';
+import { crossSpawn, logger } from '@4399ywkf/js/plugin-utils';
 
 // 运行 confetti 的代码
 const handleConfetti = () => {

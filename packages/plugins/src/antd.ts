@@ -1,7 +1,7 @@
+import { IApi, RUNTIME_TYPE_FILE_NAME } from '@4399ywkf/js';
+import { deepmerge, Mustache, semver } from '@4399ywkf/js/plugin-utils';
 import assert from 'assert';
 import { dirname, join } from 'path';
-import { IApi, RUNTIME_TYPE_FILE_NAME } from 'umi';
-import { deepmerge, Mustache, semver } from 'umi/plugin-utils';
 import { resolveProjectDep } from './utils/resolveProjectDep';
 import { withTmpPath } from './utils/withTmpPath';
 

@@ -1,8 +1,8 @@
 import * as t from '@4399ywkf/bundler-utils/compiled/babel/types';
+import { IApi } from '@4399ywkf/js';
+import { winPath } from '@4399ywkf/js/plugin-utils';
 import { readFileSync } from 'fs';
 import { join } from 'path';
-import { IApi } from 'umi';
-import { winPath } from 'umi/plugin-utils';
 import { ModelUtils } from './utils/modelUtils';
 import { withTmpPath } from './utils/withTmpPath';
 

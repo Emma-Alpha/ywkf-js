@@ -1,8 +1,8 @@
+import { IApi } from '@4399ywkf/js';
+import { winPath } from '@4399ywkf/js/plugin-utils';
 import { exec } from 'child_process';
 import { existsSync } from 'fs';
 import { join } from 'path';
-import { IApi } from 'umi';
-import { winPath } from 'umi/plugin-utils';
 
 export default (api: IApi) => {
   api.describe({

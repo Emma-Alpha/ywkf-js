@@ -1,6 +1,6 @@
+import { IApi, RUNTIME_TYPE_FILE_NAME } from '@4399ywkf/js';
+import { Mustache, winPath } from '@4399ywkf/js/plugin-utils';
 import { dirname } from 'path';
-import { IApi, RUNTIME_TYPE_FILE_NAME } from 'umi';
-import { Mustache, winPath } from 'umi/plugin-utils';
 
 export default (api: IApi) => {
   api.describe({

@@ -1,4 +1,4 @@
-import { IApi } from 'umi';
+import { IApi } from '@4399ywkf/js';
 
 export default (api: IApi) => {
   api.describe({

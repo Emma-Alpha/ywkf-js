@@ -1,4 +1,4 @@
-import { IApi, RUNTIME_TYPE_FILE_NAME } from 'umi';
+import { IApi, RUNTIME_TYPE_FILE_NAME } from '@4399ywkf/js';
 import { withTmpPath } from './utils/withTmpPath';
 
 export default (api: IApi) => {

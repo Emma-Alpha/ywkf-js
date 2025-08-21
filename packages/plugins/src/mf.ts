@@ -1,7 +1,7 @@
+import { IApi } from '@4399ywkf/js';
+import { lodash, winPath } from '@4399ywkf/js/plugin-utils';
 import { existsSync, opendirSync } from 'fs';
 import { join } from 'path';
-import type { IApi } from 'umi';
-import { lodash, winPath } from 'umi/plugin-utils';
 import { toRemotesCodeString } from './utils/mfUtils';
 
 const { isEmpty } = lodash;

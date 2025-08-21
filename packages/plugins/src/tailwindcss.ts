@@ -1,6 +1,6 @@
+import { IApi } from '@4399ywkf/js';
+import { crossSpawn, winPath } from '@4399ywkf/js/plugin-utils';
 import { dirname, join } from 'path';
-import { IApi } from 'umi';
-import { crossSpawn, winPath } from 'umi/plugin-utils';
 
 export default (api: IApi) => {
   api.describe({

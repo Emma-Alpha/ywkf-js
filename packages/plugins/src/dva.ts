@@ -1,8 +1,8 @@
 import * as t from '@4399ywkf/bundler-utils/compiled/babel/types';
+import { IApi, RUNTIME_TYPE_FILE_NAME } from '@4399ywkf/js';
+import { chalk } from '@4399ywkf/js/plugin-utils';
 import { winPath } from '@4399ywkf/utils';
 import { join, relative } from 'path';
-import { IApi, RUNTIME_TYPE_FILE_NAME } from 'umi';
-import { chalk } from 'umi/plugin-utils';
 import { Model, ModelUtils } from './utils/modelUtils';
 import { withTmpPath } from './utils/withTmpPath';
 

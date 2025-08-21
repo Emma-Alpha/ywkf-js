@@ -1,7 +1,7 @@
+import { IApi } from '@4399ywkf/js';
+import { lodash, Mustache, winPath } from '@4399ywkf/js/plugin-utils';
 import { existsSync, readFileSync } from 'fs';
 import { dirname, join } from 'path';
-import { IApi } from 'umi';
-import { lodash, Mustache, winPath } from 'umi/plugin-utils';
 import {
   exactLocalePaths,
   getAntdLocale,

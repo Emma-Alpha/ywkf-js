@@ -1,6 +1,6 @@
+import { IApi } from '@4399ywkf/js';
 import fs from 'fs';
 import { join } from 'path';
-import { IApi } from 'umi';
 import { withTmpPath } from './utils/withTmpPath';
 
 export default (api: IApi) => {
