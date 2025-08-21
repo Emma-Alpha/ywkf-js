@@ -1,9 +1,9 @@
-import yayJpg from '../assets/yay.jpg';
+import yayJpg from '../assets/douwa.jpg';
 
 export default function HomePage() {
   return (
     <div>
-      <h2>Yay! Welcome to umi!</h2>
+      <h2>Yay! Welcome to 4399ywkf!</h2>
       <p>
         <img src={yayJpg} width="388" />
       </p>
