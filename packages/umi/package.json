@@ -1,6 +1,6 @@
 {
   "name": "@4399ywkf/js",
-  "version": "4.0.61",
+  "version": "4.0.62",
   "description": "umi",
   "homepage": "https://github.com/umijs/umi/tree/master/packages/umi#readme",
   "bugs": "https://github.com/umijs/umi/issues",
@@ -12,7 +12,7 @@
   "main": "dist/index.js",
   "types": "index.d.ts",
   "bin": {
-    "umi": "bin/umi.js"
+    "ywjs": "bin/umi.js"
   },
   "files": [
     "bin",
