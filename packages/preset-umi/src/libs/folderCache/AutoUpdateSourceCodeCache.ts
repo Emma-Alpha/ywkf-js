@@ -2,16 +2,16 @@ import {
   ImportSpecifier,
   init as esModuleLexerInit,
   parse,
-} from '@umijs/bundler-utils/compiled/es-module-lexer';
-import { build as esBuild } from '@umijs/bundler-utils/compiled/esbuild';
-import { logger, winPath } from '@umijs/utils';
+} from '@4399ywkf/bundler-utils/compiled/es-module-lexer';
+import { build as esBuild } from '@4399ywkf/bundler-utils/compiled/esbuild';
+import { logger, winPath } from '@4399ywkf/utils';
 // @ts-ignore
 import fg from 'fast-glob';
 import { readFileSync } from 'fs';
 import { extname, join, relative } from 'path';
 import { AutoUpdateFolderCache } from './AutoUpdateFolderCache';
-import type { FileChangeEvent } from './types';
 import { DEFAULT_SRC_IGNORES } from './constant';
+import type { FileChangeEvent } from './types';
 
 export type MergedCodeInfo = {
   code: string;

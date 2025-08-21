@@ -1,4 +1,4 @@
-import { IServicePluginAPI, PluginAPI } from '@umijs/core';
+import { IServicePluginAPI, PluginAPI } from '@4399ywkf/core';
 
 export { run } from './cli/cli';
 export { RUNTIME_TYPE_FILE_NAME } from './constants';

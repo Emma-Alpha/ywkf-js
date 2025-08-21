@@ -3,8 +3,8 @@ import esbuild, {
   BuildOptions,
   Charset,
   Plugin,
-} from '@umijs/bundler-utils/compiled/esbuild';
-import { resolve } from '@umijs/utils';
+} from '@4399ywkf/bundler-utils/compiled/esbuild';
+import { resolve } from '@4399ywkf/utils';
 import fs from 'fs';
 import path from 'path';
 import { IConfig } from '../types';

@@ -1,6 +1,6 @@
-import * as parser from '@umijs/bundler-utils/compiled/babel/parser';
-import type { ParserPlugin } from '@umijs/bundler-utils/compiled/babel/parser';
-import * as t from '@umijs/bundler-utils/compiled/babel/types';
+import type { ParserPlugin } from '@4399ywkf/bundler-utils/compiled/babel/parser';
+import * as parser from '@4399ywkf/bundler-utils/compiled/babel/parser';
+import * as t from '@4399ywkf/bundler-utils/compiled/babel/types';
 
 export function parse(
   code: string,

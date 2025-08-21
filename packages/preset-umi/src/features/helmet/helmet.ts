@@ -1,4 +1,4 @@
-import { winPath } from '@umijs/utils';
+import { winPath } from '@4399ywkf/utils';
 import { dirname } from 'path';
 import type { IApi } from '../../types';
 
@@ -19,7 +19,7 @@ export default (api: IApi) => {
         path: 'core/helmet.ts',
         content: `import React from 'react';
 import { HelmetProvider } from '${winPath(
-          dirname(require.resolve('@umijs/renderer-react/package')),
+          dirname(require.resolve('@4399ywkf/renderer-react/package')),
         )}';
 import { context } from './helmetContext';
 

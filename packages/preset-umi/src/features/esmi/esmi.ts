@@ -1,5 +1,5 @@
-import { parse as parseImports } from '@umijs/bundler-utils/compiled/es-module-lexer';
-import { MagicString } from '@umijs/utils';
+import { parse as parseImports } from '@4399ywkf/bundler-utils/compiled/es-module-lexer';
+import { MagicString } from '@4399ywkf/utils';
 import { join } from 'path';
 import type { HmrContext, Plugin, ResolvedConfig } from 'vite';
 import { createResolver } from '../../libs/scan';

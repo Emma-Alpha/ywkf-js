@@ -64,20 +64,20 @@ export default {
 
 若你需要定义初始化数据，使用 `getInitialState` 、`useModel` 等 [数据流](../max/data-flow) 相关功能：
 
-1. 你可以创建自带数据流功能的 `@umijs/max` 项目，详见 [Umi max 简介](../max/introduce) 。
+1. 你可以创建自带数据流功能的 `@4399ywkf/max` 项目，详见 [Umi max 简介](../max/introduce) 。
 
 2. 或者手动开启数据流功能的插件使用该功能：
 
    ```bash
-     pnpm add -D @umijs/plugins
+     pnpm add -D @4399ywkf/plugins
    ```
 
    ```ts
    // .umirc.ts
    export default {
      plugins: [
-       '@umijs/plugins/dist/initial-state',
-       '@umijs/plugins/dist/model',
+       '@4399ywkf/plugins/dist/initial-state',
+       '@4399ywkf/plugins/dist/model',
      ],
      initialState: {},
      model: {},

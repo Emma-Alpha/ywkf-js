@@ -1,4 +1,4 @@
-import { generate, getASTByFilePath, removeConfigByName } from '@umijs/ast';
+import { generate, getASTByFilePath, removeConfigByName } from '@4399ywkf/ast';
 import { writeFileSync } from 'fs';
 
 export function remove(mainConfigFile: string, name: string) {
@@ -6,7 +6,7 @@ export function remove(mainConfigFile: string, name: string) {
   if (!ast) return;
   const generateCode = generate(removeConfigByName(ast, name));
   // perf: lazy import
-  const prettier = require('@umijs/utils/compiled/prettier');
+  const prettier = require('@4399ywkf/utils/compiled/prettier');
   const printStr = prettier.format(generateCode, {
     parser: 'typescript',
   });

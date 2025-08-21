@@ -1,4 +1,4 @@
-import type { IConfig } from '@umijs/bundler-webpack/dist/types';
+import type { IConfig } from '@4399ywkf/bundler-webpack/dist/types';
 import path from 'path';
 import {
   visualizer,

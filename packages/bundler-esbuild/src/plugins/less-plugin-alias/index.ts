@@ -1,4 +1,4 @@
-import { logger } from '@umijs/utils';
+import { logger } from '@4399ywkf/utils';
 import { parseAlias } from './utils';
 
 function matches(pattern: string | RegExp, importee: string) {

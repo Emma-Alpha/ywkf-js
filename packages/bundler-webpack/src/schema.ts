@@ -1,5 +1,5 @@
 // sort-object-keys
-import type { z } from '@umijs/utils/compiled/zod';
+import type { z } from '@4399ywkf/utils/compiled/zod';
 import { CSSMinifier, JSMinifier, Transpiler } from './types';
 
 const devTool = [

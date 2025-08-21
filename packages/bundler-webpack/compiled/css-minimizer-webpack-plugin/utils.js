@@ -165,7 +165,7 @@ async function cssnanoMinify(input, sourceMap, minimizerOptions = {
   // eslint-disable-next-line global-require
 
 
-  const cssnano = require('@umijs/bundler-webpack/compiled/cssnano'); // @ts-ignore
+  const cssnano = require('@4399ywkf/bundler-webpack/compiled/cssnano'); // @ts-ignore
   // Types are broken
 
 
@@ -277,7 +277,7 @@ async function esbuildMinify(input, sourceMap, minimizerOptions) {
   }; // eslint-disable-next-line import/no-extraneous-dependencies, global-require
 
 
-  const esbuild = require('@umijs/bundler-utils/compiled/esbuild'); // Copy `esbuild` options
+  const esbuild = require('@4399ywkf/bundler-utils/compiled/esbuild'); // Copy `esbuild` options
 
 
   const esbuildOptions = buildEsbuildOptions(minimizerOptions); // Let `esbuild` generate a SourceMap

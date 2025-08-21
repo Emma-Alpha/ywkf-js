@@ -83,7 +83,7 @@ $ pnpm jest packages/plugin-docs/src/compiler.test.ts
 
 ## 贡献 Umi 文档
 
-Umi 的文档由 Umi@4 和 `@umijs/plugin-docs` 插件实现，本质上就是一个 Umi 项目。在根目录执行如下命令即可开始 Umi 文档的开发：
+Umi 的文档由 Umi@4 和 `@4399ywkf/plugin-docs` 插件实现，本质上就是一个 Umi 项目。在根目录执行如下命令即可开始 Umi 文档的开发：
 
 ```bash
 # 安装 Umi 文档依赖
@@ -93,7 +93,7 @@ $ pnpm doc:deps
 $ pnpm doc:dev
 ```
 
-打开指定的端口号，即可实时查看文档更新的内容，以及 `@umijs/plugin-docs` 插件开发的成果。
+打开指定的端口号，即可实时查看文档更新的内容，以及 `@4399ywkf/plugin-docs` 插件开发的成果。
 
 ### 撰写 Umi 文档
 

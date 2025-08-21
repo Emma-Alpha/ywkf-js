@@ -5,7 +5,7 @@ export default {
   mfsu: { strategy: 'normal' },
   routePrefetch: {},
   manifest: {},
-  plugins: ['@umijs/plugin-docs'],
+  plugins: ['@4399ywkf/plugin-docs'],
   conventionRoutes: {
     exclude: [/\/components\//],
   },

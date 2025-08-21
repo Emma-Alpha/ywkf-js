@@ -1,4 +1,4 @@
-import type { ZodTypeAny } from '@umijs/utils/compiled/zod';
+import type { ZodTypeAny } from '@4399ywkf/utils/compiled/zod';
 
 export type LiteralType = string | number | boolean;
 

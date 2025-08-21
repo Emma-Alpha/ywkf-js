@@ -3,7 +3,7 @@ import {
   importLazy,
   installWithNpmClient,
   logger,
-} from '@umijs/utils';
+} from '@4399ywkf/utils';
 import fs from 'fs';
 import path from 'path';
 

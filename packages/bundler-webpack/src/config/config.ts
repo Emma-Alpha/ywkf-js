@@ -1,5 +1,5 @@
-import CaseSensitivePaths from '@umijs/case-sensitive-paths-webpack-plugin';
-import { logger, resolve as resolveModule } from '@umijs/utils';
+import CaseSensitivePaths from '@4399ywkf/case-sensitive-paths-webpack-plugin';
+import { logger, resolve as resolveModule } from '@4399ywkf/utils';
 import { join, resolve } from 'path';
 import webpack, { Configuration } from '../../compiled/webpack';
 import Config from '../../compiled/webpack-5-chain';
@@ -239,7 +239,7 @@ export async function getConfig(opts: IOpts): Promise<Configuration> {
     // tnpm 安装的依赖路径中同时包含包名和版本号，满足 immutablePaths 使用的条件
     // 同时配置 managedPaths 将 tnpm 的软连接结构标记为可信，避免执行快照序列化时 OOM
     // ref: smallfish
-    if (/*isTnpm*/ require('@umijs/utils/package').__npminstall_done) {
+    if (/*isTnpm*/ require('@4399ywkf/utils/package').__npminstall_done) {
       const nodeModulesPath =
         opts.cache.absNodeModulesPath ||
         join(opts.rootDir || opts.cwd, 'node_modules');

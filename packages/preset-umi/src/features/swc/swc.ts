@@ -9,7 +9,7 @@ export default (api: IApi) => {
       return [];
     }
 
-    const bundlerWebpackPkg = require('@umijs/bundler-webpack/package.json');
+    const bundlerWebpackPkg = require('@4399ywkf/bundler-webpack/package.json');
 
     return [
       {

@@ -1,4 +1,4 @@
-import type { Plugin } from '@umijs/bundler-utils/compiled/esbuild';
+import type { Plugin } from '@4399ywkf/bundler-utils/compiled/esbuild';
 import enhancedResolve from 'enhanced-resolve';
 import fs from 'fs';
 import path from 'path';

@@ -1,5 +1,5 @@
-import { GeneratorType } from '@umijs/core';
-import { fsExtra, logger } from '@umijs/utils';
+import { GeneratorType } from '@4399ywkf/core';
+import { fsExtra, logger } from '@4399ywkf/utils';
 import { join } from 'path';
 import { IApi } from '../../types';
 import { GeneratorHelper, getUmiJsPlugin } from './utils';
@@ -23,11 +23,11 @@ export default (api: IApi) => {
       const h = new GeneratorHelper(api);
 
       h.addDevDeps({
-        '@umijs/plugins': getUmiJsPlugin(),
+        '@4399ywkf/plugins': getUmiJsPlugin(),
       });
 
       h.setUmirc('dva', {});
-      h.appendInternalPlugin('@umijs/plugins/dist/dva');
+      h.appendInternalPlugin('@4399ywkf/plugins/dist/dva');
       logger.info('Update config file');
 
       // example model

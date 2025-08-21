@@ -2,8 +2,8 @@ import {
   Compiler,
   ProgressPlugin,
   Stats,
-} from '@umijs/bundler-webpack/compiled/webpack';
-import { logger } from '@umijs/utils';
+} from '@4399ywkf/bundler-webpack/compiled/webpack';
+import { logger } from '@4399ywkf/utils';
 
 const PLUGIN_NAME = 'ProgressPlugin';
 interface IOpts {

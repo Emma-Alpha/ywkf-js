@@ -7,7 +7,7 @@ import terminalLink from '../compiled/terminal-link';
 
 enum EFramework {
   umi = 'umi',
-  max = '@umijs/max',
+  max = '@4399ywkf/max',
   bigfish = '@alipay/bigfish',
 }
 const MAX_RESET_COUNT = 5;

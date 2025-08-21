@@ -1,7 +1,7 @@
 import type {
-  Compiler,
   Compilation,
-} from '@umijs/bundler-webpack/compiled/webpack';
+  Compiler,
+} from '@4399ywkf/bundler-webpack/compiled/webpack';
 
 const PLUGIN_NAME = 'SamplePlugin';
 

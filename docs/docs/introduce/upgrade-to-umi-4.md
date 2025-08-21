@@ -14,14 +14,14 @@
 
 项目的 `package.json` 需要升级 Umi，并替换掉对应的 Umi 插件。
 
-如果 `umi@3` 中是使用 `umi` + `@umijs/preset-react` 的组合进行开发的，那可以直接使用新版的 `max` 直接升级。
+如果 `umi@3` 中是使用 `umi` + `@4399ywkf/preset-react` 的组合进行开发的，那可以直接使用新版的 `max` 直接升级。
 
 ```diff
 {
   "devDependencies": {
-+   "@umijs/max": "^4.0.0",
++   "@4399ywkf/max": "^4.0.0",
 -   "umi": "^3.0.0",
--   "@umijs/preset-react": "^1.2.2"
+-   "@4399ywkf/preset-react": "^1.2.2"
   }
 }
 ```
@@ -30,7 +30,7 @@
 
 ### 启动命令
 
-如果使用了 `@umijs/max` 可以使用 `max` 命令来替换 `umi`，`max dev`，`max build` 等
+如果使用了 `@4399ywkf/max` 可以使用 `max` 命令来替换 `umi`，`max dev`，`max build` 等
 
 `umi@4` 将一些项目前置操作放到了 `setup` 命令中，如 umi@3 中的 `umi g tmp` 等命令，需要使用 `umi setup` 替换
 
@@ -53,7 +53,7 @@
 
 在项目中用到的一些非 Umi 官方提供的 Umi 插件，请联系相关作者及时根据[插件 api 变动](../api/plugin-api)。
 
-项目迁移时可先关闭对相应插件包的引用，如临时注释配置中的 `plugins`，移除 package.json 中以 `umi-plugin-`，`@umijs/plugin-` 和 `@umijs/preset-` 开头的所有依赖。
+项目迁移时可先关闭对相应插件包的引用，如临时注释配置中的 `plugins`，移除 package.json 中以 `umi-plugin-`，`@4399ywkf/plugin-` 和 `@4399ywkf/preset-` 开头的所有依赖。
 
 ### 配置层迁移
 

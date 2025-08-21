@@ -25,7 +25,7 @@
     "test": "umi-scripts jest-turbo"
   },
   "dependencies": {
-    "@umijs/utils": "workspace:*"
+    "@4399ywkf/utils": "workspace:*"
   },
   "publishConfig": {
     "access": "public"

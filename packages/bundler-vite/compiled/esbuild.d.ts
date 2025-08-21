@@ -1,1 +1,1 @@
-export * from '@umijs/bundler-utils/compiled/esbuild';
+export * from '@4399ywkf/bundler-utils/compiled/esbuild';

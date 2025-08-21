@@ -262,7 +262,7 @@ async function terserMinify(input, sourceMap, minimizerOptions, extractComments)
 
   const {
     minify
-  } = require('@umijs/bundler-webpack/compiled/terser'); // Copy `terser` options
+  } = require('@4399ywkf/bundler-webpack/compiled/terser'); // Copy `terser` options
 
 
   const terserOptions = buildTerserOptions(minimizerOptions); // Let terser generate a SourceMap
@@ -322,7 +322,7 @@ terserMinify.getMinimizerVersion = () => {
 
   try {
     // eslint-disable-next-line global-require
-    packageJson = require('@umijs/bundler-webpack/compiled/terser/package.json');
+    packageJson = require('@4399ywkf/bundler-webpack/compiled/terser/package.json');
   } catch (error) {// Ignore
   }
 
@@ -658,7 +658,7 @@ async function esbuildMinify(input, sourceMap, minimizerOptions) {
   }; // eslint-disable-next-line import/no-extraneous-dependencies, global-require
 
 
-  const esbuild = require('@umijs/bundler-utils/compiled/esbuild'); // Copy `esbuild` options
+  const esbuild = require('@4399ywkf/bundler-utils/compiled/esbuild'); // Copy `esbuild` options
 
 
   const esbuildOptions = buildEsbuildOptions(minimizerOptions); // Let `esbuild` generate a SourceMap
@@ -697,7 +697,7 @@ esbuildMinify.getMinimizerVersion = () => {
 
   try {
     // eslint-disable-next-line global-require, import/no-extraneous-dependencies
-    packageJson = require('@umijs/bundler-utils/compiled/esbuild/package.json');
+    packageJson = require('@4399ywkf/bundler-utils/compiled/esbuild/package.json');
   } catch (error) {// Ignore
   }
 

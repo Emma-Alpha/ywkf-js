@@ -1,4 +1,4 @@
-import { pkgUp, semver, winPath } from '@umijs/utils';
+import { pkgUp, semver, winPath } from '@4399ywkf/utils';
 import { dirname } from 'path';
 
 const cache = new Map<string, boolean>();

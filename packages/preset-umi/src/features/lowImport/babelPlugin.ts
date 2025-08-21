@@ -1,4 +1,4 @@
-import * as Babel from '@umijs/bundler-utils/compiled/babel/core';
+import * as Babel from '@4399ywkf/bundler-utils/compiled/babel/core';
 import {
   // @ts-ignore
   addDefault,
@@ -6,8 +6,8 @@ import {
   addNamed,
   // @ts-ignore
   addNamespace,
-} from '@umijs/bundler-utils/compiled/babel/helper-module-imports';
-import * as t from '@umijs/bundler-utils/compiled/babel/types';
+} from '@4399ywkf/bundler-utils/compiled/babel/helper-module-imports';
+import * as t from '@4399ywkf/bundler-utils/compiled/babel/types';
 import { basename, extname } from 'path';
 import { IOpts } from './lowImport';
 

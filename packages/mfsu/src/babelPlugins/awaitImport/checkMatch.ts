@@ -1,5 +1,5 @@
-import * as Babel from '@umijs/bundler-utils/compiled/babel/core';
-import { aliasUtils, isLocalDev, winPath } from '@umijs/utils';
+import * as Babel from '@4399ywkf/bundler-utils/compiled/babel/core';
+import { aliasUtils, isLocalDev, winPath } from '@4399ywkf/utils';
 import assert from 'assert';
 import { isAbsolute, join } from 'path';
 import type { IOpts } from './awaitImport';
@@ -77,7 +77,7 @@ export function checkMatch({
     // do not match bundler-webpack/client/client/client.js
     value.includes('client/client/client.js') ||
     // don't match dynamic path
-    // e.g. @umijs/deps/compiled/babel/svgr-webpack.js?-svgo,+titleProp,+ref!./umi.svg
+    // e.g. @4399ywkf/deps/compiled/babel/svgr-webpack.js?-svgo,+titleProp,+ref!./umi.svg
     winPath(value).includes('babel/svgr-webpack') ||
     // don't match webpack loader
     // e.g. !!dumi-raw-code-loader!/path/to/VerticalProgress/index.module.less?dumi-raw-code

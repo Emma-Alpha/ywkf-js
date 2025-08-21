@@ -1,4 +1,4 @@
-import { getNpmClient, importLazy, winPath } from '@umijs/utils';
+import { getNpmClient, importLazy, winPath } from '@4399ywkf/utils';
 import { existsSync, readFileSync } from 'fs';
 import { join, resolve } from 'path';
 import { parse } from '../../../compiled/ini';
@@ -11,8 +11,8 @@ export default (api: IApi) => {
   const routesApi: typeof import('../tmpFiles/routes') = importLazy(
     require.resolve('../tmpFiles/routes'),
   );
-  const bundlerUtils: typeof import('@umijs/bundler-utils') = importLazy(
-    require.resolve('@umijs/bundler-utils'),
+  const bundlerUtils: typeof import('@4399ywkf/bundler-utils') = importLazy(
+    require.resolve('@4399ywkf/bundler-utils'),
   );
 
   api.modifyAppData(async (memo) => {

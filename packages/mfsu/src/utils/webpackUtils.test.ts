@@ -144,7 +144,7 @@ test('extract babel plugin import options: 2 different config', () => {
                   [
                     'babel-plugin-import/lib/index.js',
                     {
-                      libraryName: '@umijs/max/antd',
+                      libraryName: '@4399ywkf/max/antd',
                       libraryDirectory: 'es',
                       style: true,
                     },
@@ -165,8 +165,8 @@ test('extract babel plugin import options: 2 different config', () => {
     libraryDirectory: 'es',
     style: true,
   });
-  expect(result.get('@umijs/max/antd')).toEqual({
-    libraryName: '@umijs/max/antd',
+  expect(result.get('@4399ywkf/max/antd')).toEqual({
+    libraryName: '@4399ywkf/max/antd',
     libraryDirectory: 'es',
     style: true,
   });

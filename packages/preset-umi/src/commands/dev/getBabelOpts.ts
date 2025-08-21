@@ -1,4 +1,4 @@
-import { semver } from '@umijs/utils';
+import { semver } from '@4399ywkf/utils';
 import { IApi } from '../../types';
 
 export async function getBabelOpts(opts: { api: IApi }) {
@@ -22,7 +22,7 @@ export async function getBabelOpts(opts: { api: IApi }) {
   });
 
   const babelPreset = [
-    require.resolve('@umijs/babel-preset-umi'),
+    require.resolve('@4399ywkf/babel-preset-umi'),
     babelPresetOpts,
   ];
   const extraBabelPresets = await opts.api.applyPlugins({

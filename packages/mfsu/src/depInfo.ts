@@ -1,4 +1,4 @@
-import { fsExtra, lodash, logger } from '@umijs/utils';
+import { fsExtra, lodash, logger } from '@4399ywkf/utils';
 import { existsSync, readFileSync, writeFileSync } from 'fs';
 import { dirname, join } from 'path';
 import { MFSU } from './mfsu/mfsu';

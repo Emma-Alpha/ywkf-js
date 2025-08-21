@@ -1,7 +1,7 @@
 try {
-  require.resolve('@umijs/lint/package.json');
+  require.resolve('@4399ywkf/lint/package.json');
 } catch (err) {
-  throw new Error('@umijs/lint is not built-in, please install it manually before run umi lint.');
+  throw new Error('@4399ywkf/lint is not built-in, please install it manually before run umi lint.');
 }
 
-module.exports = require('@umijs/lint/dist/config/stylelint');
+module.exports = require('@4399ywkf/lint/dist/config/stylelint');

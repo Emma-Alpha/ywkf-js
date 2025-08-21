@@ -1,4 +1,4 @@
-import { winPath } from '@umijs/utils/dist/winPath';
+import { winPath } from '@4399ywkf/utils/dist/winPath';
 
 export function importsToStr(
   imports: { source: string; specifier?: string }[],

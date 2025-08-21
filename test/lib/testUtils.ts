@@ -1,4 +1,4 @@
-import { execa } from '@umijs/utils/compiled/execa';
+import { execa } from '@4399ywkf/utils/compiled/execa';
 import { ensureDir, existsSync, readFile, remove, writeFile } from 'fs-extra';
 import { dirname, join, resolve } from 'path';
 

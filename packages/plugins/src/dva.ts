@@ -1,5 +1,5 @@
-import * as t from '@umijs/bundler-utils/compiled/babel/types';
-import { winPath } from '@umijs/utils';
+import * as t from '@4399ywkf/bundler-utils/compiled/babel/types';
+import { winPath } from '@4399ywkf/utils';
 import { join, relative } from 'path';
 import { IApi, RUNTIME_TYPE_FILE_NAME } from 'umi';
 import { chalk } from 'umi/plugin-utils';
@@ -78,7 +78,7 @@ export interface IRuntimeConfig {
       path: 'dva.tsx',
       tpl: `
 // It's faked dva
-// aliased to @umijs/plugins/templates/dva
+// aliased to @4399ywkf/plugins/templates/dva
 import { create, Provider } from 'dva';
 import createLoading from '${winPath(require.resolve('dva-loading'))}';
 ${

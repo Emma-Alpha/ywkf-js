@@ -1,5 +1,5 @@
-import type { SpdyServer as Server } from '@umijs/bundler-utils';
-import { chalk } from '@umijs/utils';
+import type { SpdyServer as Server } from '@4399ywkf/bundler-utils';
+import { chalk } from '@4399ywkf/utils';
 import { Server as HttpServer } from 'http';
 import { Http2Server } from 'http2';
 import { Server as HttpsServer } from 'https';

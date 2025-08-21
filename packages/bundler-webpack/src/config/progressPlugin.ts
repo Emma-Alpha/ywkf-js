@@ -1,6 +1,6 @@
-import Config from '@umijs/bundler-webpack/compiled/webpack-5-chain';
-import ProgressPlugin from '../plugins/ProgressPlugin';
+import Config from '@4399ywkf/bundler-webpack/compiled/webpack-5-chain';
 import WebpackBar from '../../compiled/webpackbar';
+import ProgressPlugin from '../plugins/ProgressPlugin';
 import { Env, IConfig } from '../types';
 
 interface IOpts {

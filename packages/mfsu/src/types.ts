@@ -1,5 +1,5 @@
-import type { ImportSpecifier } from '@umijs/bundler-utils/compiled/es-module-lexer';
-import type { TransformOptions } from '@umijs/bundler-utils/compiled/esbuild';
+import type { ImportSpecifier } from '@4399ywkf/bundler-utils/compiled/es-module-lexer';
+import type { TransformOptions } from '@4399ywkf/bundler-utils/compiled/esbuild';
 
 export enum Mode {
   development = 'development',
@@ -15,5 +15,5 @@ export interface IEsbuildLoaderHandlerParams {
 
 export interface IEsbuildLoaderOpts extends Partial<TransformOptions> {
   handler?: Array<(opts: IEsbuildLoaderHandlerParams) => string>;
-  implementation?: typeof import('@umijs/bundler-utils/compiled/esbuild');
+  implementation?: typeof import('@4399ywkf/bundler-utils/compiled/esbuild');
 }

@@ -21,7 +21,7 @@ import { setExcludeFolder } from './.internal/utils';
     if (['umi'].includes(pkgName)) {
       return pkgName;
     } else {
-      return `@umijs/${pkgName}`;
+      return `@4399ywkf/${pkgName}`;
     }
   }
 

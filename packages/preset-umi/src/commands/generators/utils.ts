@@ -6,7 +6,7 @@ import {
   logger,
   prompts,
   semver,
-} from '@umijs/utils';
+} from '@4399ywkf/utils';
 import {
   existsSync,
   readdirSync,
@@ -36,10 +36,10 @@ function hasDeps({ name, pkg }: { name: string; pkg: any }) {
 
 export function checkStatus({ pkg }: { pkg: any }) {
   let needInstall = true;
-  // 有以下依赖时不需要安装 @umijs/plugins
+  // 有以下依赖时不需要安装 @4399ywkf/plugins
   if (
-    hasDeps({ pkg, name: '@umijs/plugins' }) ||
-    hasDeps({ pkg, name: '@umijs/max' }) ||
+    hasDeps({ pkg, name: '@4399ywkf/plugins' }) ||
+    hasDeps({ pkg, name: '@4399ywkf/max' }) ||
     hasDeps({ pkg, name: '@alipay/bigfish' })
   ) {
     needInstall = false;
@@ -48,7 +48,7 @@ export function checkStatus({ pkg }: { pkg: any }) {
   let needConfigPlugins = true;
   // 有以下依赖时不需要配置依赖
   if (
-    hasDeps({ pkg, name: '@umijs/max' }) ||
+    hasDeps({ pkg, name: '@4399ywkf/max' }) ||
     hasDeps({ pkg, name: '@alipay/bigfish' })
   ) {
     needConfigPlugins = false;
@@ -91,7 +91,7 @@ export class GeneratorHelper {
   addDevDeps(deps: Record<string, string>) {
     const { api } = this;
 
-    const externalDeps = lodash.omit(deps, ['@umijs/plugins']);
+    const externalDeps = lodash.omit(deps, ['@4399ywkf/plugins']);
 
     if (this.needInstallUmiPlugin) {
       api.pkg.devDependencies = {

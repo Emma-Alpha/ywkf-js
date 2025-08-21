@@ -1,4 +1,4 @@
-import { zod } from '@umijs/utils';
+import { zod } from '@4399ywkf/utils';
 import { getSchemas } from './schema';
 import { IConfig } from './types';
 

@@ -1,8 +1,8 @@
 import {
   BuildOptions,
   TransformOptions,
-} from '@umijs/bundler-utils/compiled/esbuild';
-import type { Plugin } from '@umijs/bundler-vite/compiled/vite';
+} from '@4399ywkf/bundler-utils/compiled/esbuild';
+import type { Plugin } from '@4399ywkf/bundler-vite/compiled/vite';
 
 export enum Env {
   development = 'development',

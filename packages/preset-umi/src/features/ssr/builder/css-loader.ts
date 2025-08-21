@@ -1,6 +1,6 @@
-import esbuild from '@umijs/bundler-utils/compiled/esbuild';
-import { parcelCSS } from '@umijs/bundler-webpack/dist/parcelCSS';
-import { winPath } from '@umijs/utils';
+import esbuild from '@4399ywkf/bundler-utils/compiled/esbuild';
+import { parcelCSS } from '@4399ywkf/bundler-webpack/dist/parcelCSS';
+import { winPath } from '@4399ywkf/utils';
 import { readFileSync } from 'fs';
 import { dirname } from 'path';
 

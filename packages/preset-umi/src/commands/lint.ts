@@ -1,4 +1,4 @@
-import { yParser } from '@umijs/utils';
+import { yParser } from '@4399ywkf/utils';
 import { IApi } from '../types';
 
 export default (api: IApi) => {
@@ -28,10 +28,10 @@ umi lint --quiet
       });
 
       try {
-        require.resolve('@umijs/lint/package.json');
+        require.resolve('@4399ywkf/lint/package.json');
       } catch (err) {
         throw new Error(
-          '@umijs/lint is not built-in, please install it manually before run umi lint.',
+          '@4399ywkf/lint is not built-in, please install it manually before run umi lint.',
           { cause: err },
         );
       }
@@ -41,7 +41,7 @@ umi lint --quiet
       }
 
       // lazy require for CLI performance
-      require('@umijs/lint').default({ cwd: api.cwd }, args);
+      require('@4399ywkf/lint').default({ cwd: api.cwd }, args);
     },
   });
 };

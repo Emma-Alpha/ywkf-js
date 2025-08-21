@@ -2,8 +2,8 @@ import {
   autoCssModulesHandler,
   esbuildLoader,
   VIRTUAL_ENTRY_DIR,
-} from '@umijs/mfsu';
-import { chalk, lodash, resolve } from '@umijs/utils';
+} from '@4399ywkf/mfsu';
+import { chalk, lodash, resolve } from '@4399ywkf/utils';
 import { dirname, isAbsolute } from 'path';
 import { ProvidePlugin } from '../../compiled/webpack';
 import Config from '../../compiled/webpack-5-chain';
@@ -145,7 +145,7 @@ export async function addJavaScriptRules(opts: IOpts) {
           customize: userConfig.babelLoaderCustomize,
           presets: [
             opts.babelPreset || [
-              require.resolve('@umijs/babel-preset-umi'),
+              require.resolve('@4399ywkf/babel-preset-umi'),
               {
                 presetEnv: {},
                 presetReact: {},

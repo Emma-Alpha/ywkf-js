@@ -6,5 +6,5 @@ export type {
   IRoute,
   UmiApiRequest,
   UmiApiResponse,
-} from '@umijs/preset-umi';
+} from '@4399ywkf/preset-umi';
 export * from './dist';

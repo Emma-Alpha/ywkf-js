@@ -1,5 +1,5 @@
-import { isDepPath } from '@umijs/bundler-utils';
-import { winPath } from '@umijs/utils';
+import { isDepPath } from '@4399ywkf/bundler-utils';
+import { winPath } from '@4399ywkf/utils';
 import { dirname, relative } from 'path';
 import type { IApi } from '../types';
 

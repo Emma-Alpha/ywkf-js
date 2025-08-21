@@ -79,11 +79,11 @@ const ListContainer = styled.div`
 `;
 
 const innerPluginList = [
-  '@umijs/core',
-  '@umijs/preset-umi',
+  '@4399ywkf/core',
+  '@4399ywkf/preset-umi',
   'virtual:',
-  '@umijs/plugin-run',
-  '@umijs/did-you-know',
+  '@4399ywkf/plugin-run',
+  '@4399ywkf/did-you-know',
 ];
 
 export const PluginList: FC<IProps> = ({ plugins }) => {

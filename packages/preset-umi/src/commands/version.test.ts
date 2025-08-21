@@ -1,4 +1,4 @@
-import { Env, Service } from '@umijs/core';
+import { Env, Service } from '@4399ywkf/core';
 
 test('version command', async () => {
   const v = await new Service({

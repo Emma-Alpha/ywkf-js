@@ -1,5 +1,5 @@
-import * as t from '@umijs/bundler-utils/compiled/babel/types';
-import { lodash } from '@umijs/utils';
+import * as t from '@4399ywkf/bundler-utils/compiled/babel/types';
+import { lodash } from '@4399ywkf/utils';
 import assert from 'assert';
 import { existsSync, readFileSync, writeFileSync } from 'fs';
 import { join } from 'path';

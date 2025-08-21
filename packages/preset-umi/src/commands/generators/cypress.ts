@@ -1,5 +1,5 @@
-import { GeneratorType } from '@umijs/core';
-import { generateFile, logger } from '@umijs/utils';
+import { GeneratorType } from '@4399ywkf/core';
+import { generateFile, logger } from '@4399ywkf/utils';
 import { existsSync, writeFileSync } from 'fs';
 import { join } from 'path';
 import { TEMPLATES_DIR } from '../../constants';

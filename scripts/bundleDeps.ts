@@ -185,7 +185,7 @@ Object.keys(exported).forEach(function (key) {
       if (opts.pkgName === 'vite') {
         code = code.replace(
           'loadPreprocessor("less"',
-          'loadPreprocessor("@umijs/bundler-utils/compiled/less"',
+          'loadPreprocessor("@4399ywkf/bundler-utils/compiled/less"',
         );
       }
       fs.writeFileSync(path.join(target, 'index.js'), code, 'utf-8');
@@ -218,7 +218,7 @@ Object.keys(exported).forEach(function (key) {
       if (opts.pkgName === 'webpack') {
         fs.writeFileSync(
           path.join(opts.base, 'compiled/express.d.ts'),
-          `import e = require('@umijs/bundler-utils/compiled/express');\nexport = e;`,
+          `import e = require('@4399ywkf/bundler-utils/compiled/express');\nexport = e;`,
           'utf-8',
         );
       }
@@ -307,7 +307,7 @@ Object.keys(exported).forEach(function (key) {
               .readFileSync(filePath, 'utf-8')
               .replace(
                 `} from 'webpack';`,
-                `} from '@umijs/bunder-webpack/compiled/webpack';`,
+                `} from '@4399ywkf/bunder-webpack/compiled/webpack';`,
               ),
             'utf-8',
           );
@@ -327,7 +327,7 @@ Object.keys(exported).forEach(function (key) {
               .readFileSync(dtsPath, 'utf-8')
               .replace(
                 'declare module "less"',
-                'declare module "@umijs/bundler-utils/compiled/less"',
+                'declare module "@4399ywkf/bundler-utils/compiled/less"',
               ),
             'utf-8',
           );

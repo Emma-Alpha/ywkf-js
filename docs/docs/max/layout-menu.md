@@ -61,7 +61,7 @@ export default defineConfig({
 运行时配置写在 `src/app.tsx` 中，key 为 `layout`。
 
 ```tsx
-import { RunTimeLayoutConfig } from '@umijs/max';
+import { RunTimeLayoutConfig } from '@4399ywkf/max';
 
 export const layout: RunTimeLayoutConfig = (initialState) => {
   return {

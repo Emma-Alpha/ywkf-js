@@ -1,5 +1,5 @@
-import esbuild from '@umijs/bundler-utils/compiled/esbuild';
-import { aliasUtils, isMonorepo, logger } from '@umijs/utils';
+import esbuild from '@4399ywkf/bundler-utils/compiled/esbuild';
+import { aliasUtils, isMonorepo, logger } from '@4399ywkf/utils';
 import { resolve } from 'path';
 import { IApi } from '../../../types';
 import { absServerBuildPath, esbuildUmiPlugin } from '../utils';

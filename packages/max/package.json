@@ -1,7 +1,7 @@
 {
-  "name": "@umijs/max",
+  "name": "@4399ywkf/max",
   "version": "4.0.61",
-  "description": "@umijs/max",
+  "description": "@4399ywkf/max",
   "homepage": "https://github.com/umijs/umi/tree/master/packages/max#readme",
   "bugs": "https://github.com/umijs/umi/issues",
   "repository": {
@@ -34,8 +34,8 @@
     "dev": "umi-scripts father dev"
   },
   "dependencies": {
-    "@umijs/lint": "workspace:*",
-    "@umijs/plugins": "workspace:*",
+    "@4399ywkf/lint": "workspace:*",
+    "@4399ywkf/plugins": "workspace:*",
     "antd": "^4.20.6",
     "eslint": "8.35.0",
     "stylelint": "14.8.2",

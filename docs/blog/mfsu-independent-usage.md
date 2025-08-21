@@ -17,7 +17,7 @@ CRA v5 配置示例：<a href="https://github.com/umijs/cra-v5-with-mfsu-example
 首先安装 `mfsu` 的依赖：
 
 ```bash
-  pnpm add -D @umijs/mfsu
+  pnpm add -D @4399ywkf/mfsu
 ```
 
 ## 配置 MFSU
@@ -31,7 +31,7 @@ CRA v5 配置示例：<a href="https://github.com/umijs/cra-v5-with-mfsu-example
 ```js
 // webpack.config.js
 
-const { MFSU } = require('@umijs/mfsu')
+const { MFSU } = require('@4399ywkf/mfsu')
 const webpack = require('webpack')
 
 // [mfsu] 1. init instance
@@ -126,7 +126,7 @@ module.exports = {
 ```js
 // webpack.config.js
 
-const { esbuildLoader } = require('@umijs/mfsu')
+const { esbuildLoader } = require('@4399ywkf/mfsu')
 const esbuild = require('esbuild')
 
 module.exports = {

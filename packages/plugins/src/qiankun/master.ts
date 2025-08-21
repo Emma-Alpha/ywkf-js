@@ -116,7 +116,7 @@ export const setMasterOptions = (newOpts) => options = ({ ...options, ...newOpts
       // 开启了 antd 插件的时候，使用 antd 的 loader 组件，否则提示用户必须设置一个自定义的 loader 组件
       content: api.isPluginEnable('antd')
         ? getFileContent('AntdLoader.tsx')
-        : `export default function Loader() { console.warn(\`[plugins/qiankun]: Seems like you'r not using @umijs/plugin-antd, you need to provide a custom loader or set autoSetLoading false to shut down this warning!\`); return null; }`,
+        : `export default function Loader() { console.warn(\`[plugins/qiankun]: Seems like you'r not using @4399ywkf/plugin-antd, you need to provide a custom loader or set autoSetLoading false to shut down this warning!\`); return null; }`,
     });
 
     [

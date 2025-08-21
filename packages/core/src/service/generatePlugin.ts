@@ -4,7 +4,7 @@ import {
   logger,
   prompts,
   updatePackageJSON,
-} from '@umijs/utils';
+} from '@4399ywkf/utils';
 import { Generator, GeneratorType } from './generator';
 import { PluginAPI } from './pluginAPI';
 import { IServicePluginAPI } from './service';

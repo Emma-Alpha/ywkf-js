@@ -1,6 +1,6 @@
-import * as Babel from '@umijs/bundler-utils/compiled/babel/core';
-import * as t from '@umijs/bundler-utils/compiled/babel/types';
-import { winPath } from '@umijs/utils';
+import * as Babel from '@4399ywkf/bundler-utils/compiled/babel/core';
+import * as t from '@4399ywkf/bundler-utils/compiled/babel/types';
+import { winPath } from '@4399ywkf/utils';
 import { join } from 'path';
 
 function isModuleExports(node: t.Node): boolean {

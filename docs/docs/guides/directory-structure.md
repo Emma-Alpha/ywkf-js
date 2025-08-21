@@ -49,7 +49,7 @@ import { Message } from 'umi'
 
 ### package.json
 
-与 Umi 3 不同，Umi 4 不会自动注册 `package.json` 中以 `@umijs/preset-`、`@umijs/plugin-`、`umi-preset-` 和 `umi-plugin-` 开头的插件、预设，若你需要自定义额外的插件、预设，需要手动配置到 [`plugins`](../api/config#plugins) 。
+与 Umi 3 不同，Umi 4 不会自动注册 `package.json` 中以 `@4399ywkf/preset-`、`@4399ywkf/plugin-`、`umi-preset-` 和 `umi-plugin-` 开头的插件、预设，若你需要自定义额外的插件、预设，需要手动配置到 [`plugins`](../api/config#plugins) 。
 
 ### .env
 

@@ -1,4 +1,4 @@
-import type { BuildResult } from '@umijs/bundler-utils/compiled/esbuild';
+import type { BuildResult } from '@4399ywkf/bundler-utils/compiled/esbuild';
 import { useQuery } from 'umi';
 
 interface IRoute {

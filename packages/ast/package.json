@@ -1,7 +1,7 @@
 {
-  "name": "@umijs/ast",
+  "name": "@4399ywkf/ast",
   "version": "4.0.61",
-  "description": "@umijs/ast",
+  "description": "@4399ywkf/ast",
   "homepage": "https://github.com/umijs/umi/tree/master/packages/ast#readme",
   "bugs": "https://github.com/umijs/umi/issues",
   "repository": {
@@ -21,7 +21,7 @@
     "test": "umi-scripts jest-turbo"
   },
   "dependencies": {
-    "@umijs/bundler-utils": "workspace:*"
+    "@4399ywkf/bundler-utils": "workspace:*"
   },
   "publishConfig": {
     "access": "public"

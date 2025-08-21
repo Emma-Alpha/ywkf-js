@@ -1,7 +1,7 @@
-import { isZodSchema } from '@umijs/utils';
-import joi from '@umijs/utils/compiled/@hapi/joi';
-import { z, ZodSchema } from '@umijs/utils/compiled/zod';
-import { zodToTs } from '@umijs/zod2ts';
+import { isZodSchema } from '@4399ywkf/utils';
+import joi from '@4399ywkf/utils/compiled/@hapi/joi';
+import { z, ZodSchema } from '@4399ywkf/utils/compiled/zod';
+import { zodToTs } from '@4399ywkf/zod2ts';
 import { IApi } from '../../types';
 
 // Need to be excluded function type declared in `IConfig`

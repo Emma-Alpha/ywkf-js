@@ -1,5 +1,5 @@
 import { getReleaseNotes } from '@/scripts/utils/getReleaseNotes';
-import * as logger from '@umijs/utils/src/logger';
+import * as logger from '@4399ywkf/utils/src/logger';
 import { existsSync } from 'fs';
 import getGitRepoInfo from 'git-repo-info';
 import open from 'open';
@@ -45,7 +45,7 @@ import { assert, eachPkg, getPkgs } from './.internal/utils';
   const whoami = (await $`npm whoami`).stdout.trim();
   try {
     await Promise.all(
-      ['umi', '@umijs/core'].map(async (pkg) => {
+      ['umi', '@4399ywkf/core'].map(async (pkg) => {
         const owners = (await $`npm owner ls ${pkg}`).stdout
           .trim()
           .split('\n')
@@ -183,7 +183,7 @@ import { assert, eachPkg, getPkgs } from './.internal/utils';
   await $`cd packages/umi && pnpm publish --no-git-checks --tag ${tag} ${otpArg}`;
   logger.info(`+ umi`);
   await $`cd packages/max && pnpm publish --no-git-checks --tag ${tag} ${otpArg}`;
-  logger.info(`+ @umijs/max`);
+  logger.info(`+ @4399ywkf/max`);
   $.verbose = true;
 
   // sync tnpm

@@ -1,4 +1,4 @@
-import { chalk, logger, winPath } from '@umijs/utils';
+import { chalk, logger, winPath } from '@4399ywkf/utils';
 import assert from 'assert';
 import { existsSync, readdirSync, readFileSync, statSync } from 'fs';
 import { dirname, extname, join, resolve } from 'path';

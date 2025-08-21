@@ -1,4 +1,4 @@
-import esbuild from '@umijs/bundler-utils/compiled/esbuild';
+import esbuild from '@4399ywkf/bundler-utils/compiled/esbuild';
 import {
   chokidar,
   isZodSchema,
@@ -6,8 +6,8 @@ import {
   register,
   semver,
   zod,
-} from '@umijs/utils';
-import joi from '@umijs/utils/compiled/@hapi/joi';
+} from '@4399ywkf/utils';
+import joi from '@4399ywkf/utils/compiled/@hapi/joi';
 import assert from 'assert';
 import { existsSync } from 'fs';
 import { join } from 'path';

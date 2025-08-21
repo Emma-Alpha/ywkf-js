@@ -1,4 +1,4 @@
-import { chalk } from '@umijs/utils';
+import { chalk } from '@4399ywkf/utils';
 import assert from 'assert';
 import { readFileSync } from 'fs';
 import { IApi } from '../types';

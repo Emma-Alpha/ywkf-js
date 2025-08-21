@@ -1,5 +1,5 @@
-import { Plugin } from '@umijs/bundler-utils/compiled/esbuild';
-import less from '@umijs/bundler-utils/compiled/less';
+import { Plugin } from '@4399ywkf/bundler-utils/compiled/esbuild';
+import less from '@4399ywkf/bundler-utils/compiled/less';
 import enhancedResolve from 'enhanced-resolve';
 import { promises as fs } from 'fs';
 import path from 'path';

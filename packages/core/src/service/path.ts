@@ -1,4 +1,4 @@
-import { winPath } from '@umijs/utils';
+import { winPath } from '@4399ywkf/utils';
 import { existsSync, statSync } from 'fs';
 import { join } from 'path';
 import { Env } from '../types';

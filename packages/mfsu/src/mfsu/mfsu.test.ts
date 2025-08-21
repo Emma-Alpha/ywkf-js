@@ -1,6 +1,6 @@
+import webpack from '@4399ywkf/bundler-webpack/compiled/webpack';
 import path from 'path';
-import webpack from '@umijs/bundler-webpack/compiled/webpack';
-import { resolvePublicPath, MFSU } from './mfsu';
+import { MFSU, resolvePublicPath } from './mfsu';
 
 const webpackBaseContext = path.join(__dirname, '../../');
 

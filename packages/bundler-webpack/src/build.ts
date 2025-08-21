@@ -1,4 +1,4 @@
-import { chalk, importLazy, rimraf } from '@umijs/utils';
+import { chalk, importLazy, rimraf } from '@4399ywkf/utils';
 import { join, resolve } from 'path';
 import webpack from '../compiled/webpack';
 import type { IOpts as IConfigOpts } from './config/config';

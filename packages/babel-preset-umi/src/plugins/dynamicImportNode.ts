@@ -1,6 +1,6 @@
-import * as Babel from '@umijs/bundler-utils/compiled/babel/core';
-import template from '@umijs/bundler-utils/compiled/babel/template';
-import * as t from '@umijs/bundler-utils/compiled/babel/types';
+import * as Babel from '@4399ywkf/bundler-utils/compiled/babel/core';
+import template from '@4399ywkf/bundler-utils/compiled/babel/template';
+import * as t from '@4399ywkf/bundler-utils/compiled/babel/types';
 
 function getImportSource(callNode: t.Node) {
   // @ts-ignore

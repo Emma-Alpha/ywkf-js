@@ -1,6 +1,6 @@
 // TODO: bundler-vite ?
-import type { IConfig } from '@umijs/bundler-webpack/dist/types';
-import { chalk } from '@umijs/utils';
+import type { IConfig } from '@4399ywkf/bundler-webpack/dist/types';
+import { chalk } from '@4399ywkf/utils';
 
 export function list(config: IConfig, name?: string) {
   const getValue = (value: any) => {

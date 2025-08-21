@@ -1,4 +1,4 @@
-import stripAnsi from '@umijs/utils/compiled/strip-ansi';
+import stripAnsi from '@4399ywkf/utils/compiled/strip-ansi';
 
 const friendlySyntaxErrorLabel = 'Syntax error:';
 

@@ -1,4 +1,4 @@
-import { logger, printHelp, yParser, setNoDeprecation } from '@umijs/utils';
+import { logger, printHelp, setNoDeprecation, yParser } from '@4399ywkf/utils';
 import { DEV_COMMAND, FRAMEWORK_NAME } from '../constants';
 import { Service } from '../service/service';
 import { setNodeTitle } from './node';

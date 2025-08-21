@@ -1,10 +1,10 @@
-import { createHttpsServer, createProxy } from '@umijs/bundler-utils';
-import express from '@umijs/bundler-utils/compiled/express';
-import type { Stats } from '@umijs/bundler-webpack/compiled/webpack';
+import { createHttpsServer, createProxy } from '@4399ywkf/bundler-utils';
+import express from '@4399ywkf/bundler-utils/compiled/express';
+import type { Stats } from '@4399ywkf/bundler-webpack/compiled/webpack';
 import webpack, {
   Configuration,
-} from '@umijs/bundler-webpack/compiled/webpack';
-import { getDevBanner, lodash, logger } from '@umijs/utils';
+} from '@4399ywkf/bundler-webpack/compiled/webpack';
+import { getDevBanner, lodash, logger } from '@4399ywkf/utils';
 import cors from 'cors';
 import { createReadStream, existsSync } from 'fs';
 import http from 'http';
@@ -45,7 +45,7 @@ export async function createServer(opts: IOpts): Promise<any> {
   );
 
   // compression
-  app.use(require('@umijs/bundler-webpack/compiled/compression')());
+  app.use(require('@4399ywkf/bundler-webpack/compiled/compression')());
 
   // debug all js file
   app.use((req, res, next) => {
@@ -97,7 +97,7 @@ export async function createServer(opts: IOpts): Promise<any> {
   }
   const compiler = webpack(configs);
 
-  const webpackDevMiddleware = require('@umijs/bundler-webpack/compiled/webpack-dev-middleware');
+  const webpackDevMiddleware = require('@4399ywkf/bundler-webpack/compiled/webpack-dev-middleware');
   const compilerMiddleware = webpackDevMiddleware(compiler, {
     publicPath: userConfig.publicPath || '/',
     writeToDisk: userConfig.writeToDisk,
@@ -188,7 +188,7 @@ export async function createServer(opts: IOpts): Promise<any> {
 
   // history fallback
   app.use(
-    require('@umijs/bundler-webpack/compiled/connect-history-api-fallback')({
+    require('@4399ywkf/bundler-webpack/compiled/connect-history-api-fallback')({
       index: '/',
     }),
   );

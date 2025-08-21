@@ -1,6 +1,6 @@
+import { winPath } from '@4399ywkf/utils';
 import type { ImportDeclaration } from '@swc/core';
 import Visitor from '@swc/core/Visitor';
-import { winPath } from '@umijs/utils';
 import { dirname } from 'path';
 import { changeImportFromString } from './changeImportFromString';
 

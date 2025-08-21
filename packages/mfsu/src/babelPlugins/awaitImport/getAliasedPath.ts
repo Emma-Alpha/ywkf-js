@@ -1,4 +1,4 @@
-import { aliasUtils } from '@umijs/utils';
+import { aliasUtils } from '@4399ywkf/utils';
 
 export function getAliasedPathWithLoopDetect({
   value,

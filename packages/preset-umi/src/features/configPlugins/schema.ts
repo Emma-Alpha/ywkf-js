@@ -1,6 +1,6 @@
 // sort-object-keys
-import { NpmClientEnum } from '@umijs/utils';
-import { z } from '@umijs/utils/compiled/zod';
+import { NpmClientEnum } from '@4399ywkf/utils';
+import { z } from '@4399ywkf/utils/compiled/zod';
 
 export function getSchemas(): Record<string, ({}: { zod: typeof z }) => any> {
   const scriptsSchema = ({ zod }: { zod: typeof z }) =>

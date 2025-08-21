@@ -1,10 +1,10 @@
 # react-query
 
-@umijs/max 内置了 [react-query](https://tanstack.com/query/)（和 @tanstack/react-query 是同一个）请求方案。
+@4399ywkf/max 内置了 [react-query](https://tanstack.com/query/)（和 @tanstack/react-query 是同一个）请求方案。
 
 ## 启用方式
 
-如果是 @umijs/max，配置开启。
+如果是 @4399ywkf/max，配置开启。
 
 ```ts
 export default {
@@ -12,15 +12,15 @@ export default {
 }
 ```
 
-如果是 umi，先安装 `@umijs/plugins` 依赖，再通过配置开启。
+如果是 umi，先安装 `@4399ywkf/plugins` 依赖，再通过配置开启。
 
 ```bash
-$ pnpm i @umijs/plugins -D
+$ pnpm i @4399ywkf/plugins -D
 ```
 
 ```ts
 export default {
-  plugins: ['@umijs/plugins/dist/react-query'],
+  plugins: ['@4399ywkf/plugins/dist/react-query'],
   reactQuery: {},
 }
 ```
@@ -33,7 +33,7 @@ export default {
 
 2、注册全局的 QueryClient，可通过 `reactQuery: { queryClient: false }` 关闭，选项在 app.ts 里通过 `export const reactQuery = { queryClient }` 配置。
 
-3、大部分 react-query 的导出可以从 `umi` 或 `@umijs/max` 里 import 使用。
+3、大部分 react-query 的导出可以从 `umi` 或 `@4399ywkf/max` 里 import 使用。
 
 ## 配置项
 

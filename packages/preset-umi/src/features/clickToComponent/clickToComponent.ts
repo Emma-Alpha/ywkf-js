@@ -1,4 +1,4 @@
-import { winPath } from '@umijs/utils';
+import { winPath } from '@4399ywkf/utils';
 import { dirname, join } from 'path';
 import { IApi } from '../../types';
 

@@ -5,7 +5,7 @@ import {
   lodash,
   logger,
   semver,
-} from '@umijs/utils';
+} from '@4399ywkf/utils';
 import { existsSync } from 'fs';
 import { join } from 'path';
 import { IApi } from '../../types';

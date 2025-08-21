@@ -1,5 +1,9 @@
-import type { Compiler, RequestHandler, Stats } from '@umijs/bundler-webpack';
-import { createRequestHandler } from '@umijs/server';
+import type {
+  Compiler,
+  RequestHandler,
+  Stats,
+} from '@4399ywkf/bundler-webpack';
+import { createRequestHandler } from '@4399ywkf/server';
 import { IApi } from '../../types';
 import { getAssetsMap } from './getAssetsMap';
 import { getMarkupArgs } from './getMarkupArgs';

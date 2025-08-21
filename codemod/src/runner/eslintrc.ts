@@ -1,4 +1,4 @@
-import { rimraf } from '@umijs/utils';
+import { rimraf } from '@4399ywkf/utils';
 import { existsSync, readFileSync, writeFileSync } from 'fs';
 import { join } from 'path';
 import { error, info } from '../logger';

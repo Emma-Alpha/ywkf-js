@@ -1,9 +1,9 @@
-import { generateFile } from '@umijs/utils';
+import { generateFile } from '@4399ywkf/utils';
 import { join, normalize } from 'path';
 import { PageGenerator } from './page';
 
-jest.mock('@umijs/utils', () => {
-  let originalModule = jest.requireActual('@umijs/utils');
+jest.mock('@4399ywkf/utils', () => {
+  let originalModule = jest.requireActual('@4399ywkf/utils');
 
   return {
     __esModule: true,

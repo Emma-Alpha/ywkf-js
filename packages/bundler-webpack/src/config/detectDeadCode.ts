@@ -3,8 +3,8 @@ import {
   Compilation,
   Module,
   NormalModule,
-} from '@umijs/bundler-webpack/compiled/webpack';
-import { chalk, fsExtra, glob, winPath } from '@umijs/utils';
+} from '@4399ywkf/bundler-webpack/compiled/webpack';
+import { chalk, fsExtra, glob, winPath } from '@4399ywkf/utils';
 import path from 'path';
 import { DeadCodeParams } from '../types';
 

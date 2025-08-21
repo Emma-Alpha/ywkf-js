@@ -2,8 +2,14 @@ import {
   addParentRoute,
   getConfigRoutes,
   getConventionRoutes,
-} from '@umijs/core';
-import { isMonorepo, lodash, resolve, tryPaths, winPath } from '@umijs/utils';
+} from '@4399ywkf/core';
+import {
+  isMonorepo,
+  lodash,
+  resolve,
+  tryPaths,
+  winPath,
+} from '@4399ywkf/utils';
 import { existsSync, readFileSync } from 'fs';
 import { isAbsolute, join } from 'path';
 import { IApi } from '../../types';

@@ -1,6 +1,6 @@
+import { isStyleFile } from '@4399ywkf/utils';
 import type { ImportDeclaration, ModuleItem, TsType } from '@swc/core';
 import Visitor from '@swc/core/Visitor';
-import { isStyleFile } from '@umijs/utils';
 import { changeImportFromString } from './changeImportFromString';
 
 class AutoCSSModule extends Visitor {

@@ -2,7 +2,7 @@ import { Message } from 'umi';
 
 # 请求
 
-`@umijs/max` 内置了插件方案。它基于 [axios](https://axios-http.com/) 和 [ahooks](https://ahooks-v2.surge.sh) 的 `useRequest` 提供了一套统一的网络请求和错误处理方案。
+`@4399ywkf/max` 内置了插件方案。它基于 [axios](https://axios-http.com/) 和 [ahooks](https://ahooks-v2.surge.sh) 的 `useRequest` 提供了一套统一的网络请求和错误处理方案。
 
 ```js
 import { request, useRequest } from 'umi';
@@ -265,7 +265,7 @@ import { useRequest } from 'umi';
 // a: [1,2,3] => a=1&a=2&a=3
 
 // Umi@4
-import { useRequest } from '@umijs/max';
+import { useRequest } from '@4399ywkf/max';
 // a: [1,2,3] => a[]=1&a[]=2&a[]=3
 ```
 

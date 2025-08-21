@@ -1,4 +1,4 @@
-import stripAnsi from '@umijs/utils/compiled/strip-ansi';
+import stripAnsi from '@4399ywkf/utils/compiled/strip-ansi';
 // @ts-ignore
 import * as ErrorOverlay from 'react-error-overlay';
 import { MESSAGE_TYPE } from '../constants';

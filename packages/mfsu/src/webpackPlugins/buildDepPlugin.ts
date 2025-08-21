@@ -1,5 +1,5 @@
+import { logger } from '@4399ywkf/utils';
 import type { Compiler, Stats } from 'webpack';
-import { logger } from '@umijs/utils';
 
 export interface IBuildDepPluginOpts {
   onCompileDone: Function;

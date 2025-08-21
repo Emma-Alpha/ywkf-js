@@ -9,7 +9,7 @@ import { Message } from 'umi';
 ### 安装
 
 ```bash
-pnpm add  @umijs/preset-vue -D
+pnpm add  @4399ywkf/preset-vue -D
 ```
 
 ### 配置预设
@@ -17,7 +17,7 @@ pnpm add  @umijs/preset-vue -D
 ```ts
 // .umirc.ts or config/config.ts 中
 export default {
-  presets: [require.resolve('@umijs/preset-vue')],
+  presets: [require.resolve('@4399ywkf/preset-vue')],
 };
 
 ```

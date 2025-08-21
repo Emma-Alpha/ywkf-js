@@ -1,4 +1,4 @@
-import { defineConfig } from '@umijs/max';
+import { defineConfig } from '@4399ywkf/max';
 
 export default defineConfig({
   antd: {},
@@ -7,7 +7,7 @@ export default defineConfig({
   initialState: {},
   request: {},
   layout: {
-    title: '@umijs/max',
+    title: '@4399ywkf/max',
   },
   routes: [
     {

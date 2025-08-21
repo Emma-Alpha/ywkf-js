@@ -1,6 +1,6 @@
+import type { Metafile } from '@4399ywkf/bundler-utils/compiled/esbuild';
 import type { Edge, Item } from '@antv/g6';
 import G6 from '@antv/g6';
-import type { Metafile } from '@umijs/bundler-utils/compiled/esbuild';
 import { FC, useEffect, useMemo, useRef } from 'react';
 
 interface IProps {

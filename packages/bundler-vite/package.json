@@ -1,7 +1,7 @@
 {
-  "name": "@umijs/bundler-vite",
+  "name": "@4399ywkf/bundler-vite",
   "version": "4.0.61",
-  "description": "@umijs/bundler-vite",
+  "description": "@4399ywkf/bundler-vite",
   "homepage": "https://github.com/umijs/umi/tree/master/packages/bundler-vite#readme",
   "bugs": "https://github.com/umijs/umi/issues",
   "repository": {
@@ -25,9 +25,9 @@
     "test": "umi-scripts jest-turbo"
   },
   "dependencies": {
+    "@4399ywkf/bundler-utils": "workspace:*",
+    "@4399ywkf/utils": "workspace:*",
     "@svgr/core": "6.5.1",
-    "@umijs/bundler-utils": "workspace:*",
-    "@umijs/utils": "workspace:*",
     "@vitejs/plugin-react": "3.1.0",
     "less": "4.1.3",
     "postcss-preset-env": "7.5.0",
@@ -55,12 +55,12 @@
       "rollup-plugin-copy"
     ],
     "externals": {
-      "esbuild": "@umijs/bundler-utils/compiled/esbuild",
-      "express": "@umijs/bundler-utils/compiled/express",
-      "fs-extra": "@umijs/utils/compiled/fs-extra",
-      "glob": "@umijs/utils/compiled/glob",
-      "less": "@umijs/bundler-utils/compiled/less",
-      "resolve": "@umijs/utils/compiled/resolve",
+      "esbuild": "@4399ywkf/bundler-utils/compiled/esbuild",
+      "express": "@4399ywkf/bundler-utils/compiled/express",
+      "fs-extra": "@4399ywkf/utils/compiled/fs-extra",
+      "glob": "@4399ywkf/utils/compiled/glob",
+      "less": "@4399ywkf/bundler-utils/compiled/less",
+      "resolve": "@4399ywkf/utils/compiled/resolve",
       "vite": "vite"
     },
     "extraDtsDeps": [

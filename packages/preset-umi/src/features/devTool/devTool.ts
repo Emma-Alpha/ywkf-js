@@ -1,4 +1,4 @@
-import { cheerio } from '@umijs/utils';
+import { cheerio } from '@4399ywkf/utils';
 import { existsSync, readFileSync } from 'fs';
 import { join } from 'path';
 import { IApi } from '../../types';

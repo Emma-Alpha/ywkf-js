@@ -1,12 +1,12 @@
-import { pkgUp, winPath, logger, chalk } from '@umijs/utils';
+import { chalk, logger, pkgUp, winPath } from '@4399ywkf/utils';
 import assert from 'assert';
 import { readFileSync } from 'fs';
-import { isAbsolute, join, dirname } from 'path';
+import { dirname, isAbsolute, join } from 'path';
 import { MF_VA_PREFIX } from '../constants';
 import { MFSU } from '../mfsu/mfsu';
+import { resolveFromContexts } from '../utils/resolveUtils';
 import { trimFileContent } from '../utils/trimFileContent';
 import { getExposeFromContent } from './getExposeFromContent';
-import { resolveFromContexts } from '../utils/resolveUtils';
 
 export class Dep {
   public file: string;

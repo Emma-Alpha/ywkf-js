@@ -1,6 +1,6 @@
+import type { HttpsServerOptions, ProxyOptions } from '@4399ywkf/bundler-utils';
+import type { TransformOptions as EsbuildOptions } from '@4399ywkf/bundler-utils/compiled/esbuild';
 import type { Options as SwcConfig } from '@swc/core';
-import type { HttpsServerOptions, ProxyOptions } from '@umijs/bundler-utils';
-import type { TransformOptions as EsbuildOptions } from '@umijs/bundler-utils/compiled/esbuild';
 import type { BundleAnalyzerPlugin } from 'webpack-bundle-analyzer';
 import webpack, { Configuration } from '../compiled/webpack';
 import Config from '../compiled/webpack-5-chain';

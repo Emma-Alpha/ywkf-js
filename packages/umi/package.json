@@ -1,5 +1,5 @@
 {
-  "name": "umi",
+  "name": "@4399ywkf/js",
   "version": "4.0.61",
   "description": "umi",
   "homepage": "https://github.com/umijs/umi/tree/master/packages/umi#readme",
@@ -37,16 +37,16 @@
     "test": "umi-scripts jest-turbo"
   },
   "dependencies": {
+    "@4399ywkf/bundler-utils": "workspace:*",
+    "@4399ywkf/bundler-webpack": "workspace:*",
+    "@4399ywkf/core": "workspace:*",
+    "@4399ywkf/lint": "workspace:*",
+    "@4399ywkf/preset-umi": "workspace:*",
+    "@4399ywkf/renderer-react": "workspace:*",
+    "@4399ywkf/server": "workspace:*",
+    "@4399ywkf/test": "workspace:*",
+    "@4399ywkf/utils": "workspace:*",
     "@babel/runtime": "7.21.0",
-    "@umijs/bundler-utils": "workspace:*",
-    "@umijs/bundler-webpack": "workspace:*",
-    "@umijs/core": "workspace:*",
-    "@umijs/lint": "workspace:*",
-    "@umijs/preset-umi": "workspace:*",
-    "@umijs/renderer-react": "workspace:*",
-    "@umijs/server": "workspace:*",
-    "@umijs/test": "workspace:*",
-    "@umijs/utils": "workspace:*",
     "prettier-plugin-organize-imports": "^3.2.2",
     "prettier-plugin-packagejson": "2.4.3"
   },

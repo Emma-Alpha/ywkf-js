@@ -5,24 +5,30 @@
 
 // TODO 之后走预打包处理
 // @ts-ignore
-import deepImports from '@umijs/bundler-webpack/compiled/webpack/deepImports.json';
+import deepImports from '@4399ywkf/bundler-webpack/compiled/webpack/deepImports.json';
 
 const hookPropertyMap = new Map([
-  ['webpack', '@umijs/bundler-webpack/compiled/webpack'],
-  ['webpack/package', '@umijs/bundler-webpack/compiled/webpack/package'],
-  ['webpack/package.json', '@umijs/bundler-webpack/compiled/webpack/package'],
-  ['webpack/lib/webpack', '@umijs/bundler-webpack/compiled/webpack'],
-  ['webpack/lib/webpack.js', '@umijs/bundler-webpack/compiled/webpack'],
-  ['tapable', '@umijs/bundler-utils/compiled/tapable'],
+  ['webpack', '@4399ywkf/bundler-webpack/compiled/webpack'],
+  ['webpack/package', '@4399ywkf/bundler-webpack/compiled/webpack/package'],
+  [
+    'webpack/package.json',
+    '@4399ywkf/bundler-webpack/compiled/webpack/package',
+  ],
+  ['webpack/lib/webpack', '@4399ywkf/bundler-webpack/compiled/webpack'],
+  ['webpack/lib/webpack.js', '@4399ywkf/bundler-webpack/compiled/webpack'],
+  ['tapable', '@4399ywkf/bundler-utils/compiled/tapable'],
 ]);
 
 deepImports.forEach((item: string) => {
   const name = item.split('/').pop();
 
-  hookPropertyMap.set(item, `@umijs/bundler-webpack/compiled/webpack/${name}`);
+  hookPropertyMap.set(
+    item,
+    `@4399ywkf/bundler-webpack/compiled/webpack/${name}`,
+  );
   hookPropertyMap.set(
     `${item}.js`,
-    `@umijs/bundler-webpack/compiled/webpack/${name}`,
+    `@4399ywkf/bundler-webpack/compiled/webpack/${name}`,
   );
 });
 

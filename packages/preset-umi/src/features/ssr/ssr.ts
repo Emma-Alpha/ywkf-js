@@ -1,9 +1,9 @@
 import type {
   Compilation,
   Compiler,
-} from '@umijs/bundler-webpack/compiled/webpack';
-import { EnableBy } from '@umijs/core/dist/types';
-import { fsExtra, importLazy, logger } from '@umijs/utils';
+} from '@4399ywkf/bundler-webpack/compiled/webpack';
+import { EnableBy } from '@4399ywkf/core/dist/types';
+import { fsExtra, importLazy, logger } from '@4399ywkf/utils';
 import assert from 'assert';
 import { existsSync, writeFileSync } from 'fs';
 import { join } from 'path';

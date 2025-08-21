@@ -1,5 +1,5 @@
+import { winPath } from '@4399ywkf/utils';
 import createImports from './babel-plugin-import';
-import { winPath } from '@umijs/utils';
 
 function pathToVersion(): string {
   return '1.2.3';

@@ -1,4 +1,4 @@
-import { logger } from '@umijs/utils';
+import { logger } from '@4399ywkf/utils';
 import getGitRepoInfo from 'git-repo-info';
 import { join } from 'path';
 import 'zx/globals';
@@ -12,7 +12,7 @@ function assert(v: unknown, message: string) {
 
 (async () => {
   const cwd = process.cwd();
-  const pkg = '@umijs/codemod';
+  const pkg = '@4399ywkf/codemod';
   const dirName = 'codemod';
   const { branch } = getGitRepoInfo();
   logger.info(`branch: ${branch}`);

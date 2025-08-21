@@ -17,12 +17,12 @@
 ## 使用方式
 ### 安装
 
-为了节省安装体积，目前仅在 Umi Max 中内置了 Lint 模块，使用 `max lint` 来执行 lint 过程。**如果你使用的是 Umi，需要先安装 `@umijs/lint`**：
+为了节省安装体积，目前仅在 Umi Max 中内置了 Lint 模块，使用 `max lint` 来执行 lint 过程。**如果你使用的是 Umi，需要先安装 `@4399ywkf/lint`**：
 
 ```bash
-$ npm i @umijs/lint -D
+$ npm i @4399ywkf/lint -D
 # or
-$ pnpm add @umijs/lint -D
+$ pnpm add @4399ywkf/lint -D
 ```
 
 然后安装 ESLint 及 Stylelint：
@@ -44,7 +44,7 @@ module.exports = {
   extends: require.resolve('umi/eslint'),
 
   // Umi Max 项目
-  extends: require.resolve('@umijs/max/eslint'),
+  extends: require.resolve('@4399ywkf/max/eslint'),
 }
 
 // .stylelintrc.js
@@ -53,7 +53,7 @@ module.exports = {
   extends: require.resolve('umi/stylelint'),
 
   // Umi Max 项目
-  extends: require.resolve('@umijs/max/stylelint'),
+  extends: require.resolve('@4399ywkf/max/stylelint'),
 }
 ```
 

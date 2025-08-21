@@ -1,5 +1,5 @@
-import * as parser from '@umijs/bundler-utils/compiled/babel/parser';
-import * as t from '@umijs/bundler-utils/compiled/babel/types';
+import * as parser from '@4399ywkf/bundler-utils/compiled/babel/parser';
+import * as t from '@4399ywkf/bundler-utils/compiled/babel/types';
 import { LITERAL_NODE_RESOLVERS, NODE_RESOLVERS } from './propertyResolver';
 
 test('literal', () => {

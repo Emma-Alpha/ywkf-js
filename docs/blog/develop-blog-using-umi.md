@@ -215,7 +215,7 @@ export default {
     { path: '/login', component: 'login' },
     { path: '/posts/:postId', component: 'posts/post' },
   ],
-  plugins: [require.resolve('@umijs/plugins/dist/tailwindcss')],
+  plugins: [require.resolve('@4399ywkf/plugins/dist/tailwindcss')],
   tailwindcss: {}
 };
 ```
@@ -248,7 +248,7 @@ export default {
 - `/login`: 登入
 - `/posts/:postId`: 某篇文章
 
-`plugins` 配置项代表我们启用了哪些 Umi 插件，其中 `@umijs/plugins/dist/tailwindcss` 是在 Umi 中使用 Tailwindcss
+`plugins` 配置项代表我们启用了哪些 Umi 插件，其中 `@4399ywkf/plugins/dist/tailwindcss` 是在 Umi 中使用 Tailwindcss
 的插件。下面一项 `tailwindcss: {}` 则是从配置来启用该插件的意思。
 
 ## API 路由设计

@@ -1,10 +1,10 @@
 import {
   build as buildWithESBuild,
+  BuildOptions,
   Format,
   Plugin,
-  BuildOptions,
-} from '@umijs/bundler-utils/compiled/esbuild';
-import { rimraf, winPath } from '@umijs/utils';
+} from '@4399ywkf/bundler-utils/compiled/esbuild';
+import { rimraf, winPath } from '@4399ywkf/utils';
 import { join } from 'path';
 import alias from './plugins/alias';
 import externals from './plugins/externals';

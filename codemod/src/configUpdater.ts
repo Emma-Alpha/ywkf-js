@@ -1,8 +1,8 @@
-import { parse } from '@umijs/ast/dist/utils/parse';
-import * as Babel from '@umijs/bundler-utils/compiled/babel/core';
-import * as traverse from '@umijs/bundler-utils/compiled/babel/traverse';
-import * as t from '@umijs/bundler-utils/compiled/babel/types';
-import { resolve } from '@umijs/utils';
+import { parse } from '@4399ywkf/ast/dist/utils/parse';
+import * as Babel from '@4399ywkf/bundler-utils/compiled/babel/core';
+import * as traverse from '@4399ywkf/bundler-utils/compiled/babel/traverse';
+import * as t from '@4399ywkf/bundler-utils/compiled/babel/types';
+import { resolve } from '@4399ywkf/utils';
 import assert from 'assert';
 import { existsSync, readFileSync } from 'fs';
 import { dirname, isAbsolute } from 'path';

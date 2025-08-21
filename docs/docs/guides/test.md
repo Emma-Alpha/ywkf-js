@@ -28,10 +28,10 @@ export default async () => {
 };
 ```
 
-@umijs/max 项目
+@4399ywkf/max 项目
 
 ```ts
-import { Config, configUmiAlias, createConfig } from '@umijs/max/test';
+import { Config, configUmiAlias, createConfig } from '@4399ywkf/max/test';
 
 export default async () => {
   return (await configUmiAlias({

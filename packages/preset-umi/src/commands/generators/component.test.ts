@@ -1,10 +1,10 @@
+import { generateFile } from '@4399ywkf/utils';
 import { join, normalize } from 'path';
-import { generateFile } from '@umijs/utils';
 import { ComponentGenerator } from './component';
 
-jest.mock('@umijs/utils', () => {
+jest.mock('@4399ywkf/utils', () => {
   // Require the original module to not be mocked...
-  const originalModule = jest.requireActual('@umijs/utils');
+  const originalModule = jest.requireActual('@4399ywkf/utils');
 
   return {
     __esModule: true, // Use it when dealing with esModules

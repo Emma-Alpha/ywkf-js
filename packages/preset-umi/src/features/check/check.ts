@@ -1,4 +1,4 @@
-import { chalk } from '@umijs/utils';
+import { chalk } from '@4399ywkf/utils';
 import assert from 'assert';
 import { IApi } from '../../types';
 

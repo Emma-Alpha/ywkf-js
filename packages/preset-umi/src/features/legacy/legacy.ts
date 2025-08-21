@@ -3,8 +3,8 @@ import {
   Env,
   JSMinifier,
   Transpiler,
-} from '@umijs/bundler-webpack/dist/types';
-import { chalk, crossSpawn, lodash, logger, resolve } from '@umijs/utils';
+} from '@4399ywkf/bundler-webpack/dist/types';
+import { chalk, crossSpawn, lodash, logger, resolve } from '@4399ywkf/utils';
 import { join } from 'path';
 import type { IApi } from '../../types';
 
@@ -218,7 +218,7 @@ function useBabelTransformSvgr(memo: WebpackChainConfig, api: IApi) {
   memo.module
     .rule('svgr')
     .use('babel-loader')
-    .loader(require.resolve('@umijs/bundler-webpack/compiled/babel-loader'))
+    .loader(require.resolve('@4399ywkf/bundler-webpack/compiled/babel-loader'))
     .options({
       sourceType: 'unambiguous',
       babelrc: false,
@@ -228,7 +228,7 @@ function useBabelTransformSvgr(memo: WebpackChainConfig, api: IApi) {
       targets: api.config.targets,
       presets: [
         [
-          require.resolve('@umijs/babel-preset-umi'),
+          require.resolve('@4399ywkf/babel-preset-umi'),
           {
             presetEnv: {},
             presetReact: {},

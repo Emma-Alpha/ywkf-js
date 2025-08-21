@@ -1,5 +1,5 @@
-import { Plugin, PluginBuild } from '@umijs/bundler-utils/compiled/esbuild';
-import { camelCase } from '@umijs/utils/compiled/lodash';
+import { Plugin, PluginBuild } from '@4399ywkf/bundler-utils/compiled/esbuild';
+import { camelCase } from '@4399ywkf/utils/compiled/lodash';
 import type { DepOptimizationOptions } from 'vite';
 
 /**

@@ -1,5 +1,5 @@
-import { GeneratorType } from '@umijs/core';
-import { logger } from '@umijs/utils';
+import { GeneratorType } from '@4399ywkf/core';
+import { logger } from '@4399ywkf/utils';
 import { writeFileSync } from 'fs';
 import { join } from 'path';
 import { IApi } from '../../types';
@@ -24,12 +24,12 @@ export default (api: IApi) => {
       const h = new GeneratorHelper(api);
 
       h.addDevDeps({
-        '@umijs/plugins': getUmiJsPlugin(),
+        '@4399ywkf/plugins': getUmiJsPlugin(),
         tailwindcss: '^3',
       });
 
       h.setUmirc('tailwindcss', {});
-      h.appendInternalPlugin('@umijs/plugins/dist/tailwindcss');
+      h.appendInternalPlugin('@4399ywkf/plugins/dist/tailwindcss');
       logger.info('Update .umirc.ts');
 
       const srcPrefix = api.appData.hasSrcDir ? 'src/' : '';

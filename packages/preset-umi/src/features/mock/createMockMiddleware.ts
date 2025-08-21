@@ -1,4 +1,4 @@
-import type { RequestHandler } from '@umijs/bundler-webpack/compiled/express';
+import type { RequestHandler } from '@4399ywkf/bundler-webpack/compiled/express';
 import pathToRegexp from 'path-to-regexp';
 import bodyParser from '../../../compiled/body-parser';
 import multer from '../../../compiled/multer';

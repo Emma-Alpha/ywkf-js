@@ -1,6 +1,6 @@
-import { GeneratorType } from '@umijs/core';
-import { logger, execa } from '@umijs/utils';
-import { existsSync, writeFileSync, mkdirSync } from 'fs';
+import { GeneratorType } from '@4399ywkf/core';
+import { execa, logger } from '@4399ywkf/utils';
+import { existsSync, mkdirSync, writeFileSync } from 'fs';
 import { join } from 'path';
 import { IApi } from '../../types';
 import { GeneratorHelper } from './utils';

@@ -1,4 +1,4 @@
-import { importLazy, lodash, winPath } from '@umijs/utils';
+import { importLazy, lodash, winPath } from '@4399ywkf/utils';
 import { existsSync, readdirSync } from 'fs';
 import { basename, dirname, join } from 'path';
 import { RUNTIME_TYPE_FILE_NAME } from 'umi';
@@ -28,7 +28,7 @@ export default (api: IApi) => {
       await api.applyPlugins({
         key: 'modifyRendererPath',
         initialValue: dirname(
-          require.resolve('@umijs/renderer-react/package.json'),
+          require.resolve('@4399ywkf/renderer-react/package.json'),
         ),
       }),
     );
@@ -463,7 +463,9 @@ if (process.env.NODE_ENV === 'development') {
     // umi.server.ts
     if (api.config.ssr) {
       const umiPluginPath = winPath(join(umiDir, 'client/client/plugin.js'));
-      const umiServerPath = winPath(require.resolve('@umijs/server/dist/ssr'));
+      const umiServerPath = winPath(
+        require.resolve('@4399ywkf/server/dist/ssr'),
+      );
       const routesWithServerLoader = Object.keys(routes).reduce<
         { id: string; path: string }[]
       >((memo, id) => {
@@ -501,7 +503,7 @@ if (process.env.NODE_ENV === 'development') {
     // only react generates because the preset-vue override causes vite hot updates to fail
     if (api.appData.framework === 'react') {
       const historyPath = api.config.historyWithQuery
-        ? winPath(dirname(require.resolve('@umijs/history/package.json')))
+        ? winPath(dirname(require.resolve('@4399ywkf/history/package.json')))
         : rendererPath;
       api.writeTmpFile({
         noPluginDir: true,
@@ -557,15 +559,15 @@ if (process.env.NODE_ENV === 'development') {
         await api.applyPlugins({
           key: 'modifyRendererPath',
           initialValue: dirname(
-            require.resolve('@umijs/renderer-react/package.json'),
+            require.resolve('@4399ywkf/renderer-react/package.json'),
           ),
         }),
       );
 
       const exports = [];
       const exportMembers = ['default'];
-      // @umijs/renderer-react
-      exports.push('// @umijs/renderer-*');
+      // @4399ywkf/renderer-react
+      exports.push('// @4399ywkf/renderer-*');
 
       exports.push(
         `export { ${(

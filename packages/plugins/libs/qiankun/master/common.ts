@@ -70,7 +70,7 @@ export function patchMicroAppRoute(
       );
       if (childrenRouteHasComponent) {
         throw new Error(
-          `[@umijs/plugin-qiankun]: You can not attach micro app ${microAppName} to route ${route.path} whose children has own component!`,
+          `[@4399ywkf/plugin-qiankun]: You can not attach micro app ${microAppName} to route ${route.path} whose children has own component!`,
         );
       }
     }

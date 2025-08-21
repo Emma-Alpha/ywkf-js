@@ -1,6 +1,6 @@
-import { createHttpsServer, createProxy } from '@umijs/bundler-utils';
-import express from '@umijs/bundler-utils/compiled/express';
-import { chalk, logger, portfinder } from '@umijs/utils';
+import { createHttpsServer, createProxy } from '@4399ywkf/bundler-utils';
+import express from '@4399ywkf/bundler-utils/compiled/express';
+import { chalk, logger, portfinder } from '@4399ywkf/utils';
 import assert from 'assert';
 import { existsSync } from 'fs';
 import http from 'http';
@@ -50,7 +50,7 @@ umi preview --port [port]
       });
 
       // compression
-      app.use(require('@umijs/bundler-webpack/compiled/compression')());
+      app.use(require('@4399ywkf/bundler-webpack/compiled/compression')());
 
       // proxy
       const { proxy } = api.userConfig;
@@ -82,7 +82,7 @@ umi preview --port [port]
 
       // history fallback
       app.use(
-        require('@umijs/bundler-webpack/compiled/connect-history-api-fallback')(),
+        require('@4399ywkf/bundler-webpack/compiled/connect-history-api-fallback')(),
       );
 
       // 如果是 browser，并且配置了非 / base，访问 / 时 /index.html redirect 到 base 路径

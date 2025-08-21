@@ -1,4 +1,4 @@
-import { printHelp } from '@umijs/utils';
+import { printHelp } from '@4399ywkf/utils';
 import awaitImport from '../babelPlugins/awaitImport/awaitImport';
 import { getRealPath } from '../babelPlugins/awaitImport/getRealPath';
 import { Dep } from '../dep/dep';

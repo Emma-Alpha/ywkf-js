@@ -30,7 +30,7 @@ module.exports = {
       babelrc: false,
       configFile: false,
       browserslistConfigFile: false,
-      presets: [require.resolve('@umijs/babel-preset-umi')],
+      presets: [require.resolve('@4399ywkf/babel-preset-umi')],
     },
     requireConfigFile: false,
   },

@@ -1,9 +1,9 @@
-import { Config } from '@umijs/test';
-import { setNoDeprecation } from '@umijs/utils';
+import { Config } from '@4399ywkf/test';
+import { setNoDeprecation } from '@4399ywkf/utils';
 import { existsSync, statSync } from 'fs';
 import { Service } from './service/service';
 
-export * from '@umijs/test';
+export * from '@4399ywkf/test';
 
 export function getAliasPathWithKey(
   alias: Record<string, string>,

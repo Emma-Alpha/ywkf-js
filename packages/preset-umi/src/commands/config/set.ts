@@ -1,4 +1,4 @@
-import { generate, getASTByFilePath, setConfigByName } from '@umijs/ast';
+import { generate, getASTByFilePath, setConfigByName } from '@4399ywkf/ast';
 import { writeFileSync } from 'fs';
 import { join } from 'path';
 import { IApi } from '../../types';
@@ -21,7 +21,7 @@ export function set(api: IApi, name: string, value: string) {
   if (!ast) return;
   const generateCode = generate(setConfigByName(ast, name, value)!);
   // perf: lazy import
-  const prettier = require('@umijs/utils/compiled/prettier');
+  const prettier = require('@4399ywkf/utils/compiled/prettier');
   const printStr = prettier.format(generateCode, {
     parser: 'typescript',
   });

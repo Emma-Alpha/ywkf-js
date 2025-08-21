@@ -1,11 +1,11 @@
-import { parseModule } from '@umijs/bundler-utils';
+import { parseModule } from '@4399ywkf/bundler-utils';
 import type {
   NextFunction,
   Request,
   Response,
-} from '@umijs/bundler-utils/compiled/express';
-import express from '@umijs/bundler-utils/compiled/express';
-import { lodash, logger, printHelp, winPath } from '@umijs/utils';
+} from '@4399ywkf/bundler-utils/compiled/express';
+import express from '@4399ywkf/bundler-utils/compiled/express';
+import { lodash, logger, printHelp, winPath } from '@4399ywkf/utils';
 import assert from 'assert';
 import { existsSync, readFileSync } from 'fs';
 import { extname, join } from 'path';

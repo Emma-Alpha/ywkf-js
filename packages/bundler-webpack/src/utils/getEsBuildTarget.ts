@@ -1,4 +1,4 @@
-import { chalk, logger } from '@umijs/utils';
+import { chalk, logger } from '@4399ywkf/utils';
 import { DEFAULT_ESBUILD_TARGET_KEYS } from '../constants';
 import { JSMinifier } from '../types';
 

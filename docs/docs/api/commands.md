@@ -174,12 +174,12 @@ Usage: umi lint
 
 ```bash
 $ umi plugin list
-- @umijs/core/dist/service/servicePlugin
-- @umijs/preset-umi (from preset)
-- @umijs/preset-umi/dist/registerMethods (from preset)
-- @umijs/preset-umi/dist/features/appData/appData (from preset)
-- @umijs/preset-umi/dist/features/check/check (from preset)
-- @umijs/preset-umi/dist/features/configPlugins/configPlugins (from preset)
+- @4399ywkf/core/dist/service/servicePlugin
+- @4399ywkf/preset-umi (from preset)
+- @4399ywkf/preset-umi/dist/registerMethods (from preset)
+- @4399ywkf/preset-umi/dist/features/appData/appData (from preset)
+- @4399ywkf/preset-umi/dist/features/check/check (from preset)
+- @4399ywkf/preset-umi/dist/features/configPlugins/configPlugins (from preset)
 - virtual: config-styles
 - virtual: config-scripts
 - virtual: config-routes
@@ -270,7 +270,7 @@ info  - MFSU eager strategy enabled
 warn  - Invalidate webpack cache since mfsu cache is missing
 info  - [MFSU] buildDeps since cacheDependency has changed
 ...
-info  - [plugin: @umijs/preset-umi/dist/commands/mfsu/mfsu] [MFSU][eager] build success
+info  - [plugin: @4399ywkf/preset-umi/dist/commands/mfsu/mfsu] [MFSU][eager] build success
 ```
 
 ```bash title="清除 MFSU 依赖"

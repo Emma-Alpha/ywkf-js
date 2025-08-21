@@ -1,4 +1,4 @@
-import { chalk, isLocalDev, yParser } from '@umijs/utils';
+import { chalk, isLocalDev, yParser } from '@4399ywkf/utils';
 
 const args = yParser(process.argv.slice(2), {
   alias: {

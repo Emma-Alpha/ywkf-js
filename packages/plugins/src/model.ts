@@ -1,4 +1,4 @@
-import * as t from '@umijs/bundler-utils/compiled/babel/types';
+import * as t from '@4399ywkf/bundler-utils/compiled/babel/types';
 import { readFileSync } from 'fs';
 import { join } from 'path';
 import { IApi } from 'umi';

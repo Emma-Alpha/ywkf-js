@@ -7,8 +7,8 @@
       "@@/*": [".umi/*"],
       "test-utils": ["test/lib/testUtils"],
       "umi": ["./packages/umi"],
-      "@umijs/utils": ["./packages/utils"],
-      "@umijs/renderer-react": ["./packages/renderer-react"]
+      "@4399ywkf/utils": ["./packages/utils"],
+      "@4399ywkf/renderer-react": ["./packages/renderer-react"]
     }
   }
 }

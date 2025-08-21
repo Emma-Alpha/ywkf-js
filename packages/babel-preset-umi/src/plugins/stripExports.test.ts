@@ -1,4 +1,4 @@
-import { transform } from '@umijs/bundler-utils/compiled/babel/core';
+import { transform } from '@4399ywkf/bundler-utils/compiled/babel/core';
 
 interface IOpts {
   code: string;

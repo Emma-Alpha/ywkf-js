@@ -1,5 +1,5 @@
-import esbuild from '@umijs/bundler-utils/compiled/esbuild';
-import { logger } from '@umijs/utils';
+import esbuild from '@4399ywkf/bundler-utils/compiled/esbuild';
+import { logger } from '@4399ywkf/utils';
 import path from 'path';
 import { esbuildAliasPlugin } from './esbuildPlugins/esbuildAliasPlugin';
 import { esbuildExternalPlugin } from './esbuildPlugins/esbuildExternalPlugin';

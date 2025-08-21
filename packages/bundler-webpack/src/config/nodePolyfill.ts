@@ -1,5 +1,5 @@
-import { ProvidePlugin } from '@umijs/bundler-webpack/compiled/webpack';
-import Config from '@umijs/bundler-webpack/compiled/webpack-5-chain';
+import { ProvidePlugin } from '@4399ywkf/bundler-webpack/compiled/webpack';
+import Config from '@4399ywkf/bundler-webpack/compiled/webpack-5-chain';
 import { Env, IConfig } from '../types';
 
 interface IOpts {

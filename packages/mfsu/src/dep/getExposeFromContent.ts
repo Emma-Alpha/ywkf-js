@@ -1,8 +1,8 @@
+import { winPath } from '@4399ywkf/utils';
 import assert from 'assert';
 import { basename } from 'path';
 import { Dep } from './dep';
 import { getModuleExports } from './getModuleExports';
-import { winPath } from '@umijs/utils';
 
 export async function getExposeFromContent(opts: {
   dep: Dep;

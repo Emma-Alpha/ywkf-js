@@ -1,4 +1,4 @@
-import Config from '@umijs/bundler-webpack/compiled/webpack-5-chain';
+import Config from '@4399ywkf/bundler-webpack/compiled/webpack-5-chain';
 import { existsSync, readdirSync } from 'fs';
 import { join, resolve } from 'path';
 import { Env, IConfig } from '../types';
@@ -40,7 +40,7 @@ export async function addCopyPlugin(opts: IOpts) {
   if (copyPatterns.length) {
     config
       .plugin('copy')
-      .use(require('@umijs/bundler-webpack/compiled/copy-webpack-plugin'), [
+      .use(require('@4399ywkf/bundler-webpack/compiled/copy-webpack-plugin'), [
         {
           patterns: copyPatterns,
         },

@@ -1,6 +1,6 @@
 # valtio
 
-@umijs/max 内置了 valtio 数据流方案。
+@4399ywkf/max 内置了 valtio 数据流方案。
 
 ## 启用 valtio
 

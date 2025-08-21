@@ -1,7 +1,7 @@
 {
-  "name": "@umijs/test",
+  "name": "@4399ywkf/test",
   "version": "4.0.61",
-  "description": "@umijs/test",
+  "description": "@4399ywkf/test",
   "homepage": "https://github.com/umijs/umi/tree/master/packages/testing#readme",
   "bugs": "https://github.com/umijs/umi/issues",
   "repository": {
@@ -21,10 +21,10 @@
     "dev": "umi-scripts father dev"
   },
   "dependencies": {
+    "@4399ywkf/bundler-utils": "workspace:*",
+    "@4399ywkf/utils": "workspace:*",
     "@babel/plugin-transform-modules-commonjs": "7.21.2",
     "@jest/types": "27.5.1",
-    "@umijs/bundler-utils": "workspace:*",
-    "@umijs/utils": "workspace:*",
     "babel-jest": "^29.4.3",
     "esbuild": "0.16.17",
     "identity-obj-proxy": "3.0.0",

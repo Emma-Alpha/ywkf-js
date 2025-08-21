@@ -1,4 +1,4 @@
-import { logger, printHelp, setNoDeprecation, yParser } from '@umijs/utils';
+import { logger, printHelp, setNoDeprecation, yParser } from '@4399ywkf/utils';
 import { DEV_COMMAND } from '../constants';
 import { Service } from '../service/service';
 import { dev } from './dev';

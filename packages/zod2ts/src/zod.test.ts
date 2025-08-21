@@ -1,4 +1,4 @@
-import { zod as z } from '@umijs/utils';
+import { zod as z } from '@4399ywkf/utils';
 import { zodToTs } from './zod';
 
 test('zod default', () => {

@@ -1,4 +1,4 @@
-import * as traverse from '@umijs/bundler-utils/compiled/babel/traverse';
+import * as traverse from '@4399ywkf/bundler-utils/compiled/babel/traverse';
 import { parse } from '../utils/parse';
 
 export function isReactComponent(code: string) {

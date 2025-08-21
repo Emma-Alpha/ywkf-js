@@ -1,5 +1,5 @@
-import { ModelUtils, Model, getNamespace } from './modelUtils';
-import { chalk } from '@umijs/utils';
+import { chalk } from '@4399ywkf/utils';
+import { getNamespace, Model, ModelUtils } from './modelUtils';
 
 test('getNamespace', () => {
   expect(getNamespace('/a/b/src/models/foo.ts', '/a/b/src')).toEqual('foo');

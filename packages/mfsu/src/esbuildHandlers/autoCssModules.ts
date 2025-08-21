@@ -1,4 +1,4 @@
-import { isStyleFile } from '@umijs/utils';
+import { isStyleFile } from '@4399ywkf/utils';
 import { IEsbuildLoaderHandlerParams } from '../types';
 
 const CSS_MODULES_QUERY = '?modules';

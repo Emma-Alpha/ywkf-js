@@ -1,5 +1,5 @@
 {
-  "name": "@umijs/babel-preset-umi",
+  "name": "@4399ywkf/babel-preset-umi",
   "version": "4.0.61",
   "description": "Official babel preset for umi.",
   "homepage": "https://github.com/umijs/umi/tree/master/packages/babel-preset-umi#readme",
@@ -21,10 +21,10 @@
     "test": "umi-scripts jest-turbo"
   },
   "dependencies": {
+    "@4399ywkf/bundler-utils": "workspace:*",
+    "@4399ywkf/utils": "workspace:*",
     "@babel/runtime": "7.21.0",
     "@bloomberg/record-tuple-polyfill": "0.0.4",
-    "@umijs/bundler-utils": "workspace:*",
-    "@umijs/utils": "workspace:*",
     "babel-plugin-styled-components": "2.0.7",
     "core-js": "3.28.0"
   },

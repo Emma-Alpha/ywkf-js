@@ -2,10 +2,10 @@ import {
   ImportSpecifier,
   init as esModuleLexerInit,
   parse,
-} from '@umijs/bundler-utils/compiled/es-module-lexer';
-import { build as esBuild } from '@umijs/bundler-utils/compiled/esbuild';
+} from '@4399ywkf/bundler-utils/compiled/es-module-lexer';
+import { build as esBuild } from '@4399ywkf/bundler-utils/compiled/esbuild';
 // @ts-ignore
-import { logger, winPath } from '@umijs/utils';
+import { logger, winPath } from '@4399ywkf/utils';
 import fg from 'fast-glob';
 import { readFileSync } from 'fs';
 import { extname, join, relative } from 'path';

@@ -8,7 +8,7 @@ export default () => {
 
       // features
       process.env.DID_YOU_KNOW !== 'none' &&
-        require.resolve('@umijs/did-you-know/dist/plugin'),
+        require.resolve('@4399ywkf/did-you-know/dist/plugin'),
       require.resolve('./features/404/404'),
       require.resolve('./features/appData/appData'),
       require.resolve('./features/appData/umiInfo'),
@@ -79,7 +79,7 @@ export default () => {
       require.resolve('./commands/verify-commit'),
       require.resolve('./commands/preview'),
       require.resolve('./commands/mfsu/mfsu'),
-      require.resolve('@umijs/plugin-run'),
+      require.resolve('@4399ywkf/plugin-run'),
     ].filter(Boolean),
   };
 };

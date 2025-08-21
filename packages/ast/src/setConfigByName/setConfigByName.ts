@@ -1,7 +1,7 @@
-import { parseExpression } from '@umijs/bundler-utils/compiled/babel/parser';
-import type { NodePath } from '@umijs/bundler-utils/compiled/babel/traverse';
-import * as traverse from '@umijs/bundler-utils/compiled/babel/traverse';
-import * as t from '@umijs/bundler-utils/compiled/babel/types';
+import { parseExpression } from '@4399ywkf/bundler-utils/compiled/babel/parser';
+import type { NodePath } from '@4399ywkf/bundler-utils/compiled/babel/traverse';
+import * as traverse from '@4399ywkf/bundler-utils/compiled/babel/traverse';
+import * as t from '@4399ywkf/bundler-utils/compiled/babel/types';
 
 export function setConfigByName(ast: t.File, name: string, value: string) {
   if (typeof value !== 'string') {

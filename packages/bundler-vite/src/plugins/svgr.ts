@@ -1,9 +1,9 @@
 // @ts-ignore
-import { transform as SVGTransform } from '@svgr/core';
 import {
   transform,
   TransformOptions,
-} from '@umijs/bundler-utils/compiled/esbuild';
+} from '@4399ywkf/bundler-utils/compiled/esbuild';
+import { transform as SVGTransform } from '@svgr/core';
 import fs from 'fs';
 import type { Plugin } from '../../compiled/vite';
 

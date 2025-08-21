@@ -1,4 +1,4 @@
-﻿import { winPath } from '@umijs/utils';
+﻿import { winPath } from '@4399ywkf/utils';
 import { existsSync } from 'fs';
 import { dirname, join } from 'path';
 import { TEMPLATES_DIR } from '../../constants';
@@ -23,7 +23,7 @@ export default (api: IApi) => {
       await api.applyPlugins({
         key: 'modifyRendererPath',
         initialValue: dirname(
-          require.resolve('@umijs/renderer-react/package.json'),
+          require.resolve('@4399ywkf/renderer-react/package.json'),
         ),
       }),
     );

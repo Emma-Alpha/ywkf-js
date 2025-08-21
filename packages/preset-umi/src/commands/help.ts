@@ -1,4 +1,4 @@
-import { chalk, lodash, logger } from '@umijs/utils';
+import { chalk, lodash, logger } from '@4399ywkf/utils';
 import { IApi } from '../types';
 
 export default (api: IApi) => {

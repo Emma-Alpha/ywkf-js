@@ -1,5 +1,5 @@
-import * as t from '@umijs/bundler-utils/compiled/babel/types';
-import { winPath } from '@umijs/utils';
+import * as t from '@4399ywkf/bundler-utils/compiled/babel/types';
+import { winPath } from '@4399ywkf/utils';
 import { dirname } from 'path';
 
 function addLastSlash(path: string) {

@@ -4,7 +4,7 @@
 // the individual compiled modules are as defined for the compilation in bundles/webpack/packages/*
 
 // @ts-ignore
-import deepImports from '@umijs/bundler-webpack/compiled/webpack/deepImports.json';
+import deepImports from '@4399ywkf/bundler-webpack/compiled/webpack/deepImports.json';
 import { join } from 'path';
 
 const PKG_ROOT = join(__dirname, '../');

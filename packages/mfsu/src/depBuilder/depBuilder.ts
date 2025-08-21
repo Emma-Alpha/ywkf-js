@@ -1,5 +1,5 @@
-import { build } from '@umijs/bundler-esbuild';
-import { fsExtra, lodash, logger } from '@umijs/utils';
+import { build } from '@4399ywkf/bundler-esbuild';
+import { fsExtra, lodash, logger } from '@4399ywkf/utils';
 import { writeFileSync } from 'fs';
 import { join } from 'path';
 import { MF_DEP_PREFIX, MF_VA_PREFIX, REMOTE_FILE_FULL } from '../constants';

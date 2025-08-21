@@ -1,5 +1,5 @@
-import { MFSU, MF_DEP_PREFIX } from '@umijs/mfsu';
-import { importLazy, logger, rimraf } from '@umijs/utils';
+import { MFSU, MF_DEP_PREFIX } from '@4399ywkf/mfsu';
+import { importLazy, logger, rimraf } from '@4399ywkf/utils';
 import { existsSync } from 'fs';
 import { join, resolve } from 'path';
 import type { Worker } from 'worker_threads';
@@ -177,10 +177,12 @@ export async function setup(opts: IOpts) {
 
   webpackConfig.resolve!.alias ||= {};
   // TODO: REMOVE ME
-  ['@umijs/utils/compiled/strip-ansi', 'react-error-overlay'].forEach((dep) => {
-    // @ts-ignore
-    webpackConfig.resolve!.alias[dep] = require.resolve(dep);
-  });
+  ['@4399ywkf/utils/compiled/strip-ansi', 'react-error-overlay'].forEach(
+    (dep) => {
+      // @ts-ignore
+      webpackConfig.resolve!.alias[dep] = require.resolve(dep);
+    },
+  );
   await mfsu?.setWebpackConfig({
     config: webpackConfig as any,
     depConfig: depConfig as any,

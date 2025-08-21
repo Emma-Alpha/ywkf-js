@@ -1,4 +1,4 @@
-import { winPath } from '@umijs/utils';
+import { winPath } from '@4399ywkf/utils';
 import { existsSync, lstatSync, readdirSync, statSync } from 'fs';
 import { extname, relative, resolve } from 'path';
 import { defineRoutes } from './defineRoutes';

@@ -1,4 +1,4 @@
-import type { PartialConfig } from '@umijs/bundler-utils/compiled/@babel/core';
+import type { PartialConfig } from '@4399ywkf/bundler-utils/compiled/@babel/core';
 import { parse } from 'querystring';
 
 export default function vueBabelLoaderCustomize() {

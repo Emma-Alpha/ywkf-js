@@ -1,7 +1,7 @@
 {
-  "name": "@umijs/preset-umi",
+  "name": "@4399ywkf/preset-umi",
   "version": "4.0.61",
-  "description": "@umijs/preset-umi",
+  "description": "@4399ywkf/preset-umi",
   "homepage": "https://github.com/umijs/umi/tree/master/packages/preset-umi#readme",
   "bugs": "https://github.com/umijs/umi/issues",
   "repository": {
@@ -25,22 +25,22 @@
     "test": "umi-scripts jest-turbo"
   },
   "dependencies": {
+    "@4399ywkf/ast": "workspace:*",
+    "@4399ywkf/babel-preset-umi": "workspace:*",
+    "@4399ywkf/bundler-utils": "workspace:*",
+    "@4399ywkf/bundler-vite": "workspace:*",
+    "@4399ywkf/bundler-webpack": "workspace:*",
+    "@4399ywkf/core": "workspace:*",
+    "@4399ywkf/did-you-know": "workspace:*",
+    "@4399ywkf/mfsu": "workspace:*",
+    "@4399ywkf/plugin-run": "workspace:*",
+    "@4399ywkf/renderer-react": "workspace:*",
+    "@4399ywkf/server": "workspace:*",
+    "@4399ywkf/utils": "workspace:*",
+    "@4399ywkf/zod2ts": "workspace:*",
     "@iconify/utils": "2.1.1",
     "@svgr/core": "6.5.1",
-    "@umijs/ast": "workspace:*",
-    "@umijs/babel-preset-umi": "workspace:*",
-    "@umijs/bundler-utils": "workspace:*",
-    "@umijs/bundler-vite": "workspace:*",
-    "@umijs/bundler-webpack": "workspace:*",
-    "@umijs/core": "workspace:*",
-    "@umijs/did-you-know": "workspace:*",
     "@umijs/history": "5.3.1",
-    "@umijs/mfsu": "workspace:*",
-    "@umijs/plugin-run": "workspace:*",
-    "@umijs/renderer-react": "workspace:*",
-    "@umijs/server": "workspace:*",
-    "@umijs/utils": "workspace:*",
-    "@umijs/zod2ts": "workspace:*",
     "babel-plugin-dynamic-import-node": "2.3.3",
     "click-to-react-component": "^1.0.8",
     "core-js": "3.28.0",
@@ -87,9 +87,9 @@
       "sirv"
     ],
     "externals": {
-      "prettier": "@umijs/utils/compiled/prettier",
-      "lodash": "@umijs/utils/compiled/lodash",
-      "glob": "@umijs/utils/compiled/glob"
+      "prettier": "@4399ywkf/utils/compiled/prettier",
+      "lodash": "@4399ywkf/utils/compiled/lodash",
+      "glob": "@4399ywkf/utils/compiled/glob"
     },
     "excludeDtsDeps": [
       "@manypkg/get-packages",

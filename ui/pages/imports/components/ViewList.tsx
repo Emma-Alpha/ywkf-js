@@ -1,4 +1,4 @@
-import type { Metafile } from '@umijs/bundler-utils/compiled/esbuild';
+import type { Metafile } from '@4399ywkf/bundler-utils/compiled/esbuild';
 import { Input, List, Switch } from 'antd';
 import VirtualList from 'rc-virtual-list';
 import { FC, useMemo, useState } from 'react';

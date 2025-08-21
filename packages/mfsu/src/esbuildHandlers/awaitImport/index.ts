@@ -1,4 +1,4 @@
-import type { ImportSpecifier } from '@umijs/bundler-utils/compiled/es-module-lexer';
+import type { ImportSpecifier } from '@4399ywkf/bundler-utils/compiled/es-module-lexer';
 import { checkMatch } from '../../babelPlugins/awaitImport/checkMatch';
 
 interface IParams {

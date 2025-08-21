@@ -1,5 +1,5 @@
-import { getMarkup } from '@umijs/server';
-import { lodash, logger, Mustache, winPath } from '@umijs/utils';
+import { getMarkup } from '@4399ywkf/server';
+import { lodash, logger, Mustache, winPath } from '@4399ywkf/utils';
 import assert from 'assert';
 import { dirname, join, relative } from 'path';
 import type { IApi, IRoute } from '../../types';

@@ -1,8 +1,11 @@
-import { isDepPath } from '@umijs/bundler-utils';
-import { init, parse } from '@umijs/bundler-utils/compiled/es-module-lexer';
-import { Loader, transformSync } from '@umijs/bundler-utils/compiled/esbuild';
-import type { Service } from '@umijs/core';
-import { pkgUp } from '@umijs/utils';
+import { isDepPath } from '@4399ywkf/bundler-utils';
+import { init, parse } from '@4399ywkf/bundler-utils/compiled/es-module-lexer';
+import {
+  Loader,
+  transformSync,
+} from '@4399ywkf/bundler-utils/compiled/esbuild';
+import type { Service } from '@4399ywkf/core';
+import { pkgUp } from '@4399ywkf/utils';
 import assert from 'assert';
 import enhancedResolve from 'enhanced-resolve';
 import { readFileSync } from 'fs';
@@ -127,7 +130,7 @@ export async function scan(opts: {
         const pkg = require(pkgPath);
         const entryResolved = await opts.resolver
           .resolve(dirname(pkgPath), '.')
-          // alias may resolve error (eg: dva from @umijs/plugins)
+          // alias may resolve error (eg: dva from @4399ywkf/plugins)
           // fallback to null for mark it as subpath usage
           .catch(() => null);
         const isSubpath = entryResolved !== resolved;

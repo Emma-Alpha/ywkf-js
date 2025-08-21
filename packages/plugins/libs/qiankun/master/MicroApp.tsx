@@ -133,7 +133,7 @@ export const MicroApp = forwardRef(
       if (!appConfig) {
         setComponentError(
           new Error(
-            `[@umijs/plugin-qiankun]: Can not find the configuration of ${name} app!`,
+            `[@4399ywkf/plugin-qiankun]: Can not find the configuration of ${name} app!`,
           ),
         );
       }
@@ -144,7 +144,10 @@ export const MicroApp = forwardRef(
     const stateForSlave = (useModel || noop)(
       qiankunStateForSlaveModelNamespace,
     );
-    const { entry, props: { settings: settingsFromConfig = {}, ...propsFromConfig } = {} } = appConfig || {};
+    const {
+      entry,
+      props: { settings: settingsFromConfig = {}, ...propsFromConfig } = {},
+    } = appConfig || {};
 
     useEffect(() => {
       setComponentError(null);
@@ -244,12 +247,12 @@ export const MicroApp = forwardRef(
               if (process.env.NODE_ENV === 'development') {
                 if (Date.now() - updatingTimestamp.current < 200) {
                   console.warn(
-                    `[@umijs/plugin-qiankun] It seems like microApp ${name} is updating too many times in a short time(200ms), you may need to do some optimization to avoid the unnecessary re-rendering.`,
+                    `[@4399ywkf/plugin-qiankun] It seems like microApp ${name} is updating too many times in a short time(200ms), you may need to do some optimization to avoid the unnecessary re-rendering.`,
                   );
                 }
 
                 console.info(
-                  `[@umijs/plugin-qiankun] MicroApp ${name} is updating with props: `,
+                  `[@4399ywkf/plugin-qiankun] MicroApp ${name} is updating with props: `,
                   props,
                 );
                 updatingTimestamp.current = Date.now();

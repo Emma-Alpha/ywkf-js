@@ -277,7 +277,7 @@ interface LessStatic {
     PluginManager: typeof Less.PluginManager;
 }
 
-declare module "@umijs/bundler-utils/compiled/less" {
+declare module "@4399ywkf/bundler-utils/compiled/less" {
     export = less;
 }
 

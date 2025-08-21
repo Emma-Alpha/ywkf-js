@@ -10,11 +10,11 @@ import { Tabbed, Message } from 'umi';
 
 <Tabbed>
 
-@umijs/max 项目
+@4399ywkf/max 项目
 
 ```ts
 // .umirc.ts
-import { defineConfig } from '@umijs/max';
+import { defineConfig } from '@4399ywkf/max';
 
 const shared = {
   react: {
@@ -63,7 +63,7 @@ const shared = {
 };
 
 export default defineConfig({
-  plugins: ['@umijs/plugins/dist/mf'], // 引入插件
+  plugins: ['@4399ywkf/plugins/dist/mf'], // 引入插件
   mf: {
     remotes: [
       {
@@ -185,7 +185,7 @@ safeMfImport(moduleSpecifier: string, fallback: any): Promise<any>
 结合 `React.lazy` 可以实现远端模块的懒加载
 
 ```ts
-import { safeMfImport } from '@umijs/max';
+import { safeMfImport } from '@4399ywkf/max';
 import React, { Suspense } from 'react';
 
 const RemoteCounter = React.lazy(() => {

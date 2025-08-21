@@ -6,8 +6,8 @@ test('get alias value: simple', () => {
     'react-dom': '/react-dom',
     preact: '/preact/',
     umi$: '/umi',
-    '@umijs/utils': '/utils',
-    '@umijs/deps': '/deps/',
+    '@4399ywkf/utils': '/utils',
+    '@4399ywkf/deps': '/deps/',
   } as const;
   const check = (v: string) => {
     return expect(getAliasValue({ alias, imported: v }));
@@ -26,11 +26,11 @@ test('get alias value: simple', () => {
   check('umi').toEqual('/umi');
   check('umi/subpath').toEqual(undefined);
 
-  check('@umijs/utils').toEqual('/utils');
-  check('@umijs/utils/subpath').toEqual('/utils/subpath');
+  check('@4399ywkf/utils').toEqual('/utils');
+  check('@4399ywkf/utils/subpath').toEqual('/utils/subpath');
 
-  check('@umijs/deps').toEqual('/deps/');
-  check('@umijs/deps/subpath').toEqual('/deps/subpath');
+  check('@4399ywkf/deps').toEqual('/deps/');
+  check('@4399ywkf/deps/subpath').toEqual('/deps/subpath');
 });
 
 test('get alias value: circle', () => {

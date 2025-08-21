@@ -1,5 +1,11 @@
-import { chalk, isLocalDev, isMonorepo, logger, resolve } from '@umijs/utils';
-import { pkgUp } from '@umijs/utils/compiled/pkg-up';
+import {
+  chalk,
+  isLocalDev,
+  isMonorepo,
+  logger,
+  resolve,
+} from '@4399ywkf/utils';
+import { pkgUp } from '@4399ywkf/utils/compiled/pkg-up';
 import assert from 'assert';
 import { existsSync, statSync } from 'fs';
 import { basename, dirname, join } from 'path';

@@ -1,4 +1,4 @@
-import cheerio from '@umijs/utils/compiled/cheerio';
+import cheerio from '@4399ywkf/utils/compiled/cheerio';
 import { IApi } from '../../types';
 
 export async function getMarkupArgs(opts: { api: IApi }) {

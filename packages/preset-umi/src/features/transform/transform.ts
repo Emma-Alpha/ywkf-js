@@ -1,10 +1,12 @@
-import { chalk, importLazy } from '@umijs/utils';
+import { chalk, importLazy } from '@4399ywkf/utils';
 import { IApi } from '../../types';
 import babelPlugin from './babelPlugin';
 import CodeFrameError from './CodeFrameError';
 
-const babelCodeFrame: typeof import('@umijs/bundler-utils/compiled/babel/code-frame') =
-  importLazy(require.resolve('@umijs/bundler-utils/compiled/babel/code-frame'));
+const babelCodeFrame: typeof import('@4399ywkf/bundler-utils/compiled/babel/code-frame') =
+  importLazy(
+    require.resolve('@4399ywkf/bundler-utils/compiled/babel/code-frame'),
+  );
 
 export default (api: IApi) => {
   api.addBeforeBabelPresets(() => {

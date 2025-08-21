@@ -1,4 +1,4 @@
-import { Service as CoreService } from '@umijs/core';
+import { Service as CoreService } from '@4399ywkf/core';
 import { existsSync } from 'fs';
 import { dirname, join } from 'path';
 import { DEFAULT_CONFIG_FILES, FRAMEWORK_NAME } from '../constants';
@@ -19,7 +19,10 @@ export class Service extends CoreService {
       cwd,
       defaultConfigFiles: opts?.defaultConfigFiles || DEFAULT_CONFIG_FILES,
       frameworkName: opts?.frameworkName || FRAMEWORK_NAME,
-      presets: [require.resolve('@umijs/preset-umi'), ...(opts?.presets || [])],
+      presets: [
+        require.resolve('@4399ywkf/preset-umi'),
+        ...(opts?.presets || []),
+      ],
       plugins: [
         existsSync(join(cwd, 'plugin.ts')) && join(cwd, 'plugin.ts'),
         existsSync(join(cwd, 'plugin.js')) && join(cwd, 'plugin.js'),

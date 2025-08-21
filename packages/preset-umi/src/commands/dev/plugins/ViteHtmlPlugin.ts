@@ -1,4 +1,4 @@
-import { getMarkup, IOpts } from '@umijs/server';
+import { getMarkup, IOpts } from '@4399ywkf/server';
 import type { Plugin } from 'vite';
 import { IApi } from '../../../types';
 import { getMarkupArgs } from '../getMarkupArgs';

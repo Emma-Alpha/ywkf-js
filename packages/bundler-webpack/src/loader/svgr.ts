@@ -4,8 +4,8 @@ import { Config, State, transform } from '@svgr/core';
 // @ts-ignore
 import jsx from '@svgr/plugin-jsx';
 // @ts-ignore
+import { transform as defaultEsbuildTransform } from '@4399ywkf/bundler-utils/compiled/esbuild';
 import svgo from '@svgr/plugin-svgo';
-import { transform as defaultEsbuildTransform } from '@umijs/bundler-utils/compiled/esbuild';
 import { normalize } from 'path';
 import { callbackify } from 'util';
 import type { LoaderContext } from '../../compiled/webpack';

@@ -1,4 +1,4 @@
-import { chalk } from '@umijs/utils';
+import { chalk } from '@4399ywkf/utils';
 import { IApi } from '../types';
 
 export default (api: IApi) => {
@@ -34,7 +34,7 @@ Did you mean:
             return console.info(
               `- ${plugin.id} ${chalk.greenBright('(from local)')}`,
             );
-          if (plugin.id.startsWith('@umijs/preset'))
+          if (plugin.id.startsWith('@4399ywkf/preset'))
             return console.info(
               `- ${plugin.id} ${chalk.cyanBright('(from preset)')}`,
             );

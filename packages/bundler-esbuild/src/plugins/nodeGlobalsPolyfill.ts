@@ -1,4 +1,4 @@
-import { Plugin } from '@umijs/bundler-utils/compiled/esbuild';
+import { Plugin } from '@4399ywkf/bundler-utils/compiled/esbuild';
 
 export function nodeGlobalsPolyfill(): Plugin {
   return {

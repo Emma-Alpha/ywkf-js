@@ -1,4 +1,4 @@
-import { logger, rimraf } from '@umijs/utils';
+import { logger, rimraf } from '@4399ywkf/utils';
 import type { IApi, IOnGenerateFiles } from '../types';
 
 export default (api: IApi) => {

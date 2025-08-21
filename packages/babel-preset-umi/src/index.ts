@@ -1,4 +1,4 @@
-import { getCorejsVersion } from '@umijs/utils';
+import { getCorejsVersion } from '@4399ywkf/utils';
 import { dirname, join } from 'path';
 import autoCSSModules from './plugins/autoCSSModules';
 import dynamicImportNode from './plugins/dynamicImportNode';
@@ -22,7 +22,7 @@ export default (_context: any, opts: IOpts) => {
   return {
     presets: [
       [
-        require.resolve('@umijs/bundler-utils/compiled/babel/preset-env'),
+        require.resolve('@4399ywkf/bundler-utils/compiled/babel/preset-env'),
         {
           bugfixes: true,
           // 更兼容 spec，但会变慢，所以不开
@@ -41,7 +41,7 @@ export default (_context: any, opts: IOpts) => {
         },
       ],
       [
-        require.resolve('@umijs/bundler-utils/compiled/babel/preset-react'),
+        require.resolve('@4399ywkf/bundler-utils/compiled/babel/preset-react'),
         {
           runtime: 'automatic',
           development: process.env.NODE_ENV === 'development',
@@ -50,7 +50,7 @@ export default (_context: any, opts: IOpts) => {
       ],
       [
         require.resolve(
-          '@umijs/bundler-utils/compiled/babel/preset-typescript',
+          '@4399ywkf/bundler-utils/compiled/babel/preset-typescript',
         ),
         {
           allowNamespaces: true,
@@ -76,7 +76,7 @@ export default (_context: any, opts: IOpts) => {
       // decorators
       [
         require.resolve(
-          '@umijs/bundler-utils/compiled/babel/plugin-proposal-decorators',
+          '@4399ywkf/bundler-utils/compiled/babel/plugin-proposal-decorators',
         ),
         { legacy: true },
       ],
@@ -93,13 +93,13 @@ export default (_context: any, opts: IOpts) => {
       // 不移动到 feature 里的原因是因为 decorators 有顺序要求
       opts.classPropertiesLoose && [
         require.resolve(
-          '@umijs/bundler-utils/compiled/babel/plugin-proposal-class-properties',
+          '@4399ywkf/bundler-utils/compiled/babel/plugin-proposal-class-properties',
         ),
         { loose: true },
       ],
       opts.classPropertiesLoose && [
         require.resolve(
-          '@umijs/bundler-utils/compiled/babel/plugin-proposal-private-methods',
+          '@4399ywkf/bundler-utils/compiled/babel/plugin-proposal-private-methods',
         ),
         {
           loose: true,
@@ -107,7 +107,7 @@ export default (_context: any, opts: IOpts) => {
       ],
       opts.classPropertiesLoose && [
         require.resolve(
-          '@umijs/bundler-utils/compiled/babel/plugin-proposal-private-property-in-object',
+          '@4399ywkf/bundler-utils/compiled/babel/plugin-proposal-private-property-in-object',
         ),
         {
           loose: true,
@@ -117,38 +117,38 @@ export default (_context: any, opts: IOpts) => {
       // do-expressions
       [
         require.resolve(
-          '@umijs/bundler-utils/compiled/babel/plugin-proposal-do-expressions',
+          '@4399ywkf/bundler-utils/compiled/babel/plugin-proposal-do-expressions',
         ),
       ],
       // export-default-from
       [
         require.resolve(
-          '@umijs/bundler-utils/compiled/babel/plugin-proposal-export-default-from',
+          '@4399ywkf/bundler-utils/compiled/babel/plugin-proposal-export-default-from',
         ),
       ],
       // export-namespace-from
       [
         require.resolve(
-          '@umijs/bundler-utils/compiled/babel/plugin-proposal-export-namespace-from',
+          '@4399ywkf/bundler-utils/compiled/babel/plugin-proposal-export-namespace-from',
         ),
       ],
       // function-bind
       [
         require.resolve(
-          '@umijs/bundler-utils/compiled/babel/plugin-proposal-function-bind',
+          '@4399ywkf/bundler-utils/compiled/babel/plugin-proposal-function-bind',
         ),
       ],
       // function-sent
       // partial-application
       [
         require.resolve(
-          '@umijs/bundler-utils/compiled/babel/plugin-proposal-partial-application',
+          '@4399ywkf/bundler-utils/compiled/babel/plugin-proposal-partial-application',
         ),
       ],
       // pipeline-operator
       [
         require.resolve(
-          '@umijs/bundler-utils/compiled/babel/plugin-proposal-pipeline-operator',
+          '@4399ywkf/bundler-utils/compiled/babel/plugin-proposal-pipeline-operator',
         ),
         { proposal: 'minimal' },
       ],
@@ -156,7 +156,7 @@ export default (_context: any, opts: IOpts) => {
       // record-and-tuple
       [
         require.resolve(
-          '@umijs/bundler-utils/compiled/babel/plugin-proposal-record-and-tuple',
+          '@4399ywkf/bundler-utils/compiled/babel/plugin-proposal-record-and-tuple',
         ),
         {
           syntaxType: 'hash',
@@ -168,7 +168,7 @@ export default (_context: any, opts: IOpts) => {
       ],
       opts.pluginTransformRuntime && [
         require.resolve(
-          '@umijs/bundler-utils/compiled/babel/plugin-transform-runtime',
+          '@4399ywkf/bundler-utils/compiled/babel/plugin-transform-runtime',
         ),
         {
           helpers: true,

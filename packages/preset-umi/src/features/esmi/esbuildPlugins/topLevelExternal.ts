@@ -1,4 +1,4 @@
-import { Plugin, PluginBuild } from '@umijs/bundler-utils/compiled/esbuild';
+import { Plugin, PluginBuild } from '@4399ywkf/bundler-utils/compiled/esbuild';
 import type { DepOptimizationOptions } from 'vite';
 import type { createResolver } from '../../../libs/scan';
 

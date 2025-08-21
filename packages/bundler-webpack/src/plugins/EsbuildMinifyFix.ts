@@ -1,4 +1,4 @@
-import { MagicString, remapping } from '@umijs/utils';
+import { MagicString, remapping } from '@4399ywkf/utils';
 import {
   Asset,
   Compilation,

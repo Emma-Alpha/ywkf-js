@@ -1,8 +1,8 @@
 import type {
-  Compiler,
   Compilation,
+  Compiler,
   RuntimeModule,
-} from '@umijs/bundler-webpack/compiled/webpack';
+} from '@4399ywkf/bundler-webpack/compiled/webpack';
 
 const PLUGIN_NAME = 'RuntimePublicPath';
 

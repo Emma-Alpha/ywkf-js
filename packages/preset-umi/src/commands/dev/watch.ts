@@ -1,4 +1,4 @@
-import { chokidar, winPath } from '@umijs/utils';
+import { chokidar, winPath } from '@4399ywkf/utils';
 
 const unWatches: Function[] = [];
 

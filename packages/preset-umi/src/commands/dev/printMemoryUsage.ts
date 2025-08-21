@@ -1,4 +1,4 @@
-import { logger } from '@umijs/utils';
+import { logger } from '@4399ywkf/utils';
 import process from 'process';
 
 export function printMemoryUsage() {

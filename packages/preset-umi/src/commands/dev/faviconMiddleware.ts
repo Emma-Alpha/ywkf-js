@@ -1,4 +1,4 @@
-import type { RequestHandler } from '@umijs/bundler-webpack';
+import type { RequestHandler } from '@4399ywkf/bundler-webpack';
 import { join } from 'path';
 
 export const faviconMiddleware: RequestHandler = (req, res, next) => {

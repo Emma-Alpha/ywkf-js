@@ -7,7 +7,7 @@ import { Message } from 'umi';
 在普通的 Umi 应用中，默认 **不附带任何插件** ，如需使用 Max 的功能（如 数据流、antd 等），需要手动安装插件并开启他们：
 
 ```bash
-  pnpm add -D @umijs/plugins
+  pnpm add -D @4399ywkf/plugins
 ```
 
 如开启 antd 插件：
@@ -15,12 +15,12 @@ import { Message } from 'umi';
 ```ts
 // .umirc.ts
 export default {
-  plugins: ['@umijs/plugins/dist/antd'],
+  plugins: ['@4399ywkf/plugins/dist/antd'],
   antd: {}
 }
 ```
 
-Umi 与 Max 的区别是 Max 已经内置了大部分插件，如 数据流（ `initial-state` 、 `model` ）、`antd` 等，这些插件都可以在 <a href="https://github.com/umijs/umi/tree/master/packages/plugins/src" target='_blank'>`@umijs/plugins/dist/*`</a> 加载并且开启。
+Umi 与 Max 的区别是 Max 已经内置了大部分插件，如 数据流（ `initial-state` 、 `model` ）、`antd` 等，这些插件都可以在 <a href="https://github.com/umijs/umi/tree/master/packages/plugins/src" target='_blank'>`@4399ywkf/plugins/dist/*`</a> 加载并且开启。
 
 如需进一步了解 Max 具备的功能和配置说明，请参阅 [Umi Max](../max/introduce) 章节。
 

@@ -1,6 +1,6 @@
+import { setNoDeprecation } from '@4399ywkf/utils';
 import type { Config } from '@jest/types';
 import { Path, TransformerConfig } from '@jest/types/build/Config';
-import { setNoDeprecation } from '@umijs/utils';
 import { join } from 'path';
 
 export type JSTransformer = 'esbuild' | 'swc' | 'ts-jest';

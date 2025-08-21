@@ -1,6 +1,6 @@
+import { fsExtra, logger, resolve } from '@4399ywkf/utils';
 import { searchForIcon } from '@iconify/utils/lib/loader/modern';
 import { IconifyLoaderOptions } from '@iconify/utils/lib/loader/types';
-import { fsExtra, logger, resolve } from '@umijs/utils';
 import assert from 'assert';
 import path from 'path';
 

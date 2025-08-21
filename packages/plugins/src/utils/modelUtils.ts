@@ -1,8 +1,11 @@
-import * as Babel from '@umijs/bundler-utils/compiled/babel/core';
-import * as parser from '@umijs/bundler-utils/compiled/babel/parser';
-import traverse from '@umijs/bundler-utils/compiled/babel/traverse';
-import * as t from '@umijs/bundler-utils/compiled/babel/types';
-import { Loader, transformSync } from '@umijs/bundler-utils/compiled/esbuild';
+import * as Babel from '@4399ywkf/bundler-utils/compiled/babel/core';
+import * as parser from '@4399ywkf/bundler-utils/compiled/babel/parser';
+import traverse from '@4399ywkf/bundler-utils/compiled/babel/traverse';
+import * as t from '@4399ywkf/bundler-utils/compiled/babel/types';
+import {
+  Loader,
+  transformSync,
+} from '@4399ywkf/bundler-utils/compiled/esbuild';
 import { readFileSync } from 'fs';
 import { basename, dirname, extname, format, join, relative } from 'path';
 import { IApi } from 'umi';

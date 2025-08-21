@@ -1,4 +1,4 @@
-import type { SourceLocation } from '@umijs/bundler-utils/compiled/babel/code-frame';
+import type { SourceLocation } from '@4399ywkf/bundler-utils/compiled/babel/code-frame';
 
 export default class CodeFrameError extends Error {
   location: SourceLocation;

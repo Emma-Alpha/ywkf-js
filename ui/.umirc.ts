@@ -1,8 +1,8 @@
 export default {
   plugins: [
-    '@umijs/plugins/dist/valtio',
-    '@umijs/plugins/dist/styled-components',
-    '@umijs/plugins/dist/react-query',
+    '@4399ywkf/plugins/dist/valtio',
+    '@4399ywkf/plugins/dist/styled-components',
+    '@4399ywkf/plugins/dist/react-query',
   ],
 
   styledComponents: {},

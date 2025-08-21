@@ -1,4 +1,4 @@
-import Config from '@umijs/bundler-webpack/compiled/webpack-5-chain';
+import Config from '@4399ywkf/bundler-webpack/compiled/webpack-5-chain';
 import { Env, IConfig } from '../types';
 
 interface IOpts {
@@ -18,10 +18,13 @@ export async function applyPurgeCSSWebpackPlugin(opts: IOpts) {
   if (userConfig.purgeCSS && env === Env.production) {
     config
       .plugin('purgecss-webpack-plugin')
-      .use(require('@umijs/bundler-webpack/compiled/purgecss-webpack-plugin'), [
-        {
-          paths: [],
-        },
-      ]);
+      .use(
+        require('@4399ywkf/bundler-webpack/compiled/purgecss-webpack-plugin'),
+        [
+          {
+            paths: [],
+          },
+        ],
+      );
   }
 }

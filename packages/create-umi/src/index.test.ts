@@ -1,4 +1,4 @@
-import { rimraf } from '@umijs/utils';
+import { rimraf } from '@4399ywkf/utils';
 import { existsSync } from 'fs';
 import { join } from 'path';
 import runGenerator, { type IDefaultData } from './index';

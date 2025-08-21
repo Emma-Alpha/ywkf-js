@@ -1,4 +1,4 @@
-import { importLazy, logger, winPath } from '@umijs/utils';
+import { importLazy, logger, winPath } from '@4399ywkf/utils';
 import { extname } from 'path';
 import { init, parse } from '../compiled/es-module-lexer';
 import { Loader, transformSync } from '../compiled/esbuild';

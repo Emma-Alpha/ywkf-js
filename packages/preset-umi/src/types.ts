@@ -1,13 +1,17 @@
 // sort-object-keys
-import type { ImportDeclaration } from '@umijs/bundler-utils/compiled/@babel/types';
+import type { ImportDeclaration } from '@4399ywkf/bundler-utils/compiled/@babel/types';
 import type {
   BuildResult as ESBuildBuildResult,
   Plugin as ESBuildPlugin,
-} from '@umijs/bundler-utils/compiled/esbuild';
-import type { Express, RequestHandler, webpack } from '@umijs/bundler-webpack';
-import type WebpackChain from '@umijs/bundler-webpack/compiled/webpack-5-chain';
-import { createWebSocketServer } from '@umijs/bundler-webpack/dist/server/ws';
-import type { IConfig } from '@umijs/bundler-webpack/dist/types';
+} from '@4399ywkf/bundler-utils/compiled/esbuild';
+import type {
+  Express,
+  RequestHandler,
+  webpack,
+} from '@4399ywkf/bundler-webpack';
+import type WebpackChain from '@4399ywkf/bundler-webpack/compiled/webpack-5-chain';
+import { createWebSocketServer } from '@4399ywkf/bundler-webpack/dist/server/ws';
+import type { IConfig } from '@4399ywkf/bundler-webpack/dist/types';
 import type {
   IAdd,
   IEvent,
@@ -15,10 +19,10 @@ import type {
   IRoute as ICoreRoute,
   IServicePluginAPI,
   PluginAPI,
-} from '@umijs/core';
-import { Env } from '@umijs/core';
-import type { getMarkup } from '@umijs/server';
-import type { CheerioAPI } from '@umijs/utils/compiled/cheerio';
+} from '@4399ywkf/core';
+import { Env } from '@4399ywkf/core';
+import type { getMarkup } from '@4399ywkf/server';
+import type { CheerioAPI } from '@4399ywkf/utils/compiled/cheerio';
 import type { InlineConfig as ViteInlineConfig } from 'vite';
 import type { getMarkupArgs } from './commands/dev/getMarkupArgs';
 import type { IOnDemandInstallDep } from './features/depsOnDemand/depsOnDemand';

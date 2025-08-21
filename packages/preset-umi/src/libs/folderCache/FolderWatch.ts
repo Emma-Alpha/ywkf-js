@@ -1,6 +1,6 @@
-import { chokidar } from '@umijs/utils';
+import { chokidar } from '@4399ywkf/utils';
 import { join } from 'path';
-import type { FileChangeEvent, Event } from './types';
+import type { Event, FileChangeEvent } from './types';
 
 const { watch } = chokidar;
 type FSWatcher = ReturnType<typeof watch>;

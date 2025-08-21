@@ -1,6 +1,6 @@
-import { Configuration, util as webpackUtil } from 'webpack';
-import { lodash } from '@umijs/utils';
+import { lodash } from '@4399ywkf/utils';
 import enhancedResolve from 'enhanced-resolve';
+import { Configuration, util as webpackUtil } from 'webpack';
 
 const { property, compact, flatMap } = lodash;
 

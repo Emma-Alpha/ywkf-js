@@ -1,11 +1,11 @@
-import { DEFAULT_BROWSER_TARGETS } from '@umijs/bundler-webpack/dist/constants';
-import { getCorejsVersion, importLazy, winPath } from '@umijs/utils';
+import { DEFAULT_BROWSER_TARGETS } from '@4399ywkf/bundler-webpack/dist/constants';
+import { getCorejsVersion, importLazy, winPath } from '@4399ywkf/utils';
 import { dirname, join } from 'path';
 import { IApi } from '../../types';
 
 export default (api: IApi) => {
-  const babelCore: typeof import('@umijs/bundler-utils/compiled/babel/core') =
-    importLazy(require.resolve('@umijs/bundler-utils/compiled/babel/core'));
+  const babelCore: typeof import('@4399ywkf/bundler-utils/compiled/babel/core') =
+    importLazy(require.resolve('@4399ywkf/bundler-utils/compiled/babel/core'));
 
   api.describe({
     key: 'polyfill',
@@ -38,7 +38,9 @@ export {};
         filename: 'polyfill.ts',
         presets: [
           [
-            require.resolve('@umijs/bundler-utils/compiled/babel/preset-env'),
+            require.resolve(
+              '@4399ywkf/bundler-utils/compiled/babel/preset-env',
+            ),
             {
               useBuiltIns: 'entry',
               corejs: getCorejsVersion(
@@ -51,7 +53,7 @@ export {};
           ],
         ],
         plugins: [
-          require.resolve('@umijs/babel-preset-umi/dist/plugins/lockCoreJS'),
+          require.resolve('@4399ywkf/babel-preset-umi/dist/plugins/lockCoreJS'),
         ],
         babelrc: false,
         configFile: false,

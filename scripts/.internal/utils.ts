@@ -1,5 +1,5 @@
-import spawn from '@umijs/utils/compiled/cross-spawn';
-import * as logger from '@umijs/utils/src/logger';
+import spawn from '@4399ywkf/utils/compiled/cross-spawn';
+import * as logger from '@4399ywkf/utils/src/logger';
 import type { SpawnSyncOptions } from 'child_process';
 import { existsSync, readdirSync, readFileSync, writeFileSync } from 'fs';
 import { join } from 'path';

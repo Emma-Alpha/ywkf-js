@@ -13,6 +13,6 @@
   },
   "devDependencies": {
     "typescript": "^4.1.2",
-    "@umijs/preset-vue": "{{{ version }}}"
+    "@4399ywkf/preset-vue": "{{{ version }}}"
   }
 }

@@ -1,4 +1,4 @@
-import esbuild from '@umijs/bundler-utils/compiled/esbuild';
+import esbuild from '@4399ywkf/bundler-utils/compiled/esbuild';
 import { join, resolve } from 'path';
 import type { IApi, IRoute } from '../../../types';
 import { OUTPUT_PATH } from '../constants';

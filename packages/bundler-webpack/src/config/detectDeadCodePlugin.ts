@@ -1,6 +1,9 @@
-import { InnerCallback } from '@umijs/bundler-utils/compiled/tapable';
-import { Compilation, Compiler } from '@umijs/bundler-webpack/compiled/webpack';
-import Config from '@umijs/bundler-webpack/compiled/webpack-5-chain';
+import { InnerCallback } from '@4399ywkf/bundler-utils/compiled/tapable';
+import {
+  Compilation,
+  Compiler,
+} from '@4399ywkf/bundler-webpack/compiled/webpack';
+import Config from '@4399ywkf/bundler-webpack/compiled/webpack-5-chain';
 import { DeadCodeParams, Env, IConfig } from '../types';
 import detectDeadcode, { Options } from './detectDeadCode';
 

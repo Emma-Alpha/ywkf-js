@@ -1,5 +1,5 @@
-import { getMarkup } from '@umijs/server';
-import { chalk, fsExtra, logger, rimraf } from '@umijs/utils';
+import { getMarkup } from '@4399ywkf/server';
+import { chalk, fsExtra, logger, rimraf } from '@4399ywkf/utils';
 import { writeFileSync } from 'fs';
 import { dirname, join, resolve } from 'path';
 import type { IApi, IOnGenerateFiles } from '../types';
@@ -13,10 +13,10 @@ import { getBabelOpts } from './dev/getBabelOpts';
 import { getMarkupArgs } from './dev/getMarkupArgs';
 import { printMemoryUsage } from './dev/printMemoryUsage';
 
-const bundlerWebpack: typeof import('@umijs/bundler-webpack') =
-  lazyImportFromCurrentPkg('@umijs/bundler-webpack');
-const bundlerVite: typeof import('@umijs/bundler-vite') =
-  lazyImportFromCurrentPkg('@umijs/bundler-vite');
+const bundlerWebpack: typeof import('@4399ywkf/bundler-webpack') =
+  lazyImportFromCurrentPkg('@4399ywkf/bundler-webpack');
+const bundlerVite: typeof import('@4399ywkf/bundler-vite') =
+  lazyImportFromCurrentPkg('@4399ywkf/bundler-vite');
 
 export default (api: IApi) => {
   api.registerCommand({

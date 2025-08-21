@@ -1,4 +1,4 @@
-import { GeneratorType } from '@umijs/core';
+import { GeneratorType } from '@4399ywkf/core';
 import { join } from 'path';
 import { TEMPLATES_DIR } from '../../constants';
 import { IApi } from '../../types';

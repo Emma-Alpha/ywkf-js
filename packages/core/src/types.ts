@@ -1,5 +1,5 @@
-import joi from '@umijs/utils/compiled/@hapi/joi';
-import zod, { z } from '@umijs/utils/compiled/zod';
+import joi from '@4399ywkf/utils/compiled/@hapi/joi';
+import zod, { z } from '@4399ywkf/utils/compiled/zod';
 
 export enum Env {
   development = 'development',

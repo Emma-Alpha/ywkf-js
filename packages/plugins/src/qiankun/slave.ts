@@ -2,13 +2,13 @@ import {
   NextFunction,
   Request,
   Response,
-} from '@umijs/bundler-utils/compiled/express';
+} from '@4399ywkf/bundler-utils/compiled/express';
 import {
   createProxyMiddleware,
   // @ts-ignore 现在打包好的 http-proxy-middleware 有导出 responseInterceptor，但没有导出声明
   responseInterceptor,
-} from '@umijs/bundler-utils/compiled/http-proxy-middleware';
-import { cheerio } from '@umijs/utils';
+} from '@4399ywkf/bundler-utils/compiled/http-proxy-middleware';
+import { cheerio } from '@4399ywkf/utils';
 import assert from 'assert';
 import { readFileSync } from 'fs';
 import { dirname, join } from 'path';
@@ -35,7 +35,7 @@ function handleOriginalHtml(
   const appName = api.pkg.name;
   assert(
     appName,
-    '[@umijs/plugin-qiankun]: You should have name in package.json',
+    '[@4399ywkf/plugin-qiankun]: You should have name in package.json',
   );
   const $ = cheerio.load(originalHtml);
 
@@ -336,7 +336,7 @@ export { MicroAppLink } from './MicroAppLink';
                       encodeURIComponent(goto),
                     ) || masterEntry;
 
-                  const redirectMessage = `[@umijs/plugin-qiankun]: redirect to ${redirectUrl}`;
+                  const redirectMessage = `[@4399ywkf/plugin-qiankun]: redirect to ${redirectUrl}`;
 
                   api.logger.info(redirectMessage);
                   res.statusCode = 302;
@@ -359,7 +359,7 @@ export { MicroAppLink } from './MicroAppLink';
               api.logger.error(err);
               res.set('content-type', 'text/plain; charset=UTF-8');
               res.end(
-                `[@umijs/plugin-qiankun] 代理到 ${masterEntry} 时出错了，请尝试 ${masterEntry} 是否是可以正常访问的，然后重新启动项目试试。(注意如果出现跨域问题，请修改本地 host ，通过一个和主应用相同的一级域名的域名来访问 127.0.0.1)`,
+                `[@4399ywkf/plugin-qiankun] 代理到 ${masterEntry} 时出错了，请尝试 ${masterEntry} 是否是可以正常访问的，然后重新启动项目试试。(注意如果出现跨域问题，请修改本地 host ，通过一个和主应用相同的一级域名的域名来访问 127.0.0.1)`,
               );
             },
           },

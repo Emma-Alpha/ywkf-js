@@ -1,4 +1,4 @@
-import { winPath } from '@umijs/utils';
+import { winPath } from '@4399ywkf/utils';
 import { dirname } from 'path';
 import { IApi } from 'umi';
 
@@ -19,7 +19,7 @@ export default (api: IApi) => {
   });
 
   const libPath = winPath(
-    dirname(require.resolve('@umijs/valtio/package.json')),
+    dirname(require.resolve('@4399ywkf/valtio/package.json')),
   );
 
   api.onGenerateFiles(() => {
@@ -48,7 +48,7 @@ export {
   api.modifyConfig((memo) => {
     memo.alias = {
       ...memo.alias,
-      '@umijs/valtio': libPath,
+      '@4399ywkf/valtio': libPath,
     };
     return memo;
   });

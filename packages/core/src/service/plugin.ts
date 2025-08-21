@@ -1,5 +1,5 @@
-import esbuild from '@umijs/bundler-utils/compiled/esbuild';
-import { lodash, pkgUp, register, resolve, winPath } from '@umijs/utils';
+import esbuild from '@4399ywkf/bundler-utils/compiled/esbuild';
+import { lodash, pkgUp, register, resolve, winPath } from '@4399ywkf/utils';
 import assert from 'assert';
 import { existsSync } from 'fs';
 import { basename, dirname, extname, join, relative } from 'path';
@@ -106,7 +106,7 @@ export class Plugin {
     } else {
       id = winPath(this.path);
     }
-    id = id.replace('@umijs/preset-umi/lib/plugins', '@@');
+    id = id.replace('@4399ywkf/preset-umi/lib/plugins', '@@');
     id = id.replace(/\.js$/, '');
     return id;
   }
@@ -134,7 +134,7 @@ export class Plugin {
   }
 
   static stripNoneUmiScope(name: string) {
-    if (name.charAt(0) === '@' && !name.startsWith('@umijs/')) {
+    if (name.charAt(0) === '@' && !name.startsWith('@4399ywkf/')) {
       name = name.split('/')[1];
     }
     return name;

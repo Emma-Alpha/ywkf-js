@@ -59,7 +59,7 @@ export default (api: IApi) => {
   });
 
   api.modifyRendererPath(() =>
-    dirname(require.resolve('@umijs/renderer-vue/package.json')),
+    dirname(require.resolve('@4399ywkf/renderer-vue/package.json')),
   );
 
   api.modifyBabelPresetOpts((memo) => {

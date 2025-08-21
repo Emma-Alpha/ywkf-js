@@ -1,10 +1,10 @@
 # styled-components
 
-@umijs/max 内置了 [styled-components](https://styled-components.com/) 样式方案。
+@4399ywkf/max 内置了 [styled-components](https://styled-components.com/) 样式方案。
 
 ## 启用方式
 
-如果是 @umijs/max，配置开启。
+如果是 @4399ywkf/max，配置开启。
 
 ```ts {2}
 export default {
@@ -12,15 +12,15 @@ export default {
 }
 ```
 
-如果是 umi，先安装 `@umijs/plugins` 依赖，再通过配置开启。
+如果是 umi，先安装 `@4399ywkf/plugins` 依赖，再通过配置开启。
 
 ```bash
-$ pnpm i @umijs/plugins -D
+$ pnpm i @4399ywkf/plugins -D
 ```
 
 ```ts
 export default {
-  plugins: ['@umijs/plugins/dist/styled-components'],
+  plugins: ['@4399ywkf/plugins/dist/styled-components'],
   styledComponents: {},
 }
 ```
@@ -29,7 +29,7 @@ export default {
 
 插件帮你做了几件事，
 
-1、大部分 styled-components 的导出可以从 `umi` 或 `@umijs/max` 里 import 使用。
+1、大部分 styled-components 的导出可以从 `umi` 或 `@4399ywkf/max` 里 import 使用。
 
 2、支持通过配置的方式开启 styled-components 的 babel 插件，仅 dev 模式有效。
 

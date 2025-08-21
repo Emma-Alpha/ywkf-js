@@ -1,4 +1,4 @@
-import type { RequestHandler } from '@umijs/bundler-webpack';
+import type { RequestHandler } from '@4399ywkf/bundler-webpack';
 import {
   address,
   chalk,
@@ -7,7 +7,7 @@ import {
   portfinder,
   rimraf,
   winPath,
-} from '@umijs/utils';
+} from '@4399ywkf/utils';
 import { existsSync, readdirSync, readFileSync } from 'fs';
 import { basename, join } from 'path';
 import { Worker } from 'worker_threads';
@@ -30,16 +30,16 @@ import {
   watch,
 } from './watch';
 
-const bundlerWebpack: typeof import('@umijs/bundler-webpack') =
-  lazyImportFromCurrentPkg('@umijs/bundler-webpack');
-const bundlerVite: typeof import('@umijs/bundler-vite') =
-  lazyImportFromCurrentPkg('@umijs/bundler-vite');
+const bundlerWebpack: typeof import('@4399ywkf/bundler-webpack') =
+  lazyImportFromCurrentPkg('@4399ywkf/bundler-webpack');
+const bundlerVite: typeof import('@4399ywkf/bundler-vite') =
+  lazyImportFromCurrentPkg('@4399ywkf/bundler-vite');
 
 const MFSU_EAGER_DEFAULT_INCLUDE = [
   'react',
   'react-error-overlay',
   'react/jsx-dev-runtime',
-  '@umijs/utils/compiled/strip-ansi',
+  '@4399ywkf/utils/compiled/strip-ansi',
 ];
 
 export default (api: IApi) => {

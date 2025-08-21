@@ -1,5 +1,5 @@
-import { GeneratorType } from '@umijs/core';
-import { logger, semver } from '@umijs/utils';
+import { GeneratorType } from '@4399ywkf/core';
+import { logger, semver } from '@4399ywkf/utils';
 import { existsSync, writeFileSync } from 'fs';
 import { join } from 'path';
 import { IApi } from '../../types';
@@ -139,7 +139,7 @@ function getJestVersion() {
     const umiPkg = require.resolve('umi/package.json', {
       paths: [process.cwd()],
     });
-    const testPkg = require.resolve('@umijs/test/package.json', {
+    const testPkg = require.resolve('@4399ywkf/test/package.json', {
       paths: [umiPkg],
     });
     const version: string = require(testPkg).devDependencies.jest;

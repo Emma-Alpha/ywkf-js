@@ -1,4 +1,4 @@
-import type { HttpsServerOptions, ProxyOptions } from '@umijs/bundler-utils';
+import type { HttpsServerOptions, ProxyOptions } from '@4399ywkf/bundler-utils';
 import type { PluginVisualizerOptions } from 'rollup-plugin-visualizer';
 import type { Plugin } from '../compiled/vite';
 

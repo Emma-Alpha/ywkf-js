@@ -1,4 +1,4 @@
-import { cheerio, fsExtra } from '@umijs/utils';
+import { cheerio, fsExtra } from '@4399ywkf/utils';
 import fs from 'fs';
 import path from 'path';
 import { build as viteBuilder, mergeConfig } from '../compiled/vite';

@@ -1,9 +1,9 @@
 import type {
-  Compiler,
   Compilation,
+  Compiler,
   NormalModule,
-} from '@umijs/bundler-webpack/compiled/webpack';
-import Config from '@umijs/bundler-webpack/compiled/webpack-5-chain';
+} from '@4399ywkf/bundler-webpack/compiled/webpack';
+import Config from '@4399ywkf/bundler-webpack/compiled/webpack-5-chain';
 
 interface IOpts {
   config: Config;

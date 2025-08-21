@@ -1,4 +1,4 @@
-import { winPath } from '@umijs/utils';
+import { winPath } from '@4399ywkf/utils';
 import { extname } from 'path';
 
 export function createRouteId(file: string) {

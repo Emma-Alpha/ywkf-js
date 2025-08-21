@@ -1,12 +1,12 @@
-import { prompts, fsExtra, generateFile } from '@umijs/utils';
+import { fsExtra, generateFile, prompts } from '@4399ywkf/utils';
 import { existsSync } from 'fs';
 import { join } from 'path';
 import rimraf from 'rimraf';
 import { TEMPLATES_DIR } from '../../constants';
 import { ETempDir, processGenerateFiles, tryEject } from './utils';
 
-jest.mock('@umijs/utils', () => {
-  let originalModule = jest.requireActual('@umijs/utils');
+jest.mock('@4399ywkf/utils', () => {
+  let originalModule = jest.requireActual('@4399ywkf/utils');
 
   return {
     __esModule: true,

@@ -1,7 +1,7 @@
-# @umijs/codemod
+# @4399ywkf/codemod
 
 ## Usage
 
 ```bash
-$ pnpm dlx @umijs/codemod@latest
+$ pnpm dlx @4399ywkf/codemod@latest
 ```

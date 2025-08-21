@@ -1,4 +1,4 @@
-import { logger } from '@umijs/utils';
+import { logger } from '@4399ywkf/utils';
 import path from 'path';
 import { watch } from '../../commands/dev/watch';
 import { IApi } from '../../types';

@@ -1,5 +1,5 @@
 /**
- * rules migrate from @umijs/fabric/dist/stylelint.js
+ * rules migrate from @4399ywkf/fabric/dist/stylelint.js
  * @see https://github.com/umijs/fabric/blob/master/src/stylelint.ts
  */
 module.exports = {

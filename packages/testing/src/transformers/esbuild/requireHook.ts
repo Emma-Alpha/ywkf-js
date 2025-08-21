@@ -1,7 +1,10 @@
 const mod = require('module');
 
 const hookPropertyMap = new Map([
-  ['@babel/core', require.resolve('@umijs/bundler-utils/compiled/babel/core')],
+  [
+    '@babel/core',
+    require.resolve('@4399ywkf/bundler-utils/compiled/babel/core'),
+  ],
 ]);
 
 const resolveFilename = mod._resolveFilename;

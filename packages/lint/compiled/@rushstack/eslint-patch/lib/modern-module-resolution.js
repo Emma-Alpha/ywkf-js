@@ -10,12 +10,12 @@
 const path = require('path');
 const fs = require('fs');
 const isModuleResolutionError = (ex) => typeof ex === 'object' && !!ex && 'code' in ex && ex.code === 'MODULE_NOT_FOUND';
-// ==== @umijs/lint fork start ====
+// ==== @4399ywkf/lint fork start ====
 const getBuiltinPluginResolvePath = (pkg) => (
-  require('@umijs/lint/package.json').dependencies[pkg] &&
-  require.resolve('@umijs/lint/package.json')
+  require('@4399ywkf/lint/package.json').dependencies[pkg] &&
+  require.resolve('@4399ywkf/lint/package.json')
 );
-// ==== @umijs/lint fork end ====
+// ==== @4399ywkf/lint fork end ====
 // Module path for eslintrc.cjs
 // Example: ".../@eslint/eslintrc/dist/eslintrc.cjs"
 let eslintrcBundlePath = undefined;

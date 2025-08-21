@@ -1,5 +1,5 @@
-import * as Babel from '@umijs/bundler-utils/compiled/babel/core';
-import * as t from '@umijs/bundler-utils/compiled/babel/types';
+import * as Babel from '@4399ywkf/bundler-utils/compiled/babel/core';
+import * as t from '@4399ywkf/bundler-utils/compiled/babel/types';
 
 export default (): Babel.PluginObj => {
   return {

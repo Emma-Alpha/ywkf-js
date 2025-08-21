@@ -1,8 +1,8 @@
-import { init, parse } from '@umijs/bundler-utils/compiled/es-module-lexer';
+import { init, parse } from '@4399ywkf/bundler-utils/compiled/es-module-lexer';
 import {
   Loader as EsbuildLoader,
   transform as transformInternal,
-} from '@umijs/bundler-utils/compiled/esbuild';
+} from '@4399ywkf/bundler-utils/compiled/esbuild';
 import { extname } from 'path';
 import type { LoaderContext } from 'webpack';
 import type { IEsbuildLoaderOpts } from '../types';

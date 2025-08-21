@@ -1,5 +1,5 @@
-import type { BuildResult } from '@umijs/bundler-utils/compiled/esbuild';
-import { aliasUtils, lodash, logger } from '@umijs/utils';
+import type { BuildResult } from '@4399ywkf/bundler-utils/compiled/esbuild';
+import { aliasUtils, lodash, logger } from '@4399ywkf/utils';
 import path from 'path';
 import { addUnWatch } from '../../commands/dev/watch';
 import { IApi, IOnGenerateFiles } from '../../types';

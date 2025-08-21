@@ -1,4 +1,4 @@
-import { yParser } from '@umijs/utils';
+import { yParser } from '@4399ywkf/utils';
 import kleur from 'kleur';
 import { join } from 'path';
 import { Checker } from './checker';

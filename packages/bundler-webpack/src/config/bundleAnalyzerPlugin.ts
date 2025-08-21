@@ -1,6 +1,6 @@
-import Config from '@umijs/bundler-webpack/compiled/webpack-5-chain';
+import Config from '@4399ywkf/bundler-webpack/compiled/webpack-5-chain';
 // @ts-ignore
-import { BundleAnalyzerPlugin } from '@umijs/bundler-webpack/compiled/webpack-bundle-analyzer';
+import { BundleAnalyzerPlugin } from '@4399ywkf/bundler-webpack/compiled/webpack-bundle-analyzer';
 import { Env, IConfig } from '../types';
 
 interface IOpts {

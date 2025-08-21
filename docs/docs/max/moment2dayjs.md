@@ -24,7 +24,7 @@ Umi 项目
 
 ```ts
 // .umirc.ts
-plugins: [ '@umijs/plugins/dist/moment2dayjs' ],
+plugins: [ '@4399ywkf/plugins/dist/moment2dayjs' ],
 moment2dayjs: {
   preset: 'antd' ,
   plugins: ['duration'],

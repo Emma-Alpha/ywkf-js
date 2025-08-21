@@ -1,2 +1,2 @@
-import e = require('@umijs/bundler-utils/compiled/express');
+import e = require('@4399ywkf/bundler-utils/compiled/express');
 export = e;

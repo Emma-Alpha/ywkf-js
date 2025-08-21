@@ -1,5 +1,5 @@
 {
-  "name": "@umijs/bundler-utils",
+  "name": "@4399ywkf/bundler-utils",
   "version": "4.0.61",
   "homepage": "https://github.com/umijs/umi/tree/master/packages/bundler-utils#readme",
   "bugs": "https://github.com/umijs/umi/issues",
@@ -20,7 +20,7 @@
     "dev": "umi-scripts father dev"
   },
   "dependencies": {
-    "@umijs/utils": "workspace:*",
+    "@4399ywkf/utils": "workspace:*",
     "esbuild": "0.16.17",
     "regenerate": "^1.4.2",
     "regenerate-unicode-properties": "10.1.0",
@@ -86,7 +86,7 @@
     ],
     "externals": {
       "cjs-module-lexer": "$$LOCAL",
-      "debug": "@umijs/utils/compiled/debug",
+      "debug": "@4399ywkf/utils/compiled/debug",
       "esbuild": "$$LOCAL",
       "es-module-lexer": "$$LOCAL",
       "express": "$$LOCAL",

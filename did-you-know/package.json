@@ -1,5 +1,5 @@
 {
-  "name": "@umijs/did-you-know",
+  "name": "@4399ywkf/did-you-know",
   "version": "1.0.3",
   "description": "",
   "keywords": [],
@@ -38,7 +38,7 @@
       "url": "https://zhuanlan.zhihu.com/p/558192063"
     },
     {
-      "text": "@umijs/max 是蚂蚁内网框架 Bigfish 的对外版本"
+      "text": "@4399ywkf/max 是蚂蚁内网框架 Bigfish 的对外版本"
     },
     {
       "text": "Umi 3 的 MFSU 可能会遇到奇怪的问题，升级到 Umi 4 后就没了",
@@ -164,12 +164,12 @@
       "majorVersion": 4
     },
     {
-      "text": "@umijs/max 和 umi 如何选择？max 内置了很多好用的插件，即开即用，而 umi 也可以手动配置插件，独立使用",
+      "text": "@4399ywkf/max 和 umi 如何选择？max 内置了很多好用的插件，即开即用，而 umi 也可以手动配置插件，独立使用",
       "url": "https://umijs.org/docs/guides/use-plugins",
       "majorVersion": 4,
       "framework": [
         "umi",
-        "@umijs/max"
+        "@4399ywkf/max"
       ]
     },
     {

@@ -7675,7 +7675,7 @@ module.exports = webpackEmptyContext;
 /***/ (function(module) {
 
 "use strict";
-module.exports = require("@umijs/bundler-webpack/compiled/webpack-sources");
+module.exports = require("@4399ywkf/bundler-webpack/compiled/webpack-sources");
 
 /***/ }),
 

@@ -1,4 +1,4 @@
-import { isLocalDev, logger } from '@umijs/utils';
+import { isLocalDev, logger } from '@4399ywkf/utils';
 import { FRAMEWORK_NAME, MIN_NODE_VERSION } from '../constants';
 
 const ver = parseInt(process.version.slice(1));

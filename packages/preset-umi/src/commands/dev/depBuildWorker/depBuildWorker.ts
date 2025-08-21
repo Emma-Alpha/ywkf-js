@@ -1,8 +1,8 @@
-import { getConfig } from '@umijs/bundler-webpack';
-import { MFSU_NAME } from '@umijs/bundler-webpack/dist/constants';
-import { Env } from '@umijs/bundler-webpack/dist/types';
-import { DEFAULT_MF_NAME, MF_DEP_PREFIX } from '@umijs/mfsu';
-import { logger, setNoDeprecation } from '@umijs/utils';
+import { getConfig } from '@4399ywkf/bundler-webpack';
+import { MFSU_NAME } from '@4399ywkf/bundler-webpack/dist/constants';
+import { Env } from '@4399ywkf/bundler-webpack/dist/types';
+import { DEFAULT_MF_NAME, MF_DEP_PREFIX } from '@4399ywkf/mfsu';
+import { logger, setNoDeprecation } from '@4399ywkf/utils';
 import { dirname, join, resolve } from 'path';
 import { isMainThread, parentPort } from 'worker_threads';
 import { DepBuilderInWorker } from './depBuilder';
@@ -16,7 +16,9 @@ if (isMainThread) {
 setNoDeprecation();
 setupWorkerEnv();
 
-const bundlerWebpackPath = dirname(require.resolve('@umijs/bundler-webpack'));
+const bundlerWebpackPath = dirname(
+  require.resolve('@4399ywkf/bundler-webpack'),
+);
 
 const bufferedRequest: any = [];
 
@@ -79,12 +81,14 @@ async function start() {
 
   // TODO: REMOVE ME
   depConfig.resolve!.alias ||= {};
-  ['@umijs/utils/compiled/strip-ansi', 'react-error-overlay'].forEach((dep) => {
-    // @ts-ignore
-    depConfig.resolve.alias[dep] = require.resolve(dep, {
-      paths: [bundlerWebpackPath],
-    });
-  });
+  ['@4399ywkf/utils/compiled/strip-ansi', 'react-error-overlay'].forEach(
+    (dep) => {
+      // @ts-ignore
+      depConfig.resolve.alias[dep] = require.resolve(dep, {
+        paths: [bundlerWebpackPath],
+      });
+    },
+  );
 
   const depEsBuildConfig = {
     extraPostCSSPlugins: opts.config?.extraPostCSSPlugins || [],

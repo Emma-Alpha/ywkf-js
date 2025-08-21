@@ -1,4 +1,4 @@
-import { importLazy } from '@umijs/utils';
+import { importLazy } from '@4399ywkf/utils';
 import { dirname } from 'path';
 
 /**

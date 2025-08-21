@@ -1,1 +1,1 @@
-export * from '@umijs/utils/compiled/fs-extra';
+export * from '@4399ywkf/utils/compiled/fs-extra';

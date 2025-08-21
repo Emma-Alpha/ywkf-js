@@ -10,7 +10,7 @@ import {
   rimraf,
   tsconfigPaths,
   winPath,
-} from '@umijs/utils';
+} from '@4399ywkf/utils';
 import type { MadgeConfig, MadgeInstance, MadgePath } from 'madge';
 import { dirname, join, relative } from 'path';
 import type { IApi, IOnGenerateFiles } from '../types';
@@ -213,7 +213,7 @@ export default (api: IApi) => {
               ...filteredAlias,
               ...tsconfig.paths,
               umi: [exportsFile],
-              '@umijs/max': [exportsFile],
+              '@4399ywkf/max': [exportsFile],
               // 适配 bigfish
               ...(api.appData?.umi?.importSource
                 ? {

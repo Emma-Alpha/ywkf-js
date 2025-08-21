@@ -1,7 +1,7 @@
 {
-  "name": "@umijs/bundler-esbuild",
+  "name": "@4399ywkf/bundler-esbuild",
   "version": "4.0.61",
-  "description": "@umijs/bundler-esbuild",
+  "description": "@4399ywkf/bundler-esbuild",
   "homepage": "https://github.com/umijs/umi/tree/master/packages/bundler-esbuild#readme",
   "bugs": "https://github.com/umijs/umi/issues",
   "repository": {
@@ -24,8 +24,8 @@
     "test": "umi-scripts jest-turbo"
   },
   "dependencies": {
-    "@umijs/bundler-utils": "workspace:*",
-    "@umijs/utils": "workspace:*",
+    "@4399ywkf/bundler-utils": "workspace:*",
+    "@4399ywkf/utils": "workspace:*",
     "enhanced-resolve": "5.9.3",
     "postcss": "^8.4.21",
     "postcss-flexbugs-fixes": "5.0.2",

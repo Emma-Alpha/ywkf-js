@@ -5,7 +5,7 @@ import React, {
   useLayoutEffect,
   useState,
 } from 'react';
-// compatible with < react@18 in @umijs/preset-umi/src/features/react
+// compatible with < react@18 in @4399ywkf/preset-umi/src/features/react
 import ReactDOM from 'react-dom/client';
 import { matchRoutes, Router, useRoutes } from 'react-router-dom';
 import { AppContext, useAppData } from './appContext';

@@ -1,6 +1,6 @@
 # 站点统计
 
-`@umijs/max` 内置了站点统计的功能，目前支持 [Google Analytics](https://analytics.google.com/analytics/web/) 和[百度统计](https://tongji.baidu.com/web/welcome/login)
+`@4399ywkf/max` 内置了站点统计的功能，目前支持 [Google Analytics](https://analytics.google.com/analytics/web/) 和[百度统计](https://tongji.baidu.com/web/welcome/login)
 
 ## 启用方式
 

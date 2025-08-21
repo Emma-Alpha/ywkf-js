@@ -1,7 +1,7 @@
+import { deepmerge } from '@4399ywkf/utils';
 import { Config, transform, transformSync } from '@swc/core';
 import type { LoaderContext } from '../../compiled/webpack';
 import { Env, type SwcOptions } from '../types';
-import { deepmerge } from '@umijs/utils';
 
 function getBaseOpts({ filename }: { filename: string }) {
   const isTSFile = filename.endsWith('.ts');

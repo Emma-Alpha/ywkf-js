@@ -1,7 +1,7 @@
 /**
  * @refer Fork from https://github.com/sachinraja/zod-to-ts
  */
-import type { ZodTypeAny } from '@umijs/utils/compiled/zod';
+import type { ZodTypeAny } from '@4399ywkf/utils/compiled/zod';
 import { IZodToTsOpts, LiteralType } from './types';
 
 export const zodToTs = (opts: IZodToTsOpts): string => {

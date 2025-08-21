@@ -49,7 +49,7 @@ export default (api: IApi) => {
 
 id 是插件所在路径的简写，作为插件的唯一标识；而 key 则是用于插件配置的键名。 
 
-比如插件 `node_modules/@umijs/plugin-foo/index.js` ，通常来说，它的 id 是 `@umijs/plugin-foo` , key 是 `foo`。此时就允许开发者在配置中来配置键名为 `foo` 的项，用来对插件进行配置。
+比如插件 `node_modules/@4399ywkf/plugin-foo/index.js` ，通常来说，它的 id 是 `@4399ywkf/plugin-foo` , key 是 `foo`。此时就允许开发者在配置中来配置键名为 `foo` 的项，用来对插件进行配置。
 
 ## 启用插件
 插件有两种启用方式： 环境变量中启用和配置中启用。（与 `umi@3` 不同，我们不再支持对 `package.json` 中依赖项的插件实现自动启用）
@@ -118,7 +118,7 @@ export default{
 ```
 
 ### 插件 key 的默认命名规则
-如果插件是一个包的话，key 的默认值将是去除前缀的包名。比如 `@umijs/plugin-foo` 的 key 默认为 `foo`， `@alipay/umi-plugin-bar` 的 key 默认为 `bar`。值得注意的是，该默认规则要求你的包名符合 Umi 插件的命名规范。
+如果插件是一个包的话，key 的默认值将是去除前缀的包名。比如 `@4399ywkf/plugin-foo` 的 key 默认为 `foo`， `@alipay/umi-plugin-bar` 的 key 默认为 `bar`。值得注意的是，该默认规则要求你的包名符合 Umi 插件的命名规范。
 
 如果插件不是一个包的话，key 的默认值将是插件的文件名。比如 `./plugins/foo.js` 的 key 默认为 `foo`
 
