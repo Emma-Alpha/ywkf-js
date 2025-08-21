@@ -25,7 +25,7 @@ export default (api: IApi) => {
 
       h.addDevDeps({
         '@4399ywkf/plugins': getUmiJsPlugin(),
-        tailwindcss: '^3',
+        tailwindcss: '^4',
       });
 
       h.setUmirc('tailwindcss', {});
@@ -33,6 +33,7 @@ export default (api: IApi) => {
       logger.info('Update .umirc.ts');
 
       const srcPrefix = api.appData.hasSrcDir ? 'src/' : '';
+      // 3. 生成 tailwind.config.js
       writeFileSync(
         join(api.cwd, 'tailwind.config.js'),
         `
@@ -46,17 +47,15 @@ module.exports = {
 `.trimStart(),
       );
       logger.info('Write tailwind.config.js');
-
+      // 4. 生成 tailwind.css
       writeFileSync(
         join(api.cwd, 'tailwind.css'),
         `
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 `.trimStart(),
       );
       logger.info('Write tailwind.css');
-
+      // 5. 安装依赖
       h.installDeps();
     },
   });
