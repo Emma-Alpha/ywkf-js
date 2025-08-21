@@ -9,7 +9,7 @@
     "start": "npm run dev"
   },
   "dependencies": {
-    "ywkfjs": "{{{ version }}}"
+    "@4399ywkf/js": "{{{ version }}}"
   },
   "devDependencies": {
     "@types/react": "^18.0.0",
