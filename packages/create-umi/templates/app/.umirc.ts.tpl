@@ -1,4 +1,4 @@
-import { defineConfig } from "umi";
+import { defineConfig } from "@4399ywkf/js";
 
 export default defineConfig({
   routes: [
