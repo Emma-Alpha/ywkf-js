@@ -1,6 +1,6 @@
 {
   "name": "@4399ywkf/preset-umi",
-  "version": "4.0.61",
+  "version": "4.0.62",
   "description": "@4399ywkf/preset-umi",
   "homepage": "https://github.com/umijs/umi/tree/master/packages/preset-umi#readme",
   "bugs": "https://github.com/umijs/umi/issues",
@@ -42,7 +42,7 @@
     "@svgr/core": "6.5.1",
     "@umijs/history": "5.3.1",
     "babel-plugin-dynamic-import-node": "2.3.3",
-    "click-to-react-component": "^1.0.8",
+    "click-to-react-component": "1.1.0",
     "core-js": "3.28.0",
     "current-script-polyfill": "1.0.0",
     "enhanced-resolve": "5.9.3",
