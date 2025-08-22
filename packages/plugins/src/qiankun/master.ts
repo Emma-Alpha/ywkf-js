@@ -1,7 +1,7 @@
+import { IApi, RUNTIME_TYPE_FILE_NAME } from '@4399ywkf/js';
+import { winPath } from '@4399ywkf/js/plugin-utils';
 import { readFileSync } from 'fs';
 import { dirname, join } from 'path';
-import { IApi, RUNTIME_TYPE_FILE_NAME } from 'umi';
-import { winPath } from 'umi/plugin-utils';
 import { withTmpPath } from '../utils/withTmpPath';
 import {
   defaultHistoryType,

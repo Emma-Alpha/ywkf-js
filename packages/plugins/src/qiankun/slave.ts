@@ -8,12 +8,12 @@ import {
   // @ts-ignore 现在打包好的 http-proxy-middleware 有导出 responseInterceptor，但没有导出声明
   responseInterceptor,
 } from '@4399ywkf/bundler-utils/compiled/http-proxy-middleware';
+import { IApi, RUNTIME_TYPE_FILE_NAME } from '@4399ywkf/js';
+import { winPath } from '@4399ywkf/js/plugin-utils';
 import { cheerio } from '@4399ywkf/utils';
 import assert from 'assert';
 import { readFileSync } from 'fs';
 import { dirname, join } from 'path';
-import { IApi, RUNTIME_TYPE_FILE_NAME } from 'umi';
-import { winPath } from 'umi/plugin-utils';
 import { withTmpPath } from '../utils/withTmpPath';
 import { qiankunStateFromMasterModelNamespace } from './constants';
 
