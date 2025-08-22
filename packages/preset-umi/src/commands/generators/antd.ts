@@ -13,7 +13,7 @@ export default (api: IApi) => {
   api.registerGenerator({
     key: 'antd',
     name: 'Enable Ant Design',
-    description: 'Setup Ant Design 5.x with i18n support',
+    description: 'Setup Ant Design 5.x',
     type: GeneratorType.enable,
     checkEnable: () => {
       return !api.config.antd;
@@ -46,15 +46,6 @@ export default (api: IApi) => {
       h.setUmirc('antd', antdConfig);
       h.appendInternalPlugin('@4399ywkf/plugins/dist/antd');
       logger.info('Update config file');
-
-      // 自动配置国际化
-      h.setUmirc('locale', {
-        default: 'zh-CN',
-        antd: true,
-        baseNavigator: true,
-      });
-      h.appendInternalPlugin('@4399ywkf/plugins/dist/locale');
-      logger.info('Enable locale support');
 
       // 创建示例页面
       const srcPrefix = api.appData.hasSrcDir ? 'src/' : '';
