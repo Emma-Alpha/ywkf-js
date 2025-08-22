@@ -1,0 +1,186 @@
+0 silly argv {
+0 silly argv   _: [ 'version' ],
+0 silly argv   exact: true,
+0 silly argv   lernaVersion: '6.5.1',
+0 silly argv   '$0': 'node_modules/lerna/dist/cli.js',
+0 silly argv   bump: '4.0.72'
+0 silly argv }
+1 notice cli v6.5.1
+2 verbose rootPath /Users/liangpingbo/Desktop/4399/test/umi
+3 warn EPACKAGES No packages defined in lerna.json. Defaulting to packages in packages/*
+4 info current version 4.0.61
+5 silly isAnythingCommitted
+6 verbose isAnythingCommitted 1
+7 silly getCurrentBranch
+8 verbose currentBranch main
+9 silly remoteBranchExists
+10 silly isBehindUpstream
+11 silly isBehindUpstream main is behind origin/main by 0 commit(s) and ahead by 0
+12 silly hasTags
+13 verbose hasTags false
+14 info Assuming all packages changed
+15 verbose updated @4399ywkf/ast
+16 verbose updated @4399ywkf/babel-preset-umi
+17 verbose updated @4399ywkf/bundler-esbuild
+18 verbose updated @4399ywkf/bundler-utils
+19 verbose updated @4399ywkf/bundler-vite
+20 verbose updated @4399ywkf/bundler-webpack
+21 verbose updated @4399ywkf/core
+22 verbose updated create-ywkf-js
+23 verbose updated @4399ywkf/lint
+24 verbose updated @4399ywkf/max
+25 verbose updated @4399ywkf/mfsu
+26 verbose updated @4399ywkf/plugin-docs
+27 verbose updated @4399ywkf/plugin-run
+28 verbose updated @4399ywkf/plugins
+29 verbose updated @4399ywkf/preset-umi
+30 verbose updated @4399ywkf/preset-vue
+31 verbose updated @4399ywkf/renderer-react
+32 verbose updated @4399ywkf/renderer-vue
+33 verbose updated @4399ywkf/server
+34 verbose updated @4399ywkf/test
+35 verbose updated @4399ywkf/js
+36 verbose updated @4399ywkf/utils
+37 verbose updated @4399ywkf/zod2ts
+38 verbose git-describe undefined => "49e9d9c6a"
+39 silly git-describe parsed => {"refCount":"7033","sha":"49e9d9c6a","isDirty":false}
+40 info execute Skipping releases
+41 silly lifecycle No script for "preversion" in "umi", continuing
+42 silly lifecycle No script for "preversion" in "@4399ywkf/plugin-run", continuing
+43 silly lifecycle No script for "preversion" in "@4399ywkf/renderer-react", continuing
+44 silly lifecycle No script for "preversion" in "@4399ywkf/renderer-vue", continuing
+45 silly lifecycle No script for "preversion" in "@4399ywkf/utils", continuing
+46 silly lifecycle No script for "preversion" in "@4399ywkf/zod2ts", continuing
+47 verbose version @4399ywkf/renderer-vue has no lockfile. Skipping lockfile update.
+48 verbose version @4399ywkf/plugin-run has no lockfile. Skipping lockfile update.
+49 verbose version @4399ywkf/utils has no lockfile. Skipping lockfile update.
+50 verbose version @4399ywkf/renderer-react has no lockfile. Skipping lockfile update.
+51 verbose version @4399ywkf/zod2ts has no lockfile. Skipping lockfile update.
+52 silly lifecycle No script for "version" in "@4399ywkf/zod2ts", continuing
+53 silly lifecycle No script for "version" in "@4399ywkf/plugin-run", continuing
+54 silly lifecycle No script for "version" in "@4399ywkf/renderer-vue", continuing
+55 silly lifecycle No script for "version" in "@4399ywkf/renderer-react", continuing
+56 silly lifecycle No script for "version" in "@4399ywkf/utils", continuing
+57 silly lifecycle No script for "preversion" in "@4399ywkf/bundler-utils", continuing
+58 silly lifecycle No script for "preversion" in "create-ywkf-js", continuing
+59 verbose version @4399ywkf/bundler-utils has no lockfile. Skipping lockfile update.
+60 verbose version create-ywkf-js has no lockfile. Skipping lockfile update.
+61 silly lifecycle No script for "version" in "create-ywkf-js", continuing
+62 silly lifecycle No script for "version" in "@4399ywkf/bundler-utils", continuing
+63 silly lifecycle No script for "preversion" in "@4399ywkf/ast", continuing
+64 silly lifecycle No script for "preversion" in "@4399ywkf/babel-preset-umi", continuing
+65 silly lifecycle No script for "preversion" in "@4399ywkf/bundler-esbuild", continuing
+66 silly lifecycle No script for "preversion" in "@4399ywkf/bundler-vite", continuing
+67 silly lifecycle No script for "preversion" in "@4399ywkf/core", continuing
+68 silly lifecycle No script for "preversion" in "@4399ywkf/server", continuing
+69 silly lifecycle No script for "preversion" in "@4399ywkf/test", continuing
+70 verbose version @4399ywkf/ast has no lockfile. Skipping lockfile update.
+71 verbose version @4399ywkf/babel-preset-umi has no lockfile. Skipping lockfile update.
+72 verbose version @4399ywkf/bundler-esbuild has no lockfile. Skipping lockfile update.
+73 verbose version @4399ywkf/core has no lockfile. Skipping lockfile update.
+74 verbose version @4399ywkf/bundler-vite has no lockfile. Skipping lockfile update.
+75 verbose version @4399ywkf/test has no lockfile. Skipping lockfile update.
+76 verbose version @4399ywkf/server has no lockfile. Skipping lockfile update.
+77 silly lifecycle No script for "version" in "@4399ywkf/ast", continuing
+78 silly lifecycle No script for "version" in "@4399ywkf/bundler-vite", continuing
+79 silly lifecycle No script for "version" in "@4399ywkf/test", continuing
+80 silly lifecycle No script for "version" in "@4399ywkf/server", continuing
+81 silly lifecycle No script for "version" in "@4399ywkf/bundler-esbuild", continuing
+82 silly lifecycle No script for "preversion" in "@4399ywkf/mfsu", continuing
+83 verbose version @4399ywkf/mfsu has no lockfile. Skipping lockfile update.
+84 silly lifecycle No script for "version" in "@4399ywkf/babel-preset-umi", continuing
+85 silly lifecycle No script for "preversion" in "@4399ywkf/lint", continuing
+86 silly lifecycle No script for "version" in "@4399ywkf/core", continuing
+87 verbose version @4399ywkf/lint has no lockfile. Skipping lockfile update.
+88 silly lifecycle No script for "version" in "@4399ywkf/mfsu", continuing
+89 silly lifecycle No script for "preversion" in "@4399ywkf/bundler-webpack", continuing
+90 verbose version @4399ywkf/bundler-webpack has no lockfile. Skipping lockfile update.
+91 silly lifecycle No script for "version" in "@4399ywkf/lint", continuing
+92 silly lifecycle No script for "version" in "@4399ywkf/bundler-webpack", continuing
+93 silly lifecycle No script for "preversion" in "@4399ywkf/preset-umi", continuing
+94 verbose version @4399ywkf/preset-umi has no lockfile. Skipping lockfile update.
+95 silly lifecycle No script for "version" in "@4399ywkf/preset-umi", continuing
+96 silly lifecycle No script for "preversion" in "@4399ywkf/js", continuing
+97 verbose version @4399ywkf/js has no lockfile. Skipping lockfile update.
+98 silly lifecycle No script for "version" in "@4399ywkf/js", continuing
+99 silly lifecycle No script for "preversion" in "@4399ywkf/plugin-docs", continuing
+100 silly lifecycle No script for "preversion" in "@4399ywkf/plugins", continuing
+101 silly lifecycle No script for "preversion" in "@4399ywkf/preset-vue", continuing
+102 verbose version @4399ywkf/plugins has no lockfile. Skipping lockfile update.
+103 verbose version @4399ywkf/plugin-docs has no lockfile. Skipping lockfile update.
+104 verbose version @4399ywkf/preset-vue has no lockfile. Skipping lockfile update.
+105 silly lifecycle No script for "version" in "@4399ywkf/plugins", continuing
+106 silly lifecycle No script for "preversion" in "@4399ywkf/max", continuing
+107 verbose version @4399ywkf/max has no lockfile. Skipping lockfile update.
+108 silly lifecycle No script for "version" in "@4399ywkf/preset-vue", continuing
+109 silly lifecycle No script for "version" in "@4399ywkf/plugin-docs", continuing
+110 silly lifecycle No script for "version" in "@4399ywkf/max", continuing
+111 silly lifecycle No script for "version" in "umi", continuing
+112 silly version Successfully applied prettier to updated file: packages/zod2ts/package.json
+113 silly version Successfully applied prettier to updated file: packages/plugin-run/package.json
+114 silly version Successfully applied prettier to updated file: packages/renderer-vue/package.json
+115 silly version Successfully applied prettier to updated file: packages/renderer-react/package.json
+116 silly version Successfully applied prettier to updated file: packages/utils/package.json
+117 silly version Successfully applied prettier to updated file: packages/create-umi/package.json
+118 silly version Successfully applied prettier to updated file: packages/bundler-utils/package.json
+119 silly version Successfully applied prettier to updated file: packages/ast/package.json
+120 silly version Successfully applied prettier to updated file: packages/bundler-vite/package.json
+121 silly version Successfully applied prettier to updated file: packages/testing/package.json
+122 silly version Successfully applied prettier to updated file: packages/server/package.json
+123 silly version Successfully applied prettier to updated file: packages/bundler-esbuild/package.json
+124 silly version Successfully applied prettier to updated file: packages/babel-preset-umi/package.json
+125 silly version Successfully applied prettier to updated file: packages/core/package.json
+126 silly version Successfully applied prettier to updated file: packages/mfsu/package.json
+127 silly version Successfully applied prettier to updated file: packages/lint/package.json
+128 silly version Successfully applied prettier to updated file: packages/bundler-webpack/package.json
+129 silly version Successfully applied prettier to updated file: packages/preset-umi/package.json
+130 silly version Successfully applied prettier to updated file: packages/umi/package.json
+131 silly version Successfully applied prettier to updated file: packages/plugins/package.json
+132 silly version Successfully applied prettier to updated file: packages/preset-vue/package.json
+133 silly version Successfully applied prettier to updated file: packages/plugin-docs/package.json
+134 silly version Successfully applied prettier to updated file: packages/max/package.json
+135 silly version Successfully applied prettier to updated file: lerna.json
+136 silly gitAdd [
+136 silly gitAdd   'packages/zod2ts/package.json',
+136 silly gitAdd   'packages/plugin-run/package.json',
+136 silly gitAdd   'packages/renderer-vue/package.json',
+136 silly gitAdd   'packages/renderer-react/package.json',
+136 silly gitAdd   'packages/utils/package.json',
+136 silly gitAdd   'packages/create-umi/package.json',
+136 silly gitAdd   'packages/bundler-utils/package.json',
+136 silly gitAdd   'packages/ast/package.json',
+136 silly gitAdd   'packages/bundler-vite/package.json',
+136 silly gitAdd   'packages/testing/package.json',
+136 silly gitAdd   'packages/server/package.json',
+136 silly gitAdd   'packages/bundler-esbuild/package.json',
+136 silly gitAdd   'packages/babel-preset-umi/package.json',
+136 silly gitAdd   'packages/core/package.json',
+136 silly gitAdd   'packages/mfsu/package.json',
+136 silly gitAdd   'packages/lint/package.json',
+136 silly gitAdd   'packages/bundler-webpack/package.json',
+136 silly gitAdd   'packages/preset-umi/package.json',
+136 silly gitAdd   'packages/umi/package.json',
+136 silly gitAdd   'packages/plugins/package.json',
+136 silly gitAdd   'packages/preset-vue/package.json',
+136 silly gitAdd   'packages/plugin-docs/package.json',
+136 silly gitAdd   'packages/max/package.json',
+136 silly gitAdd   'lerna.json'
+136 silly gitAdd ]
+137 silly gitCommit v4.0.72
+138 verbose git [ 'commit', '-m', 'v4.0.72' ]
+139 error Error: Command failed with exit code 1: git commit -m v4.0.72
+139 error
+139 error    ERROR  invalid commit message format.
+139 error
+139 error   Proper commit message format is required for automated changelog generation. Examples:
+139 error
+139 error     feat(bundler-webpack): add 'comments' option
+139 error     fix(core): handle events on blur (close #28)
+139 error
+139 error   See .github/commit-convention.md for more details.
+139 error
+139 error husky - commit-msg hook exited with code 1 (error)
+139 error     at makeError (/Users/liangpingbo/Desktop/4399/test/umi/node_modules/.pnpm/execa@5.1.1/node_modules/execa/lib/error.js:60:11)
+139 error     at handlePromise (/Users/liangpingbo/Desktop/4399/test/umi/node_modules/.pnpm/execa@5.1.1/node_modules/execa/index.js:118:26)
+139 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+139 error     at async Promise.all (index 0)
