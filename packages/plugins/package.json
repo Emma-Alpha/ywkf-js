@@ -1,6 +1,6 @@
 {
   "name": "@4399ywkf/plugins",
-  "version": "4.0.68",
+  "version": "4.0.69",
   "description": "@4399ywkf/plugins",
   "homepage": "https://github.com/umijs/umi/tree/master/packages/plugins#readme",
   "bugs": "https://github.com/umijs/umi/issues",
@@ -27,7 +27,7 @@
     "@4399ywkf/valtio": "workspace:*",
     "@ahooksjs/use-request": "^2.0.0",
     "@ant-design/antd-theme-variable": "^1.0.0",
-    "@ant-design/icons": "^4.7.0",
+    "@ant-design/icons": "^5.6.1",
     "@ant-design/pro-components": "^2.0.1",
     "@tanstack/react-query": "^4.24.10",
     "@tanstack/react-query-devtools": "^4.24.10",
@@ -53,7 +53,7 @@
   },
   "devDependencies": {
     "@4399ywkf/js": "workspace:*",
-    "antd": "^4.24.1"
+    "antd": "^5.27.1"
   },
   "publishConfig": {
     "access": "public"

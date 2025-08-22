@@ -1,6 +1,6 @@
+import { IApi } from '@4399ywkf/js';
 import { winPath } from '@4399ywkf/utils';
 import { dirname } from 'path';
-import { IApi } from 'umi';
 import { resolveProjectDep } from './utils/resolveProjectDep';
 import { withTmpPath } from './utils/withTmpPath';
 
