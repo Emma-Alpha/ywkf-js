@@ -23,7 +23,6 @@ export default (api: IApi) => {
     const inputPath = join(api.cwd, 'tailwind.css');
     const generatedPath = join(api.paths.absTmpPath, outputPath);
     const binPath = getTailwindBinPath({ cwd: api.cwd });
-    const configPath = join(api.cwd, 'tailwind.config.js');
 
     if (process.env.IS_UMI_BUILD_WORKER) {
       return;
@@ -34,8 +33,6 @@ export default (api: IApi) => {
       tailwind = crossSpawn(
         `${binPath}`,
         [
-          '-c',
-          configPath,
           '-i',
           inputPath,
           '-o',
@@ -70,9 +67,9 @@ export default (api: IApi) => {
 };
 
 function getTailwindBinPath(opts: { cwd: string }) {
-  const pkgPath = require.resolve('tailwindcss/package.json', {
+  const pkgPath = require.resolve('@tailwindcss/cli/package.json', {
     paths: [opts.cwd],
   });
-  const tailwindPath = require(pkgPath).exports['./plugin']['require'];
+  const tailwindPath = require(pkgPath).bin['tailwindcss'];
   return join(dirname(pkgPath), tailwindPath);
 }

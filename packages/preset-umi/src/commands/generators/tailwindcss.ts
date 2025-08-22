@@ -26,6 +26,7 @@ export default (api: IApi) => {
       h.addDevDeps({
         '@4399ywkf/plugins': getUmiJsPlugin(),
         tailwindcss: '^4',
+        '@tailwindcss/cli': '^4', // 新增 CLI 包
       });
 
       h.setUmirc('tailwindcss', {});
