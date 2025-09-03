@@ -1,5 +1,5 @@
 import type Config from '@4399ywkf/bundler-webpack/compiled/webpack-5-chain';
-import type { IApi } from 'umi';
+import type { IApi } from '@4399ywkf/js';
 import { getConfig } from './config/config';
 
 export default (api: IApi) => {

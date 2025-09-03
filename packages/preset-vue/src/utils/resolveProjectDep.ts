@@ -1,5 +1,5 @@
+import { resolve } from '@4399ywkf/utils';
 import { dirname, join } from 'path';
-import { resolve } from 'umi/plugin-utils';
 
 export function resolveProjectDep(opts: {
   pkg: any;

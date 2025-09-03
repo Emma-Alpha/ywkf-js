@@ -15,6 +15,7 @@ export default (api: IApi) => {
   const outFile = 'core/loaders.js';
 
   setupRouteExportExtractor({
+    // @ts-ignore
     api,
     entryFile,
     outFile,

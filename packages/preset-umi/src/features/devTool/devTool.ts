@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { cheerio } from '@4399ywkf/utils';
 import { existsSync, readFileSync } from 'fs';
 import { join } from 'path';

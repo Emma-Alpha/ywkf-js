@@ -6,10 +6,10 @@ import {
   Loader,
   transformSync,
 } from '@4399ywkf/bundler-utils/compiled/esbuild';
+import { IApi } from '@4399ywkf/js';
+import { chalk, glob, winPath } from '@4399ywkf/utils';
 import { readFileSync } from 'fs';
 import { basename, dirname, extname, format, join, relative } from 'path';
-import { IApi } from 'umi';
-import { chalk, glob, winPath } from 'umi/plugin-utils';
 import { getIdentifierDeclaration } from './astUtils';
 
 interface IOpts {

@@ -1,7 +1,7 @@
+import { RUNTIME_TYPE_FILE_NAME } from '@4399ywkf/js';
 import { importLazy, lodash, winPath } from '@4399ywkf/utils';
 import { existsSync, readdirSync } from 'fs';
 import { basename, dirname, join } from 'path';
-import { RUNTIME_TYPE_FILE_NAME } from 'umi';
 import { TEMPLATES_DIR } from '../../constants';
 import { IApi } from '../../types';
 import { getModuleExports } from './getModuleExports';

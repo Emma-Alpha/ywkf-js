@@ -1,4 +1,4 @@
-import type { IApi } from 'umi';
+import type { IApi } from '@4399ywkf/js';
 import './requireHook';
 
 export default (api: IApi) => {

@@ -1,4 +1,3 @@
-// @ts-expect-error 这里不能删除, 不然 ts 声明会有问题 TODO 需要 father 看看
 
 const hookPropertyMap = new Map([
   ['less', '@4399ywkf/bundler-utils/compiled/less'],

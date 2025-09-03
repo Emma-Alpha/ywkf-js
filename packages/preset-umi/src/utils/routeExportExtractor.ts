@@ -1,6 +1,6 @@
 import esbuild from '@4399ywkf/bundler-utils/compiled/esbuild';
+import type { IApi } from '@4399ywkf/js';
 import { join, resolve } from 'path';
-import type { IApi } from 'umi';
 
 interface IRouteExportExtractor {
   api: IApi;

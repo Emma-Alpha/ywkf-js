@@ -1,9 +1,9 @@
+import { IApi } from '@4399ywkf/js';
+import { fsExtra, resolve } from '@4399ywkf/utils';
 import assert from 'assert';
 import { fork } from 'child_process';
 import { writeFileSync } from 'fs';
 import { dirname, join } from 'path';
-import { IApi } from 'umi';
-import { fsExtra, resolve } from 'umi/plugin-utils';
 
 export default (api: IApi) => {
   api.describe({

@@ -1,5 +1,5 @@
+import type { IApi } from '@4399ywkf/js';
 import { dirname } from 'path';
-import type { IApi } from 'umi';
 import { resolveProjectDep, resolveVuePath } from '../utils/resolveProjectDep';
 
 export default (api: IApi) => {

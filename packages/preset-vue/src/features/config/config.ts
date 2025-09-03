@@ -1,5 +1,5 @@
 import Config from '@4399ywkf/bundler-webpack/compiled/webpack-5-chain';
-import { IApi } from 'umi';
+import { IApi } from '@4399ywkf/js';
 import VueLoaderPlugin from 'vue-loader/dist/pluginWebpack5.js';
 import { addAssetRules } from './assetRules';
 

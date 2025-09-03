@@ -1,4 +1,4 @@
-import { run } from 'umi';
+import { run } from '@4399ywkf/js';
 
 run({
   presets: [require.resolve('./preset')],

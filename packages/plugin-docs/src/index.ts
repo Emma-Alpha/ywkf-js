@@ -1,8 +1,8 @@
 import { parseModuleSync } from '@4399ywkf/bundler-utils';
+import { IApi } from '@4399ywkf/js';
 import { winPath } from '@4399ywkf/utils';
 import fs, { existsSync, readFileSync } from 'fs';
 import { join } from 'path';
-import { IApi } from 'umi';
 import { parseTitle } from './markdown';
 
 export default (api: IApi) => {

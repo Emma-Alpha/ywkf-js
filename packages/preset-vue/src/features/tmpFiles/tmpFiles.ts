@@ -1,6 +1,6 @@
+import type { IApi } from '@4399ywkf/js';
+import { winPath } from '@4399ywkf/utils';
 import { join } from 'path';
-import type { IApi } from 'umi';
-import { winPath } from 'umi/plugin-utils';
 import { TEMPLATES_DIR } from '../../constants';
 
 export default (api: IApi) => {

@@ -112,11 +112,11 @@
     "umi-scripts": "workspace:*",
     "zx": "^7.1.1"
   },
+  "packageManager": "pnpm@7.24.2",
   "engines": {
     "node": ">=14",
     "pnpm": ">=7"
   },
-  "//why-overrides-browserslist": "See scripts/bundleDeps.ts",
   "pnpm": {
     "peerDependencyRules": {
       "ignoreMissing": [
@@ -134,6 +134,5 @@
     "overrides": {
       "browserslist": "$browserslist"
     }
-  },
-  "_local": "This flag is used to check if the development in local, Please do not delete."
+  }
 }

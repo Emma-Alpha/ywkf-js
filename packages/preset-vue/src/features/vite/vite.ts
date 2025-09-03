@@ -1,4 +1,4 @@
-import type { IApi } from 'umi';
+import type { IApi } from '@4399ywkf/js';
 // @ts-ignore
 import vuePlugin from '../../../compiled/@vitejs/plugin-vue';
 

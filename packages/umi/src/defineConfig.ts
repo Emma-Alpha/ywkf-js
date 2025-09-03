@@ -1,5 +1,6 @@
 // @ts-ignore
 import type { IConfig } from '@4399ywkf/preset-umi';
+// @ts-ignore
 import { IConfigFromPlugins } from '@@/core/pluginConfig';
 
 type ConfigType = IConfigFromPlugins & IConfig;

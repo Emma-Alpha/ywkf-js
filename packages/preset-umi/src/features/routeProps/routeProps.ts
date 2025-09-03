@@ -17,6 +17,7 @@ export default (api: IApi) => {
   const outFile = 'core/routeProps.js';
 
   setupRouteExportExtractor({
+    // @ts-ignore
     api,
     entryFile,
     outFile,
