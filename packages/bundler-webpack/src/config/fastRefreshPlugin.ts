@@ -1,6 +1,6 @@
 // @ts-ignore
 import Config from '@4399ywkf/bundler-webpack/compiled/webpack-5-chain';
-import FastRefreshPlugin from '@umijs/react-refresh-webpack-plugin';
+import FastRefreshPlugin from '@pmmmwh/react-refresh-webpack-plugin';
 import { MFSU_NAME } from '../constants';
 import { Env, IConfig } from '../types';
 

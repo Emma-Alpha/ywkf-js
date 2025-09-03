@@ -41,5 +41,11 @@ export async function addNodePolyfill(opts: IOpts) {
     'uglify-js': false,
     '@swc/core': false,
     'swc-plugin-auto-css-modules': false,
+    '../pkg': false,
+    'webpack-plugin-serve/lib/client/ClientSocket': false,
+    '@4399ywkf/history/package.json': false,
+    // 添加对 lightningcss 相关模块的 fallback
+    lightningcss: false,
+    'lightningcss/node': false,
   });
 }
