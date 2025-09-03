@@ -1,7 +1,7 @@
 import SectionHeader from '@/docs/components/SectionHeader/SectionHeader';
 import React from 'react';
 // @ts-ignore
-import { Link } from 'umi';
+import { Link } from '@4399ywkf/js';
 // @ts-ignore
 import styles from './Contributing.css';
 

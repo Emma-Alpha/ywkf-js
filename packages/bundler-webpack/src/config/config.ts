@@ -1,5 +1,5 @@
-import CaseSensitivePaths from '@umijs/case-sensitive-paths-webpack-plugin';
 import { logger, resolve as resolveModule } from '@4399ywkf/utils';
+import CaseSensitivePaths from '@umijs/case-sensitive-paths-webpack-plugin';
 import { join, resolve } from 'path';
 import webpack, { Configuration } from '../../compiled/webpack';
 import Config from '../../compiled/webpack-5-chain';

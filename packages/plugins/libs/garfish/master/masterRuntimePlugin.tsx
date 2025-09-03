@@ -1,9 +1,9 @@
 // @ts-nocheck
 /* eslint-disable */
 
+import { ApplyPluginsType } from '@4399ywkf/js';
 import { getPluginManager } from '@@/core/plugin';
 import Garfish from 'garfish';
-import { ApplyPluginsType } from 'umi';
 import { getMasterOptions, setMasterOptions } from './masterOptions';
 import { MasterOptions } from './types';
 

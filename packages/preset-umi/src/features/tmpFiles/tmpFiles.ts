@@ -320,7 +320,7 @@ declare module '*.txt' {
       // Empty <Outlet /> needs to pass through outlet context, otherwise nested route will not get context value.
       content: `
 import React from 'react';
-import { Outlet, useOutletContext } from 'umi';
+import { Outlet, useOutletContext } from '@4399ywkf/js';
 export default function EmptyRoute() {
   const context = useOutletContext();
   return <Outlet context={context} />;

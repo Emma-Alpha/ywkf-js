@@ -10,7 +10,7 @@ import {
   message,
   notification,
 } from 'antd';
-import { ApplyPluginsType } from 'umi';
+import { ApplyPluginsType } from '@4399ywkf/js';
 import { getPluginManager } from '../core/plugin';
 
 export function rootContainer(rawContainer) {

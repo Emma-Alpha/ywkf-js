@@ -1,4 +1,4 @@
-import { Message } from 'umi';
+import { Message } from '@4399ywkf/js';
 
 # 物理构建缓存
 

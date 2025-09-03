@@ -5,8 +5,8 @@
  * @since 2019-06-20
  */
 
+import { Navigate, type IRouteProps } from '@4399ywkf/js';
 import React, { ReactComponentElement } from 'react';
-import { Navigate, type IRouteProps } from 'umi';
 
 export const defaultMountContainerId = 'root-subapp';
 

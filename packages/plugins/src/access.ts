@@ -65,7 +65,7 @@ export function accessProvider(container) {
       content: `
 import React, { PropsWithChildren } from 'react';
 import { AccessContext } from './context';
-import type { IRoute } from 'umi';
+import type { IRoute } from '@4399ywkf/js';
 
 export const useAccess = () => {
   return React.useContext(AccessContext);

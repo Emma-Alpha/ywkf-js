@@ -1,5 +1,5 @@
 ﻿import React, { useEffect, useState } from 'react';
-import { ApplyPluginsType } from 'umi';
+import { ApplyPluginsType } from '@4399ywkf/js';
 import { renderClient, RenderClientOpts } from '{{{ rendererPath }}}';
 import { createHistory } from './core/history';
 import { createPluginManager } from './core/plugin';

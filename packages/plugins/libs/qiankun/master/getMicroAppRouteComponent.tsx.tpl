@@ -1,5 +1,5 @@
 import React from 'react';
-import { useMatch } from 'umi';
+import { useMatch } from '@4399ywkf/js';
 import { MicroApp } from './MicroApp';
 
 export function getMicroAppRouteComponent(opts: {

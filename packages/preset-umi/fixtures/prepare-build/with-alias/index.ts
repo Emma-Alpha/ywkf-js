@@ -12,6 +12,6 @@ import brew from 'home-made';
 
 // @ts-ignore
 // alias with recursive
-import { name } from 'umi';
+import { name } from '@4399ywkf/js';
 
 console.log(request, React, brew, name);

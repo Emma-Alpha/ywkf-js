@@ -1,1 +1,1 @@
-export * from 'umi';
+export * from '@4399ywkf/js';

@@ -1,8 +1,8 @@
 // @ts-nocheck
 /* eslint-disable */
+import { getLocale } from '@4399ywkf/js';
 import { Button, Result } from 'antd';
 import React from 'react';
-import { getLocale } from 'umi';
 
 const defaultLocale = 'en-US';
 

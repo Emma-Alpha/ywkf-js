@@ -2,7 +2,7 @@ import React from 'react';
 import { TextLoop } from 'react-text-loop-next';
 import GithubStar from './GithubStar';
 // @ts-ignore
-import { Link } from 'umi';
+import { Link } from '@4399ywkf/js';
 // @ts-ignore
 import styles from './Hero.css';
 

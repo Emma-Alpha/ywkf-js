@@ -1,6 +1,6 @@
 import React from 'react';
 // @ts-ignore
-import { Link, Outlet, useAppData } from 'umi';
+import { Link, Outlet, useAppData } from '@4399ywkf/js';
 import styles from './index.less';
 
 function upperFirst(str: string) {

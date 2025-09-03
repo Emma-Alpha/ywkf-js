@@ -1,3 +1,3 @@
 // @ts-ignore
-import { useRouteMatch } from 'umi';
+import { useRouteMatch } from '@4399ywkf/js';
 useRouteMatch;

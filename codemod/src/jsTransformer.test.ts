@@ -1,41 +1,29 @@
 import { transform } from './jsTransformer';
 
-// TODO: support Helmet
-// test('Helmet from umi', () => {
-//   expect(
-//     transform({
-//       code: `import 'a1';import { Helmet } from 'umi';import 'a2';import 'a3';`,
-//       filePath: '',
-//     }).code,
-//   ).toEqual(
-//     `import 'a1';import 'a2';import 'a3';import { Helmet } from "umi/utils/react-helmet";`,
-//   );
-// });
-
 test('useRouteMatch > useMatch', () => {
   expect(
     transform({
-      code: `import { useRouteMatch } from 'umi';`,
+      code: `import { useRouteMatch } from '@4399ywkf/js';`,
       filePath: '',
     }).code,
-  ).toEqual(`import { useMatch as useRouteMatch } from 'umi';`);
+  ).toEqual(`import { useMatch as useRouteMatch } from '@4399ywkf/js';`);
 });
 
 test('Redirect > Navigate', () => {
   expect(
     transform({
-      code: `import { Redirect } from 'umi';<Redirect to="foo" />;`,
+      code: `import { Redirect } from '@4399ywkf/js';<Redirect to="foo" />;`,
       filePath: '',
     }).code,
   ).toEqual(
-    `import { Navigate as Redirect } from 'umi';<Redirect to="foo" />;`,
+    `import { Navigate as Redirect } from '@4399ywkf/js';<Redirect to="foo" />;`,
   );
 });
 
 test('dynamic', () => {
   expect(
     transform({
-      code: `import { dynamic } from 'umi';const AsyncComponent = dynamic({ loader: import('./AsyncComponent') });`,
+      code: `import { dynamic } from '@4399ywkf/js';const AsyncComponent = dynamic({ loader: import('./AsyncComponent') });`,
       filePath: '',
     }).code,
   ).toEqual(
@@ -78,7 +66,7 @@ function foo(props) {
     `
 function foo(props) {const { route } = useAppData();const { routes } = useRouteData();const match = useMatch();const location = useLocation();
   history, location, match, routes, route, location;
-}import { history, useLocation, useMatch, useRouteData, useAppData } from "umi";
+}import { history, useLocation, useMatch, useRouteData, useAppData } from "@4399ywkf/js";
   `.trim(),
   );
 });
@@ -97,7 +85,7 @@ function foo(props) {
     `
 function foo(props) {const match = useMatch();const location = useLocation();const { routes } = useRouteData();const { route } = useAppData();
 
-}import { useAppData, useRouteData, useLocation, useMatch, history } from "umi";
+}import { useAppData, useRouteData, useLocation, useMatch, history } from "@4399ywkf/js";
   `.trim(),
   );
 });

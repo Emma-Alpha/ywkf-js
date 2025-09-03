@@ -115,7 +115,7 @@ export { ${exports
       path: 'Layout.tsx',
       content: `
 import React from 'react';
-import { useOutlet, useAppData, useLocation, Link, history } from 'umi';
+import { useOutlet, useAppData, useLocation, Link, history } from '@4399ywkf/js';
 import { $Layout as Layout } from '${winPath(
         require.resolve('../client/theme-doc/index.ts'),
       )}';

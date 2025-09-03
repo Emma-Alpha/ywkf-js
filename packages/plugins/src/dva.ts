@@ -91,7 +91,7 @@ import dvaImmer, { enableES5, enableAllPlugins } from '${winPath(
     : ''
 }
 import React, { useRef } from 'react';
-import { history, ApplyPluginsType, useAppData } from 'umi';
+import { history, ApplyPluginsType, useAppData } from '@4399ywkf/js';
 import { models } from './models';
 
 let dvaApp: any;
@@ -172,7 +172,7 @@ export { getDvaApp } from './dva';
     api.writeTmpFile({
       path: 'types.d.ts',
       tpl: `
-import type { History } from 'umi';
+import type { History } from '@4399ywkf/js';
 
 export interface ConnectProps {
       dispatch?: Dispatch;

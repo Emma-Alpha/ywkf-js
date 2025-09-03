@@ -1,6 +1,6 @@
 import React from 'react';
 // @ts-ignore
-import { Link } from 'umi';
+import { Link } from '@4399ywkf/js';
 import NewsLetterForm from './NewsLetterForm';
 // @ts-ignore
 import styles from './Footer.css';

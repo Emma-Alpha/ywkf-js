@@ -32,7 +32,7 @@ import axios, {
   type AxiosError,
 } from '{{{axiosPath}}}';
 import useUmiRequest, { UseRequestProvider } from '{{{umiRequestPath}}}';
-import { ApplyPluginsType } from 'umi';
+import { ApplyPluginsType } from '@4399ywkf/js';
 import { getPluginManager } from '../core/plugin';
 
 import {

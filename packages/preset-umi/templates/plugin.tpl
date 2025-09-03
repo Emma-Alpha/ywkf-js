@@ -1,7 +1,7 @@
 {{#plugins}}
 import * as Plugin_{{{ index }}} from '{{{ path }}}';
 {{/plugins}}
-import { PluginManager } from 'umi';
+import { PluginManager } from '@4399ywkf/js';
 
 function __defaultExport (obj) {
   if (obj.default) {

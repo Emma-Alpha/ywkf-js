@@ -1,4 +1,4 @@
-import { Message } from 'umi';
+import { Message } from '@4399ywkf/js';
 
 # 使用 Umi 开发一个 Blog
 

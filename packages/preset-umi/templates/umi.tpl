@@ -7,7 +7,7 @@ import { createHistory } from './core/history';
 {{#loadingComponent}}
 import Loading from '{{{ loadingComponent }}}';
 {{/loadingComponent}}
-import { ApplyPluginsType } from 'umi';
+import { ApplyPluginsType } from '@4399ywkf/js';
 {{{ imports }}}
 
 const publicPath = "{{{ publicPath }}}";
