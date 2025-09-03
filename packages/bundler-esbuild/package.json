@@ -1,6 +1,6 @@
 {
   "name": "@4399ywkf/bundler-esbuild",
-  "version": "4.0.78",
+  "version": "4.0.79",
   "description": "@4399ywkf/bundler-esbuild",
   "homepage": "https://github.com/umijs/umi/tree/master/packages/bundler-esbuild#readme",
   "bugs": "https://github.com/umijs/umi/issues",
