@@ -26,6 +26,7 @@ import { addJavaScriptRules } from './javaScriptRules';
 import { addManifestPlugin } from './manifestPlugin';
 import { addMiniCSSExtractPlugin } from './miniCSSExtractPlugin';
 import { addNodePolyfill } from './nodePolyfill';
+import { addNodePrefixPlugin } from './nodePrefixPlugin';
 import { addProgressPlugin } from './progressPlugin';
 import { addSpeedMeasureWebpackPlugin } from './speedMeasureWebpackPlugin';
 import addSSRPlugin from './ssrPlugin';
@@ -207,7 +208,7 @@ export async function getConfig(opts: IOpts): Promise<Configuration> {
   await addHarmonyLinkingErrorPlugin(applyOpts);
   // remove node: prefix
   // disable for performance
-  // await addNodePrefixPlugin(applyOpts);
+  await addNodePrefixPlugin(applyOpts);
   // runtimePublicPath
   if (userConfig.runtimePublicPath) {
     config.plugin('runtimePublicPath').use(RuntimePublicPathPlugin);
