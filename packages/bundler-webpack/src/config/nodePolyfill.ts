@@ -31,5 +31,15 @@ export async function addNodePolyfill(opts: IOpts) {
     }, {}),
     http: false,
     https: false,
+    // 添加对较新 Node.js 内置模块的 fallback
+    worker_threads: false,
+    async_hooks: false,
+    inspector: false,
+    pnpapi: false,
+    // 添加对可选依赖的 fallback
+    '@parcel/css': false,
+    'uglify-js': false,
+    '@swc/core': false,
+    'swc-plugin-auto-css-modules': false,
   });
 }
