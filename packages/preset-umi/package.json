@@ -1,6 +1,6 @@
 {
   "name": "@4399ywkf/preset-umi",
-  "version": "4.0.84",
+  "version": "4.0.85",
   "description": "@4399ywkf/preset-umi",
   "homepage": "https://github.com/umijs/umi/tree/master/packages/preset-umi#readme",
   "bugs": "https://github.com/umijs/umi/issues",
@@ -28,7 +28,6 @@
     "@4399ywkf/ast": "workspace:*",
     "@4399ywkf/babel-preset-umi": "workspace:*",
     "@4399ywkf/bundler-utils": "workspace:*",
-    "@4399ywkf/bundler-vite": "workspace:*",
     "@4399ywkf/bundler-webpack": "workspace:*",
     "@4399ywkf/core": "workspace:*",
     "@4399ywkf/did-you-know": "workspace:*",

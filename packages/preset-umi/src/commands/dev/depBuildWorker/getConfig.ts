@@ -1,4 +1,4 @@
-import { Service } from '@4399ywkf/js';
+import { Service } from '@4399ywkf/js/dist/service/service';
 
 export async function getDevConfig() {
   const service = new Service({

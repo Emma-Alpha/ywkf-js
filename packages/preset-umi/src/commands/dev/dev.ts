@@ -32,8 +32,6 @@ import {
 
 const bundlerWebpack: typeof import('@4399ywkf/bundler-webpack') =
   lazyImportFromCurrentPkg('@4399ywkf/bundler-webpack');
-const bundlerVite: typeof import('@4399ywkf/bundler-vite') =
-  lazyImportFromCurrentPkg('@4399ywkf/bundler-vite');
 
 const MFSU_EAGER_DEFAULT_INCLUDE = [
   'react',
@@ -422,11 +420,7 @@ PORT=8888 umi dev
         args: { compiler: enableVite ? 'vite' : 'webpack', opts },
       });
 
-      if (enableVite) {
-        await bundlerVite.dev(opts);
-      } else {
-        await bundlerWebpack.dev(opts);
-      }
+      await bundlerWebpack.dev(opts);
     },
   });
 

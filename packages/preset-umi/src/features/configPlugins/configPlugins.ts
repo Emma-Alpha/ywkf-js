@@ -1,4 +1,3 @@
-import { getSchemas as getViteSchemas } from '@4399ywkf/bundler-vite/dist/schema';
 import { getSchemas as getWebpackSchemas } from '@4399ywkf/bundler-webpack/dist/schema';
 import { resolve } from '@4399ywkf/utils';
 import { dirname, join } from 'path';
@@ -74,9 +73,7 @@ export default (api: IApi) => {
     mfsu: { strategy: 'eager' },
   };
 
-  const bundleSchemas = api.config.vite
-    ? getViteSchemas()
-    : getWebpackSchemas();
+  const bundleSchemas = getWebpackSchemas();
   const extraSchemas = getExtraSchemas();
   const schemas = {
     ...bundleSchemas,

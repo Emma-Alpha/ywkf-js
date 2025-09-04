@@ -9,7 +9,7 @@ export default (api: IApi) => {
   api.describe({
     key: 'run',
     config: {
-      schema(Joi) {
+      schema(Joi: any) {
         return Joi.object({
           globals: Joi.array().items(Joi.string()),
         });
@@ -21,7 +21,7 @@ export default (api: IApi) => {
     name: 'run',
     description: 'run the script commands, support for ts and zx',
     configResolveMode: 'loose',
-    fn: ({ args }) => {
+    fn: ({ args }: { args: any }) => {
       const globals: string[] = api.config.run?.globals || [];
       const [scriptFilePath, ...restArgs] = args._;
       const absScriptFilePath = join(api.cwd, scriptFilePath);

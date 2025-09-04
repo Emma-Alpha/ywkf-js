@@ -15,8 +15,6 @@ import { printMemoryUsage } from './dev/printMemoryUsage';
 
 const bundlerWebpack: typeof import('@4399ywkf/bundler-webpack') =
   lazyImportFromCurrentPkg('@4399ywkf/bundler-webpack');
-const bundlerVite: typeof import('@4399ywkf/bundler-vite') =
-  lazyImportFromCurrentPkg('@4399ywkf/bundler-vite');
 
 export default (api: IApi) => {
   api.registerCommand({
@@ -126,7 +124,7 @@ umi build --clean
 
       let stats: any;
       if (api.config.vite) {
-        stats = await bundlerVite.build(opts);
+        // stats = await bundlerVite.build(opts);
       } else {
         // Measure files sizes before build
         const absOutputPath = resolve(
