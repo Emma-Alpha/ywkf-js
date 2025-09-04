@@ -503,7 +503,7 @@ if (process.env.NODE_ENV === 'development') {
     // only react generates because the preset-vue override causes vite hot updates to fail
     if (api.appData.framework === 'react') {
       const historyPath = api.config.historyWithQuery
-        ? winPath(dirname(require.resolve('@4399ywkf/history/package.json')))
+        ? winPath(dirname(require.resolve('@umijs/history/package.json')))
         : rendererPath;
       api.writeTmpFile({
         noPluginDir: true,

@@ -110,6 +110,7 @@
     "typescript": "^4.9.4",
     "uglify-js": "3.17.4",
     "umi-scripts": "workspace:*",
+    "webpack-plugin-serve": "1.6.0",
     "zx": "^7.1.1"
   },
   "packageManager": "pnpm@10.15.1",

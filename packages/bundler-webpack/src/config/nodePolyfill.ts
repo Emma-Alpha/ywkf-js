@@ -31,5 +31,12 @@ export async function addNodePolyfill(opts: IOpts) {
     }, {}),
     http: false,
     https: false,
+    // 添加所有缺失的 Node.js 内置模块
+    worker_threads: false,
+    async_hooks: false,
+    inspector: false,
+    pnpapi: false,
+    '@swc/wasm': false,
+    '../pkg': false,
   });
 }
